@@ -66,3 +66,149 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* ==========================================================================
+   Clearfix para los floats
+   ========================================================================== */
+/* line 6, ../sass/_base.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+/* line 11, ../sass/_base.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 15, ../sass/_base.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Grid Responsive
+   ========================================================================== */
+/* line 23, ../sass/_base.scss */
+.column {
+  float: left;
+  margin-left: 2%;
+  border: 1px solid #FFF;
+}
+/* line 28, ../sass/_base.scss */
+.column:first-child {
+  margin-left: 0;
+}
+
+/* line 33, ../sass/_base.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 37, ../sass/_base.scss */
+.column.two-third {
+  width: 66%;
+}
+
+/* line 41, ../sass/_base.scss */
+.column.half {
+  width: 49%;
+}
+
+/* line 45, ../sass/_base.scss */
+.column.one-third {
+  width: 32%;
+}
+
+/* line 49, ../sass/_base.scss */
+.column.three-third {
+  width: 45%;
+}
+
+/* line 53, ../sass/_base.scss */
+.column.one-fourth {
+  width: 23.5%;
+}
+
+/* line 57, ../sass/_base.scss */
+.row {
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+/* line 62, ../sass/_base.scss */
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 71, ../sass/_base.scss */
+#mainHeader {
+  background-color: #4C4C4C;
+  height: 50px;
+}
+
+/* line 77, ../sass/_base.scss */
+#hero nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+  line-height: 48px;
+}
+/* line 85, ../sass/_base.scss */
+#hero nav li {
+  display: block;
+  float: left;
+}
+/* line 88, ../sass/_base.scss */
+#hero nav li:last-child {
+  margin-right: 0px;
+}
+
+/* line 94, ../sass/_base.scss */
+.logo {
+  float: left;
+}
+
+/* ==========================================================================
+   Landing
+   ========================================================================== */
+/* line 16, ../sass/screen.scss */
+#hero {
+  background: #9dbc19 url("../img/icons.png");
+  height: 640px;
+  padding-top: 25px;
+}
+/* line 21, ../sass/screen.scss */
+#hero h1, #hero h2 {
+  color: white;
+}
+/* line 25, ../sass/screen.scss */
+#hero h1 {
+  font-size: 2em;
+}
+/* line 28, ../sass/screen.scss */
+#hero h2 {
+  font-size: 1em;
+}
+
+/* line 33, ../sass/screen.scss */
+#dominios {
+  background: url("../img/bg_dominios.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  margin-top: 300px;
+}
+
+/* line 43, ../sass/screen.scss */
+#confian {
+  height: 600px;
+}

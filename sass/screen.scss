@@ -4,3 +4,50 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+@import "base.scss";
+@import "ui.scss";
+
+
+/* ==========================================================================
+   Landing
+   ========================================================================== */
+
+#hero{
+	background: #9DBC19 url("../img/icons.png");
+	height:640px;
+	padding-top: 25px;
+
+	h1,h2{
+		color: white;
+	}	
+
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1em;
+	}
+}
+
+#dominios{
+	background: url("../img/bg_dominios.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 300px;
+	margin-top: 300px;
+}
+
+#confian{
+	height: 600px;
+}
+
+
+
+
+
+
+
+

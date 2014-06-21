@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Clearfix para los floats
+   ========================================================================== */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Grid Responsive
+   ========================================================================== */
+
+.column {
+	float: left;
+	margin-left: 2%;
+	border: 1px solid #FFF;
+
+	&:first-child{
+		margin-left: 0;
+	}
+}
+
+.column.full {
+	width: 100%;
+}
+
+.column.two-third {
+	width: 66%;
+}
+
+.column.half {
+	width: 49%;
+}
+
+.column.one-third {
+	width: 32%;
+}
+
+.column.three-third{
+	width: 45%;
+}
+
+.column.one-fourth {
+  	width: 23.5%;
+}
+
+.row {
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.wrap{
+	margin: 0 auto;
+	max-width: 1200px;
+	text-align: center;
+	width: 100%;
+	
+}
+
+
+#mainHeader{
+	background-color: #4C4C4C;
+	height: 50px;
+}
+
+
+#hero nav{
+	list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    float: right;
+    line-height: 48px;
+
+    li {
+    	display: block;
+    	float: left;
+    	&:last-child{
+    		margin-right: 0px;
+    	}
+    }
+}
+
+.logo{
+	float: left;
+}
