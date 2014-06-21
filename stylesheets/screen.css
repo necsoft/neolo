@@ -67,22 +67,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url("../fonts/proximanova-regular-webfont.eot");
+  src: url("../fonts/proximanova-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regular-webfont.woff") format("woff"), url("../fonts/proximanova-regular-webfont.ttf") format("truetype"), url("../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url("../fonts/proximanova-bold-webfont.eot");
+  src: url("../fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-bold-webfont.woff") format("woff"), url("../fonts/proximanova-bold-webfont.ttf") format("truetype"), url("../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url("../fonts/proximanova-light-webfont.eot");
+  src: url("../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light-webfont.woff") format("woff"), url("../fonts/proximanova-light-webfont.ttf") format("truetype"), url("../fonts/proximanova-light-webfont.svg#proxima_novalight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novaregular_italic';
+  src: url("../fonts/proximanova-regitalic-webfont.eot");
+  src: url("../fonts/proximanova-regitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-regitalic-webfont.woff") format("woff"), url("../fonts/proximanova-regitalic-webfont.ttf") format("truetype"), url("../fonts/proximanova-regitalic-webfont.svg#proxima_novaregular_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novasemibold';
+  src: url("../fonts/proximanova-semibold-webfont.eot");
+  src: url("../fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-semibold-webfont.woff") format("woff"), url("../fonts/proximanova-semibold-webfont.ttf") format("truetype"), url("../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 68, ../sass/_fonts.scss */
+body {
+  font-family: "proxima_nova_rgregular", helvetica, arial, sans-serif;
+}
+
+/* line 1, ../sass/_base.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* ==========================================================================
    Clearfix para los floats
    ========================================================================== */
-/* line 6, ../sass/_base.scss */
+/* line 12, ../sass/_base.scss */
 .cf:before,
 .cf:after {
   content: " ";
   display: table;
 }
 
-/* line 11, ../sass/_base.scss */
+/* line 17, ../sass/_base.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 15, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 .cf {
   *zoom: 1;
 }
@@ -90,125 +142,538 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ==========================================================================
    Grid Responsive
    ========================================================================== */
-/* line 23, ../sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 .column {
   float: left;
   margin-left: 2%;
-  border: 1px solid #FFF;
 }
-/* line 28, ../sass/_base.scss */
+/* line 33, ../sass/_base.scss */
 .column:first-child {
   margin-left: 0;
 }
 
-/* line 33, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 .column.full {
   width: 100%;
 }
 
-/* line 37, ../sass/_base.scss */
+/* line 42, ../sass/_base.scss */
 .column.two-third {
   width: 66%;
 }
 
-/* line 41, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 .column.half {
   width: 49%;
 }
 
-/* line 45, ../sass/_base.scss */
+/* line 50, ../sass/_base.scss */
 .column.one-third {
   width: 32%;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 .column.three-third {
   width: 45%;
 }
 
-/* line 53, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 .column.one-fourth {
   width: 23.5%;
 }
 
-/* line 57, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 .row {
   overflow: hidden;
   margin: 10px 0;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 .wrap {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
   text-align: center;
-  width: 100%;
+  width: 98%;
 }
 
-/* line 71, ../sass/_base.scss */
+/* ==========================================================================
+   Estilos generales
+   ========================================================================== */
+/* line 79, ../sass/_base.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #A2A2A2;
+}
+
+/* line 84, ../sass/_base.scss */
 #mainHeader {
   background-color: #4C4C4C;
   height: 50px;
 }
 
-/* line 77, ../sass/_base.scss */
+/* line 89, ../sass/_base.scss */
+.logo {
+  float: left;
+}
+
+/* line 93, ../sass/_base.scss */
+#hero {
+  height: 645px;
+  padding-top: 25px;
+}
+/* line 97, ../sass/_base.scss */
+#hero h1, #hero h2 {
+  color: white;
+}
+/* line 101, ../sass/_base.scss */
+#hero h1 {
+  font-size: 6em;
+  margin-bottom: 10px;
+}
+/* line 106, ../sass/_base.scss */
+#hero h2 {
+  font-size: 1.125em;
+  width: 650px;
+  line-height: 1.313em;
+  margin: 25px auto 50px;
+  font-family: "proxima_novalight", helvetica, arial, sans-serif;
+}
+/* line 115, ../sass/_base.scss */
+#hero a {
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 120, ../sass/_base.scss */
 #hero nav {
   list-style-type: none;
   padding: 0;
   margin: 0;
   overflow: hidden;
   float: right;
-  line-height: 48px;
+  line-height: 58px;
 }
-/* line 85, ../sass/_base.scss */
+/* line 128, ../sass/_base.scss */
 #hero nav li {
   display: block;
   float: left;
+  margin: 0 5px;
+  color: #FFF;
 }
-/* line 88, ../sass/_base.scss */
+/* line 134, ../sass/_base.scss */
 #hero nav li:last-child {
   margin-right: 0px;
 }
+/* line 138, ../sass/_base.scss */
+#hero nav li:after {
+  content: " - ";
+}
+/* line 142, ../sass/_base.scss */
+#hero nav li:last-child:after {
+  content: "";
+}
+/* line 147, ../sass/_base.scss */
+#hero nav a {
+  color: #FFF;
+}
+/* line 150, ../sass/_base.scss */
+#hero nav a:hover {
+  text-decoration: underline;
+}
 
-/* line 94, ../sass/_base.scss */
-.logo {
+/* line 157, ../sass/_base.scss */
+.mainTitle {
+  margin-top: 150px;
+}
+
+/* line 161, ../sass/_base.scss */
+#footer {
+  background-color: #4C4C4C;
+  padding: 50px 0;
+}
+/* line 167, ../sass/_base.scss */
+#footer .wrap div {
   float: left;
+  border-right: 1px solid #646464;
+  height: 175px;
+  text-align: left;
+  color: #FFF;
+  padding: 0 2%;
+}
+/* line 175, ../sass/_base.scss */
+#footer .wrap div:last-of-type {
+  border-right: 0 none;
+}
+/* line 180, ../sass/_base.scss */
+#footer .wrap .mainInfo {
+  padding-top: 60px;
+}
+/* line 184, ../sass/_base.scss */
+#footer .wrap .logoFooter {
+  width: 430px;
+  padding-top: 50px;
+}
+/* line 188, ../sass/_base.scss */
+#footer .wrap .logoFooter h1 {
+  float: left;
+  margin-right: 15px;
+}
+/* line 196, ../sass/_base.scss */
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 0.875em;
+}
+/* line 201, ../sass/_base.scss */
+#footer a:hover {
+  text-decoration: underline;
+}
+/* line 206, ../sass/_base.scss */
+#footer h2 {
+  font-size: 1.125em;
+  margin-bottom: 15px;
+}
+/* line 211, ../sass/_base.scss */
+#footer li {
+  line-height: 1.188em;
+}
+
+/* line 217, ../sass/_base.scss */
+.socialIconsFooter {
+  margin-top: 14px;
+}
+/* line 220, ../sass/_base.scss */
+.socialIconsFooter li {
+  float: left;
+  margin: 0 5px;
 }
 
 /* ==========================================================================
    Landing
    ========================================================================== */
-/* line 16, ../sass/screen.scss */
-#hero {
+/* line 17, ../sass/screen.scss */
+.heroLanding {
   background: #9dbc19 url("../img/icons.png");
-  height: 640px;
-  padding-top: 25px;
-}
-/* line 21, ../sass/screen.scss */
-#hero h1, #hero h2 {
-  color: white;
-}
-/* line 25, ../sass/screen.scss */
-#hero h1 {
-  font-size: 2em;
-}
-/* line 28, ../sass/screen.scss */
-#hero h2 {
-  font-size: 1em;
 }
 
-/* line 33, ../sass/screen.scss */
-#dominios {
+/* line 21, ../sass/screen.scss */
+.action {
+  border: 1px solid #FFF;
+  padding: 10px 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 27, ../sass/screen.scss */
+#features {
+  padding: 75px 0;
+}
+/* line 30, ../sass/screen.scss */
+#features h1 {
+  font-size: 1.375em;
+  font-family: "proxima_novasemibold", helvetica, arial, sans-serif;
+  margin: 15px;
+  color: #6F6F6F;
+}
+/* line 37, ../sass/screen.scss */
+#features p {
+  margin: 0 auto;
+  width: 293px;
+  line-height: 1.35em;
+}
+
+/* line 44, ../sass/screen.scss */
+#plans {
+  padding: 75px 0;
+  margin: 0 auto;
+}
+/* line 48, ../sass/screen.scss */
+#plans header {
+  margin-bottom: 100px;
+}
+/* line 51, ../sass/screen.scss */
+#plans header h1 {
+  color: #6C6C6C;
+  font-size: 4em;
+  margin-bottom: 14px;
+}
+/* line 57, ../sass/screen.scss */
+#plans header h2 {
+  width: 755px;
+  margin: 0 auto;
+  line-height: 1.250;
+}
+/* line 64, ../sass/screen.scss */
+#plans li {
+  line-height: 1.375em;
+}
+
+/* line 71, ../sass/screen.scss */
+.plan0,
+.plan1,
+.planIlimitado {
+  border: 1px solid #CCC;
+  float: left;
+  height: 625px;
+  padding: 25px 0;
+  width: 33%;
+}
+/* line 78, ../sass/screen.scss */
+.plan0 h1,
+.plan1 h1,
+.planIlimitado h1 {
+  color: #6F6F6F;
+  font-family: "proxima_novasemibold", helvetica, arial, sans-serif;
+  font-size: 1.563em;
+  margin: 30px 0 55px 0;
+}
+/* line 85, ../sass/screen.scss */
+.plan0 em,
+.plan1 em,
+.planIlimitado em {
+  font-family: "proxima_nova_rgbold", helvetica, arial, sans-serif;
+}
+/* line 89, ../sass/screen.scss */
+.plan0 li,
+.plan1 li,
+.planIlimitado li {
+  font-family: "proxima_novalight", helvetica, arial, sans-serif;
+}
+/* line 93, ../sass/screen.scss */
+.plan0 a,
+.plan1 a,
+.planIlimitado a {
+  font-size: 1.250em;
+  margin: 28px 0;
+}
+
+/* line 99, ../sass/screen.scss */
+.plan0 {
+  border-right: none;
+}
+/* line 102, ../sass/screen.scss */
+.plan0 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #4faab2;
+  border-bottom: 3px solid black;
+  border-color: #3c8f96;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.plan0 a:hover {
+  background-color: #3c8f96;
+  border-color: #4faab2;
+}
+
+/* line 108, ../sass/screen.scss */
+.plan1 {
+  margin-top: -45px;
+  height: 710px;
+}
+/* line 112, ../sass/screen.scss */
+.plan1 h1 {
+  margin-top: 54px;
+}
+/* line 116, ../sass/screen.scss */
+.plan1 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #81c369;
+  border-bottom: 3px solid black;
+  border-color: #68a652;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.plan1 a:hover {
+  background-color: #68a652;
+  border-color: #81c369;
+}
+
+/* line 122, ../sass/screen.scss */
+.planIlimitado {
+  border-left: none;
+}
+/* line 125, ../sass/screen.scss */
+.planIlimitado a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #b3dc20;
+  border-bottom: 3px solid black;
+  border-color: #9dbc19;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.planIlimitado a:hover {
+  background-color: #9dbc19;
+  border-color: #b3dc20;
+}
+
+/* line 131, ../sass/screen.scss */
+.price {
+  font-family: "proxima_novalight", helvetica, arial, sans-serif;
+  font-size: 4.5em;
+  margin-top: 50px;
+}
+/* line 136, ../sass/screen.scss */
+.price span {
+  font-size: 22px;
+}
+
+/* line 141, ../sass/screen.scss */
+#domains {
   background: url("../img/bg_dominios.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 300px;
-  margin-top: 300px;
+  margin-top: 100px;
+  color: #FFF;
+  padding-top: 30px;
+  text-shadow: 0px 0px 2px rgba(30, 30, 30, 0.5);
+}
+/* line 153, ../sass/screen.scss */
+#domains h1 {
+  font-size: 4em;
+}
+/* line 157, ../sass/screen.scss */
+#domains h2 {
+  margin: 18px 0 35px 0;
+}
+/* line 161, ../sass/screen.scss */
+#domains input {
+  padding: 8px;
+  width: 700px;
+}
+/* line 166, ../sass/screen.scss */
+#domains button {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #b3dc20;
+  border-bottom: 3px solid black;
+  border-color: #9dbc19;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: 0 none;
+  border-left: none;
+  border-right: none;
+  border-top: 0 none;
+  font-size: 1em;
+  margin-top: 25px;
+}
+/* line 17, ../sass/_ui.scss */
+#domains button:hover {
+  background-color: #9dbc19;
+  border-color: #b3dc20;
 }
 
-/* line 43, ../sass/screen.scss */
-#confian {
+/* line 179, ../sass/screen.scss */
+#trust {
   height: 600px;
+  margin: 100px 0;
+}
+/* line 183, ../sass/screen.scss */
+#trust h1 {
+  font-size: 4em;
+  color: #6C6C6C;
+}
+/* line 188, ../sass/screen.scss */
+#trust h2 {
+  margin: 18px auto 50px;
+  width: 78%;
+  line-height: 1.250em;
+}
+/* line 194, ../sass/screen.scss */
+#trust .row {
+  margin: 50px 0;
+}
+/* line 197, ../sass/screen.scss */
+#trust .row h1 {
+  color: #6F6F6F;
+  font-size: 1.250em;
+  font-family: "proxima_novasemibold", helvetica, arial, sans-serif;
+  margin: 10px 0;
+}
+/* line 204, ../sass/screen.scss */
+#trust .row p {
+  font-size: 0.875em;
+  margin: 3px;
+}
+
+/* line 211, ../sass/screen.scss */
+#contact {
+  padding: 75px 0;
+  color: #FFF;
+  font-size: 4em;
+  background-color: #9DBC19;
 }

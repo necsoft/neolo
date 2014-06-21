@@ -1,0 +1,21 @@
+@mixin btn($fondo, $borde){
+	@include inline-block;
+	@include border-radius(5px);
+	padding: 10px 30px;
+	color:#FFF;
+	text-decoration:none;
+	background-color:$fondo;
+	border-bottom: 3px solid black;
+	border-color: $borde;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+	&:hover{
+		background-color: $borde;
+		border-color: $fondo;
+	}
+}

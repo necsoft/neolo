@@ -1,3 +1,9 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 /* ==========================================================================
    Clearfix para los floats
    ========================================================================== */
@@ -23,7 +29,6 @@
 .column {
 	float: left;
 	margin-left: 2%;
-	border: 1px solid #FFF;
 
 	&:first-child{
 		margin-left: 0;
@@ -61,36 +66,161 @@
 
 .wrap{
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 1100px;
 	text-align: center;
-	width: 100%;
+	width: 98%;
 	
 }
 
+/* ==========================================================================
+   Estilos generales
+   ========================================================================== */
+
+body{
+	-webkit-font-smoothing: antialiased;
+	color: #A2A2A2;
+}
 
 #mainHeader{
 	background-color: #4C4C4C;
 	height: 50px;
 }
 
-
-#hero nav{
-	list-style-type:none;
-    padding:0;
-    margin:0;
-    overflow:hidden;
-    float: right;
-    line-height: 48px;
-
-    li {
-    	display: block;
-    	float: left;
-    	&:last-child{
-    		margin-right: 0px;
-    	}
-    }
-}
-
 .logo{
 	float: left;
 }
+
+#hero{
+	height:645px;
+	padding-top: 25px;
+
+	h1,h2{
+		color: white;
+	}	
+
+	h1{
+		font-size: 6em;
+		margin-bottom: 10px;
+	}
+
+	h2{
+		font-size: 1.125em;
+
+		width: 650px;
+		line-height: 1.313em;
+		margin: 25px auto 50px;
+		font-family: $proximaLight;
+	}
+
+	a{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	nav{
+		list-style-type:none;
+	    padding:0;
+	    margin:0;
+	    overflow:hidden;
+	    float: right;
+	    line-height: 58px;
+
+   		li {
+    		display: block;
+    		float: left;
+    		margin: 0 5px;
+    		color: #FFF;
+
+    		&:last-child{
+    			margin-right: 0px;
+ 		   	}
+
+ 		   	&:after{
+ 		   		content: " - "
+ 		   	}
+
+ 		   	&:last-child:after{
+ 		   		content: "";
+ 		   	}
+    	}
+
+    	a{
+    		color: #FFF;
+
+    		&:hover{
+    			text-decoration: underline;
+    		}
+    	}
+	}
+}
+
+.mainTitle{
+	margin-top: 150px;
+}
+
+#footer{
+	background-color: #4C4C4C;
+	padding: 50px 0;
+
+	.wrap{
+
+		div{
+			float: left;
+			border-right: 1px solid #646464;
+			height: 175px;
+			text-align: left;
+			color: #FFF;
+			padding: 0 2%;
+
+			&:last-of-type{
+				border-right: 0 none;
+			}
+		}
+
+		.mainInfo{
+			padding-top: 60px;
+		}
+
+		.logoFooter{
+			width: 430px;
+			padding-top: 50px;
+
+			h1{
+				float: left;
+				margin-right: 15px;
+			}
+		}
+
+	}
+
+	a{
+		color: #FFF;
+		text-decoration: none;
+		font-size: 0.875em;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+	h2{
+		font-size: 1.125em;
+		margin-bottom: 15px;
+	}
+
+	li{
+		line-height: 1.188em;
+	}
+}
+
+
+.socialIconsFooter{
+	margin-top: 14px;
+
+	li{
+		float: left;
+		margin: 0 5px;
+	}	
+} 
+
+
