@@ -72,6 +72,12 @@
 	
 }
 
+input{
+	outline: 0 none;
+	border: 0 none;
+} 
+
+
 /* ==========================================================================
    Estilos generales
    ========================================================================== */
@@ -81,9 +87,82 @@ body{
 	color: #A2A2A2;
 }
 
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
 #mainHeader{
 	background-color: #4C4C4C;
+	height: 60px;
+}
+
+.country{
+	float: left;
+	margin-top: 20px;
+	// padding: 0 15px;
+	background-color: #4C4C4C;
+	position: absolute;
+	width: 100px;
+
+
+	a{
+		color:black;
+		text-decoration: none;
+
+		&:hover{
+			color: orange;
+		}
+	}
+
+	.currentCountry{
+		background: url("../img/ArrowDown.svg") no-repeat scroll right rgba(0, 0, 0, 0);
+		padding: 15px 16px 0 ;
+	}
+}
+
+.othersCountries{
+	display:none;
+
+	li{
+		margin: 5px 0;
+	}
+
+	a{
+		display: block;
+	}
+}
+
+.rightHeader{
+	float: right;
 	height: 50px;
+	margin-top: 13px;
+
+	li{
+		display: block;
+		float: left;
+		margin: 0 8px;
+
+		&:first-of-type{
+			margin-top: 7px;
+		}
+	}
+
+	a{
+		color:#FFF;
+		text-decoration: none;
+	}
+}
+
+.login{
+	border: 1px solid #FFF;
+	@include border-radius(5px);
+	
+
+	a{
+		padding: 7px 20px;
+		display: block;
+	}
 }
 
 .logo{
@@ -109,7 +188,7 @@ body{
 		width: 650px;
 		line-height: 1.313em;
 		margin: 25px auto 50px;
-		font-family: $proximaLight;
+		// font-family: $proximaLight;
 	}
 
 	a{
@@ -124,6 +203,7 @@ body{
 	    overflow:hidden;
 	    float: right;
 	    line-height: 58px;
+	    font-size: 1.063em;
 
    		li {
     		display: block;
@@ -158,9 +238,15 @@ body{
 	margin-top: 150px;
 }
 
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
 #footer{
 	background-color: #4C4C4C;
 	padding: 50px 0;
+	font-family: $proxima;
 
 	.wrap{
 
@@ -182,7 +268,7 @@ body{
 		}
 
 		.logoFooter{
-			width: 430px;
+			width: 402px;
 			padding-top: 50px;
 
 			h1{
@@ -215,12 +301,10 @@ body{
 
 
 .socialIconsFooter{
-	margin-top: 14px;
+	margin-top: 9px;
 
 	li{
 		float: left;
 		margin: 0 5px;
 	}	
 } 
-
-

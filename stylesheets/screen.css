@@ -196,54 +196,135 @@ body {
   width: 98%;
 }
 
+/* line 75, ../sass/_base.scss */
+input {
+  outline: 0 none;
+  border: 0 none;
+}
+
 /* ==========================================================================
    Estilos generales
    ========================================================================== */
-/* line 79, ../sass/_base.scss */
+/* line 85, ../sass/_base.scss */
 body {
   -webkit-font-smoothing: antialiased;
   color: #A2A2A2;
 }
 
-/* line 84, ../sass/_base.scss */
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/* line 95, ../sass/_base.scss */
 #mainHeader {
   background-color: #4C4C4C;
-  height: 50px;
+  height: 60px;
 }
 
-/* line 89, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
+.country {
+  float: left;
+  margin-top: 20px;
+  background-color: #4C4C4C;
+  position: absolute;
+  width: 100px;
+}
+/* line 109, ../sass/_base.scss */
+.country a {
+  color: black;
+  text-decoration: none;
+}
+/* line 113, ../sass/_base.scss */
+.country a:hover {
+  color: orange;
+}
+/* line 118, ../sass/_base.scss */
+.country .currentCountry {
+  background: url("../img/ArrowDown.svg") no-repeat scroll right rgba(0, 0, 0, 0);
+  padding: 15px 16px 0;
+}
+
+/* line 124, ../sass/_base.scss */
+.othersCountries {
+  display: none;
+}
+/* line 127, ../sass/_base.scss */
+.othersCountries li {
+  margin: 5px 0;
+}
+/* line 131, ../sass/_base.scss */
+.othersCountries a {
+  display: block;
+}
+
+/* line 136, ../sass/_base.scss */
+.rightHeader {
+  float: right;
+  height: 50px;
+  margin-top: 13px;
+}
+/* line 141, ../sass/_base.scss */
+.rightHeader li {
+  display: block;
+  float: left;
+  margin: 0 8px;
+}
+/* line 146, ../sass/_base.scss */
+.rightHeader li:first-of-type {
+  margin-top: 7px;
+}
+/* line 151, ../sass/_base.scss */
+.rightHeader a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 157, ../sass/_base.scss */
+.login {
+  border: 1px solid #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 162, ../sass/_base.scss */
+.login a {
+  padding: 7px 20px;
+  display: block;
+}
+
+/* line 168, ../sass/_base.scss */
 .logo {
   float: left;
 }
 
-/* line 93, ../sass/_base.scss */
+/* line 172, ../sass/_base.scss */
 #hero {
   height: 645px;
   padding-top: 25px;
 }
-/* line 97, ../sass/_base.scss */
+/* line 176, ../sass/_base.scss */
 #hero h1, #hero h2 {
   color: white;
 }
-/* line 101, ../sass/_base.scss */
+/* line 180, ../sass/_base.scss */
 #hero h1 {
   font-size: 6em;
   margin-bottom: 10px;
 }
-/* line 106, ../sass/_base.scss */
+/* line 185, ../sass/_base.scss */
 #hero h2 {
   font-size: 1.125em;
   width: 650px;
   line-height: 1.313em;
   margin: 25px auto 50px;
-  font-family: "proxima_novalight", helvetica, arial, sans-serif;
 }
-/* line 115, ../sass/_base.scss */
+/* line 194, ../sass/_base.scss */
 #hero a {
   text-decoration: none;
   color: #FFF;
 }
-/* line 120, ../sass/_base.scss */
+/* line 199, ../sass/_base.scss */
 #hero nav {
   list-style-type: none;
   padding: 0;
@@ -251,46 +332,51 @@ body {
   overflow: hidden;
   float: right;
   line-height: 58px;
+  font-size: 1.063em;
 }
-/* line 128, ../sass/_base.scss */
+/* line 208, ../sass/_base.scss */
 #hero nav li {
   display: block;
   float: left;
   margin: 0 5px;
   color: #FFF;
 }
-/* line 134, ../sass/_base.scss */
+/* line 214, ../sass/_base.scss */
 #hero nav li:last-child {
   margin-right: 0px;
 }
-/* line 138, ../sass/_base.scss */
+/* line 218, ../sass/_base.scss */
 #hero nav li:after {
   content: " - ";
 }
-/* line 142, ../sass/_base.scss */
+/* line 222, ../sass/_base.scss */
 #hero nav li:last-child:after {
   content: "";
 }
-/* line 147, ../sass/_base.scss */
+/* line 227, ../sass/_base.scss */
 #hero nav a {
   color: #FFF;
 }
-/* line 150, ../sass/_base.scss */
+/* line 230, ../sass/_base.scss */
 #hero nav a:hover {
   text-decoration: underline;
 }
 
-/* line 157, ../sass/_base.scss */
+/* line 237, ../sass/_base.scss */
 .mainTitle {
   margin-top: 150px;
 }
 
-/* line 161, ../sass/_base.scss */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* line 246, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 50px 0;
+  font-family: "proxima_nova_rgregular", helvetica, arial, sans-serif;
 }
-/* line 167, ../sass/_base.scss */
+/* line 253, ../sass/_base.scss */
 #footer .wrap div {
   float: left;
   border-right: 1px solid #646464;
@@ -299,49 +385,49 @@ body {
   color: #FFF;
   padding: 0 2%;
 }
-/* line 175, ../sass/_base.scss */
+/* line 261, ../sass/_base.scss */
 #footer .wrap div:last-of-type {
   border-right: 0 none;
 }
-/* line 180, ../sass/_base.scss */
+/* line 266, ../sass/_base.scss */
 #footer .wrap .mainInfo {
   padding-top: 60px;
 }
-/* line 184, ../sass/_base.scss */
+/* line 270, ../sass/_base.scss */
 #footer .wrap .logoFooter {
-  width: 430px;
+  width: 402px;
   padding-top: 50px;
 }
-/* line 188, ../sass/_base.scss */
+/* line 274, ../sass/_base.scss */
 #footer .wrap .logoFooter h1 {
   float: left;
   margin-right: 15px;
 }
-/* line 196, ../sass/_base.scss */
+/* line 282, ../sass/_base.scss */
 #footer a {
   color: #FFF;
   text-decoration: none;
   font-size: 0.875em;
 }
-/* line 201, ../sass/_base.scss */
+/* line 287, ../sass/_base.scss */
 #footer a:hover {
   text-decoration: underline;
 }
-/* line 206, ../sass/_base.scss */
+/* line 292, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 211, ../sass/_base.scss */
+/* line 297, ../sass/_base.scss */
 #footer li {
   line-height: 1.188em;
 }
 
-/* line 217, ../sass/_base.scss */
+/* line 303, ../sass/_base.scss */
 .socialIconsFooter {
-  margin-top: 14px;
+  margin-top: 9px;
 }
-/* line 220, ../sass/_base.scss */
+/* line 306, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: 0 5px;
@@ -436,12 +522,6 @@ body {
   font-family: "proxima_nova_rgbold", helvetica, arial, sans-serif;
 }
 /* line 89, ../sass/screen.scss */
-.plan0 li,
-.plan1 li,
-.planIlimitado li {
-  font-family: "proxima_novalight", helvetica, arial, sans-serif;
-}
-/* line 93, ../sass/screen.scss */
 .plan0 a,
 .plan1 a,
 .planIlimitado a {
@@ -449,11 +529,11 @@ body {
   margin: 28px 0;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .plan0 {
   border-right: none;
 }
-/* line 102, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .plan0 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -485,16 +565,16 @@ body {
   border-color: #4faab2;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .plan1 {
   margin-top: -45px;
   height: 710px;
 }
-/* line 112, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .plan1 h1 {
   margin-top: 54px;
 }
-/* line 116, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .plan1 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -526,11 +606,11 @@ body {
   border-color: #81c369;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .planIlimitado {
   border-left: none;
 }
-/* line 125, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .planIlimitado a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -562,18 +642,18 @@ body {
   border-color: #b3dc20;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .price {
   font-family: "proxima_novalight", helvetica, arial, sans-serif;
   font-size: 4.5em;
   margin-top: 50px;
 }
-/* line 136, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .price span {
   font-size: 22px;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #domains {
   background: url("../img/bg_dominios.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -586,20 +666,20 @@ body {
   padding-top: 30px;
   text-shadow: 0px 0px 2px rgba(30, 30, 30, 0.5);
 }
-/* line 153, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #domains h1 {
   font-size: 4em;
 }
-/* line 157, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #domains h2 {
   margin: 18px 0 35px 0;
 }
-/* line 161, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #domains input {
   padding: 8px;
   width: 700px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 #domains button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -637,40 +717,40 @@ body {
   border-color: #b3dc20;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #trust {
   height: 600px;
   margin: 100px 0;
 }
-/* line 183, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 #trust h1 {
   font-size: 4em;
   color: #6C6C6C;
 }
-/* line 188, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #trust h2 {
   margin: 18px auto 50px;
   width: 78%;
   line-height: 1.250em;
 }
-/* line 194, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #trust .row {
   margin: 50px 0;
 }
-/* line 197, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #trust .row h1 {
   color: #6F6F6F;
   font-size: 1.250em;
   font-family: "proxima_novasemibold", helvetica, arial, sans-serif;
   margin: 10px 0;
 }
-/* line 204, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #trust .row p {
   font-size: 0.875em;
   margin: 3px;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #contact {
   padding: 75px 0;
   color: #FFF;
