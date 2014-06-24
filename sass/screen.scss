@@ -19,25 +19,24 @@
 }
 
 .action{
+	@include border-radius(5px);
 	border: 1px solid #FFF;
 	padding: 10px 15px;
-	@include border-radius(5px); 	
 }
 
 #features{
 	padding:75px 0;
 
 	h1{
-		font-size: 1.375em;
-		font-family: $proximaSemiBold;
-		margin:15px;
 		color: #6F6F6F;
+		font: 1.375em $proximaSemiBold;
+		margin:15px;
 	}
 
 	p{
 		margin: 0 auto;
-		width: 293px;
 		line-height: 1.35em;
+		width: 293px;
 	}
 }
 
@@ -77,8 +76,7 @@
 
     h1{
     	color:#6F6F6F;
-    	font-family: $proximaSemiBold;
-    	font-size: 1.563em;
+    	font: 1.563em $proximaSemiBold;
     	margin: 30px 0 55px 0;
     }
 
@@ -125,8 +123,7 @@
 
 
 .price{
-	font-family: $proximaLight;
-	font-size: 4.5em;
+	font: 4.5em $proximaLight;
 	margin-top: 50px;
 
 	span{
@@ -192,8 +189,7 @@
 
 		h1{
 			color:#6F6F6F;
-			font-size: 1.250em;
-			font-family: $proximaSemiBold;
+			font: 1.250em $proximaSemiBold;
 			margin: 10px 0;
 		}
 
@@ -210,9 +206,3 @@
 	font-size: 4em;
 	background-color: #9DBC19;
 }
-
-
-
-
-
-

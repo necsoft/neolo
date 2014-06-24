@@ -1,3 +1,7 @@
+/* ==========================================================================
+   Border-box
+   ========================================================================== */
+
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -64,6 +68,16 @@
 	margin: 10px 0;
 }
 
+
+/* ==========================================================================
+   Estilos generales
+   ========================================================================== */
+
+body{
+	-webkit-font-smoothing: antialiased;
+	color: #A2A2A2;
+}
+
 .wrap{
 	margin: 0 auto;
 	max-width: 1100px;
@@ -77,17 +91,6 @@ input{
 	border: 0 none;
 } 
 
-
-/* ==========================================================================
-   Estilos generales
-   ========================================================================== */
-
-body{
-	-webkit-font-smoothing: antialiased;
-	color: #A2A2A2;
-}
-
-
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -100,7 +103,6 @@ body{
 .country{
 	float: left;
 	margin-top: 20px;
-	// padding: 0 15px;
 	background-color: #4C4C4C;
 	position: absolute;
 	width: 100px;
@@ -109,10 +111,6 @@ body{
 	a{
 		color:black;
 		text-decoration: none;
-
-		&:hover{
-			color: orange;
-		}
 	}
 
 	.currentCountry{
@@ -188,7 +186,6 @@ body{
 		width: 650px;
 		line-height: 1.313em;
 		margin: 25px auto 50px;
-		// font-family: $proximaLight;
 	}
 
 	a{
@@ -301,7 +298,7 @@ body{
 
 
 .socialIconsFooter{
-	margin-top: 9px;
+	display: inline-block;
 
 	li{
 		float: left;
