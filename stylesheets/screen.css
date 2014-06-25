@@ -335,64 +335,84 @@ input {
 /* line 248, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
-  padding: 50px 0;
+  padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 255, ../sass/_base.scss */
-#footer .wrap div {
-  float: left;
-  border-right: 1px solid #646464;
-  height: 175px;
-  text-align: left;
-  color: #FFF;
-  padding: 0 2%;
-}
-/* line 263, ../sass/_base.scss */
-#footer .wrap div:last-of-type {
-  border-right: 0 none;
-}
-/* line 268, ../sass/_base.scss */
-#footer .wrap .mainInfo {
-  padding-top: 60px;
-}
-/* line 272, ../sass/_base.scss */
-#footer .wrap .logoFooter {
-  width: 402px;
-  padding-top: 50px;
-}
-/* line 276, ../sass/_base.scss */
-#footer .wrap .logoFooter h1 {
-  float: left;
-  margin-right: 15px;
-}
-/* line 284, ../sass/_base.scss */
-#footer a {
-  color: #FFF;
-  text-decoration: none;
-}
-/* line 288, ../sass/_base.scss */
-#footer a:hover {
-  text-decoration: underline;
-}
-/* line 293, ../sass/_base.scss */
+/* line 253, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 298, ../sass/_base.scss */
+/* line 258, ../sass/_base.scss */
 #footer li {
-  line-height: 1.5em;
+  line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 305, ../sass/_base.scss */
+/* line 266, ../sass/_base.scss */
+.contentFooter div {
+  float: left;
+  border-right: 1px solid #646464;
+  height: 200px;
+  text-align: left;
+  color: #FFF;
+  padding: 15px 2% 0 2%;
+}
+/* line 274, ../sass/_base.scss */
+.contentFooter div:last-of-type {
+  border-right: 0 none;
+}
+/* line 279, ../sass/_base.scss */
+.contentFooter a {
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 283, ../sass/_base.scss */
+.contentFooter a:hover {
+  text-decoration: underline;
+}
+
+/* line 289, ../sass/_base.scss */
+.logoFooter {
+  line-height: 185px;
+}
+
+/* line 293, ../sass/_base.scss */
+.contactFooter ul {
+  margin-top: 55px;
+}
+
+/* line 296, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
+  margin: 0 0 0 25px;
 }
-/* line 308, ../sass/_base.scss */
+/* line 300, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
-  margin: 0 5px;
+  margin: -8px 7px;
+}
+
+/* line 306, ../sass/_base.scss */
+.terms {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 75px;
+  font-size: 0.875em;
+}
+/* line 313, ../sass/_base.scss */
+.terms p {
+  margin-top: 6px;
+}
+/* line 317, ../sass/_base.scss */
+.terms a {
+  color: #A2A2A2;
+  text-decoration: none;
+}
+/* line 321, ../sass/_base.scss */
+.terms a:hover {
+  text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -416,7 +436,7 @@ input {
 
 /* line 27, ../sass/screen.scss */
 #features {
-  padding: 80px 0;
+  padding: 80px 0 60px 0;
 }
 /* line 30, ../sass/screen.scss */
 #features h1 {
