@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px) {
+  .column.full,
+  .column.two-thirds,
+  .column.half,
+  .column.one-third,
+  .column.one-fourth,
+  .column.two-third {
+  	float: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  .btnsucces,
+  .btnwarning,
+  .btnerror{
+  	display: block;
+  }
+}

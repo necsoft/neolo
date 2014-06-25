@@ -74,8 +74,10 @@
    ========================================================================== */
 
 body{
-	-webkit-font-smoothing: antialiased;
 	color: #A2A2A2;
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden; 
 }
 
 .wrap{
@@ -134,15 +136,17 @@ input{
 .rightHeader{
 	float: right;
 	height: 50px;
-	margin-top: 13px;
+	margin-top: 14px;
+	font-weight: 200;
+	font-size: 0.875em;
 
 	li{
 		display: block;
 		float: left;
-		margin: 0 8px;
+		margin: 0 0 0 23px;
 
 		&:first-of-type{
-			margin-top: 7px;
+			margin-top: 9px;
 		}
 	}
 
@@ -182,7 +186,7 @@ input{
 
 	h2{
 		font-size: 1.125em;
-
+		font-weight: 200;
 		width: 650px;
 		line-height: 1.313em;
 		margin: 25px auto 50px;
@@ -200,7 +204,8 @@ input{
 	    overflow:hidden;
 	    float: right;
 	    line-height: 58px;
-	    font-size: 1.063em;
+	    font: 1.063em 600;
+	    
 
    		li {
     		display: block;
@@ -243,7 +248,7 @@ input{
 #footer{
 	background-color: #4C4C4C;
 	padding: 50px 0;
-	font-family: $proxima;
+	font-weight: 200;
 
 	.wrap{
 
@@ -279,8 +284,7 @@ input{
 	a{
 		color: #FFF;
 		text-decoration: none;
-		font-size: 0.875em;
-
+		
 		&:hover{
 			text-decoration: underline;
 		}
@@ -292,7 +296,8 @@ input{
 	}
 
 	li{
-		line-height: 1.188em;
+		line-height: 1.5em;
+		font-size: 0.875em;
 	}
 }
 

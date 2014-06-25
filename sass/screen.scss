@@ -25,11 +25,12 @@
 }
 
 #features{
-	padding:75px 0;
+	padding:80px 0;
 
 	h1{
 		color: #6F6F6F;
-		font: 1.375em $proximaSemiBold;
+		font-size: 1.125em;
+		font-weight: 600;
 		margin:15px;
 	}
 
@@ -37,6 +38,7 @@
 		margin: 0 auto;
 		line-height: 1.35em;
 		width: 293px;
+		font-size: 0.813em;
 	}
 }
 
@@ -56,12 +58,15 @@
 		h2{
 			width: 755px;
 			margin: 0 auto;
-			line-height: 1.250;
+			line-height: 1.5em;
+			font-size: 0.935em;
 		}
 	}
 
 	li{
-		line-height: 1.375em;
+		line-height: 1.5em;
+		font-weight: 200;
+		font-size: 0.935em;
 	}
 }
 
@@ -76,12 +81,13 @@
 
     h1{
     	color:#6F6F6F;
-    	font: 1.563em $proximaSemiBold;
+    	font-size: 1.563em;
+    	font-weight: 600;
     	margin: 30px 0 55px 0;
     }
 
     em{
-    	font-family: $proximaBold;
+    	font-weight: 700;
     }
 
     a{
@@ -123,7 +129,8 @@
 
 
 .price{
-	font: 4.5em $proximaLight;
+	font-size: 4.5em;
+	font-weight: 200;
 	margin-top: 50px;
 
 	span{
@@ -148,7 +155,8 @@
 	}
 
 	h2{
-		margin: 18px 0 35px 0;
+		margin: 22px 0 35px 0;
+		font-size: 0.935em;
 	}
 
 	input{
@@ -181,7 +189,8 @@
 	h2{
 		margin: 18px auto 50px;
 		width: 78%;
-		line-height: 1.250em;
+		line-height: 1.5em;
+		font-size: 0.935em;
 	}
 
 	.row{
@@ -189,13 +198,14 @@
 
 		h1{
 			color:#6F6F6F;
-			font: 1.250em $proximaSemiBold;
+			font-size: 1em;
+			font-weight: 600;
 			margin: 10px 0;
 		}
 
 		p{
-			font-size: 0.875em;
-			margin: 3px;
+			font-size: 0.75em;
+			margin: 5px;
 		}
 	}
 }
@@ -203,6 +213,13 @@
 #contact{
 	padding: 75px 0;
 	color:#FFF;
-	font-size: 4em;
+	font-size: 3.5em;
 	background-color: #9DBC19;
 }
+
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@import "responsive.scss";
