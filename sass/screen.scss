@@ -18,20 +18,16 @@
 	background: #9DBC19 url("../img/icons.png");
 }
 
-.action{
-	@include border-radius(5px);
-	border: 1px solid #FFF;
-	padding: 10px 15px;
-}
-
 #features{
 	padding:80px 0 60px 0;
+
 
 	h1{
 		color: #6F6F6F;
 		font-size: 1.125em;
 		font-weight: 600;
 		margin:15px;
+
 	}
 
 	p{
@@ -40,11 +36,22 @@
 		width: 293px;
 		font-size: 0.813em;
 	}
+
+	img{
+		background-color: #E4E4E4;
+		border: 1px solid #BBBBBB;
+		@include border-radius(50%);
+	}
 }
 
 #plans{
-	padding: 75px 0;
+	padding: 75px 0 25px;
 	margin: 0 auto;
+	color: #515151;
+
+	.wrap{
+		width: 990px;
+	}
 
 	header{
 		margin-bottom: 100px;
@@ -75,15 +82,26 @@
 .planIlimitado{
 	border: 1px solid #CCC;
     float: left;
-    height: 625px;
+    height: 540px;
     padding: 25px 0;
     width: 33%;
 
     h1{
     	color:#6F6F6F;
-    	font-size: 1.563em;
+    	font-size: 1.375em;
     	font-weight: 600;
-    	margin: 30px 0 55px 0;
+    	margin: 20px 0 ;
+    }
+
+    h4{
+    	width: 70%;
+    	margin: 0 auto;
+    	font-size: 0.813em;
+    	line-height: 1.375em;
+    }
+
+    ul{
+    	margin: 35px 0;
     }
 
     em{
@@ -91,7 +109,7 @@
     }
 
     a{
-    	font-size: 1.250em;
+    	font-size: 1em;
     	margin: 28px 0;
     }
 }
@@ -106,12 +124,9 @@
 
 
 .plan1{
-	margin-top: -45px;
-	height: 710px;
-
-	h1{
-		margin-top: 54px;
-	}
+	margin-top: -46px;
+	height: 615px;
+	padding-top: 71px;
 
 	a{
 		@include btn(#81C369, #68A652);
@@ -129,12 +144,12 @@
 
 
 .price{
-	font-size: 4.5em;
+	font-size: 3.5em;
 	font-weight: 200;
-	margin-top: 50px;
+	margin-top: 30px;
 
 	span{
-		font-size: 22px;
+		font-size: 18px;
 	}
 }
 
@@ -148,15 +163,17 @@
 	margin-top: 100px;
 	color: #FFF;
 	padding-top: 50px;
-	text-shadow: rgba(0, 0, 0, 0.5) -1px -1px 3px;
+	text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 3px;
 
 	h1{
-		font-size: 4em;
+		font-size: 3.5em;
 	}
 
 	h2{
-		margin: 22px 0 35px 0;
+		margin: 22px auto 35px;
 		font-size: 0.935em;
+		width: 75%;
+		line-height: 1.375em;
 	}
 
 	input{
@@ -174,7 +191,6 @@
 		margin-top: 25px;
 	}
 }
-
 
 
 #trust{
@@ -210,14 +226,14 @@
 	}
 }
 
-#contact{
-	padding: 75px 0;
-	color:#FFF;
-	font-size: 3.5em;
-	background-color: #9DBC19;
-}
 
 
+/* ==========================================================================
+   Web Hosting
+   ========================================================================== */
+
+
+   
 /* ==========================================================================
    Responsive
    ========================================================================== */

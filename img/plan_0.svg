@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="146px" height="170px" viewBox="0 0 146 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
-    <title>Imported Layers</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Imported-Layers" sketch:type="MSLayerGroup">
-            <path d="M0,42.5548367 L72.5410922,0.292396403 L145.082184,42.5548367 L145.082184,127.078601 L72.5410922,169.339926 L0,127.078601 L0,42.5548367" id="Fill-1" fill="#4FAAB2" sketch:type="MSShapeGroup"></path>
-            <path d="M95.8457551,70.1092916 C95.567867,70.1092916 95.2922108,70.1171037 95.0176707,70.1304959 C91.2154014,62.2726216 83.1678042,56.853244 73.852412,56.853244 C64.4845669,56.853244 56.3990252,62.3351186 52.6235403,70.26665 C51.8802732,70.1662085 51.1236138,70.1092916 50.3524461,70.1092916 C41.0348219,70.1092916 33.4805041,77.6312449 33.4805041,86.9499852 C33.4805041,96.2676095 41.0348219,103.789563 50.3524461,103.789563 L73.852412,103.789563 L95.8457551,103.789563 C105.163379,103.789563 112.717697,96.2676095 112.717697,86.9499852 C112.717697,77.6312449 105.163379,70.1092916 95.8457551,70.1092916" id="Fill-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="111px" height="128.375px" viewBox="0 0 111 128.375" enable-background="new 0 0 111 128.375" xml:space="preserve">
+<g>
+	<polygon fill="#4EA9B1" points="0,32.095 55.5,0 111,32.095 111,96.282 55.5,128.375 0,96.282 	"/>
+	<g>
+		<path fill="#FFFFFF" d="M72.877,53.02c-0.211,0-0.421,0.007-0.629,0.017c-2.888-5.968-8.999-10.083-16.073-10.083
+			c-7.113,0-13.253,4.163-16.12,10.187c-0.564-0.077-1.14-0.12-1.726-0.12c-7.075,0-12.813,5.509-12.813,12.585
+			c0,7.074,5.738,12.583,12.813,12.583c3.077,0,14.253,0,17.846,0c3.327,0,13.856,0,16.702,0c7.076,0,12.812-5.509,12.812-12.583
+			C85.689,58.528,79.953,53.02,72.877,53.02z"/>
+	</g>
+</g>
 </svg>

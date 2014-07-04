@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="145px" height="169px" viewBox="0 0 145 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
-    <title>Imported Layers</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Imported-Layers" sketch:type="MSLayerGroup">
-            <path d="M0,42.3956513 L72.5,0.291302632 L145,42.3956513 L145,126.603237 L72.5,168.706474 L0,126.603237 L0,42.3956513" id="Fill-1" fill="#B3DC1F" sketch:type="MSShapeGroup"></path>
-            <path d="M94.6760769,69.8470329 C94.3983462,69.8470329 94.1228462,69.8548158 93.8484615,69.8681579 C90.0472308,62.0396776 82.0041923,56.6405724 72.6951923,56.6405724 C63.3326538,56.6405724 55.2516923,62.1019408 51.4783462,70.0038026 C50.7355,69.9037368 49.9792692,69.8470329 49.2085385,69.8470329 C39.8961923,69.8470329 32.3461538,77.3408487 32.3461538,86.6247303 C32.3461538,95.9075 39.8961923,103.401316 49.2085385,103.401316 L72.6951923,103.401316 L94.6760769,103.401316 C103.988423,103.401316 111.538462,95.9075 111.538462,86.6247303 C111.538462,77.3408487 103.988423,69.8470329 94.6760769,69.8470329" id="Fill-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="111px" height="128.375px" viewBox="0 0 111 128.375" enable-background="new 0 0 111 128.375" xml:space="preserve">
+<g>
+	<polygon fill="#9CBB1A" points="0,32.095 55.5,0 111,32.095 111,96.282 55.5,128.375 0,96.282 	"/>
+	<g>
+		<path fill="#FFFFFF" d="M72.496,53.02c-0.212,0-0.422,0.007-0.629,0.017c-2.889-5.968-9-10.083-16.073-10.083
+			c-7.114,0-13.254,4.163-16.121,10.187c-0.564-0.077-1.14-0.12-1.725-0.12c-7.076,0-12.813,6.009-12.813,13.085
+			c0,7.074,5.737,13.083,12.813,13.083c3.077,0,14.252,0,17.846,0c3.326,0,13.856,0,16.702,0c7.076,0,12.812-6.009,12.812-13.083
+			C85.309,59.028,79.572,53.02,72.496,53.02z"/>
+	</g>
+</g>
 </svg>

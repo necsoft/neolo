@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="180px" height="180px" viewBox="0 0 180 180" enable-background="new 0 0 180 180" xml:space="preserve">
+<pattern  x="-189.5" width="455.981" height="455.982" patternUnits="userSpaceOnUse" id="Unnamed_Pattern" viewBox="0 -455.982 455.981 455.982" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,0 455.981,0 455.981,-455.982 0,-455.982 		"/>
+		<g>
+			<path fill="#FFAF03" d="M389.204-66.777c43.062-43.062,66.777-100.315,66.777-161.214s-23.715-118.152-66.777-161.214
+				c-43.062-43.062-100.315-66.777-161.214-66.777s-118.151,23.715-161.214,66.777C23.715-346.143,0-288.89,0-227.991
+				S23.715-109.839,66.776-66.777C109.839-23.715,167.092,0,227.99,0S346.143-23.715,389.204-66.777z M365.981-227.991
+				C365.981-151.903,304.079-90,227.99-90C151.902-90,90-151.903,90-227.991s61.902-137.991,137.99-137.991
+				C304.079-365.982,365.981-304.08,365.981-227.991z"/>
+		</g>
+	</g>
+</pattern>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="63.3027" y1="75.7539" x2="166.3555" y2="135.2515">
+		<stop  offset="0" style="stop-color:#B2B2B2;stop-opacity:0.7"/>
+		<stop  offset="1" style="stop-color:#E5E5E5;stop-opacity:0.1"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M101.968,51.034L63.973,74.593l-1.832,47.534l74.805,43.189c23.7-14.804,39.905-40.48,41.637-70.05
+		L101.968,51.034z"/>
+	<g>
+		<g id="XMLID_5_">
+			<g>
+				<path fill="#FFFFFF" d="M129.771,79.306c1.071,3.706,1.627,7.586,1.627,11.546c0,4.047-0.581,8.007-1.693,11.787l-16.09-3.418
+					c0.935-2.618,1.439-5.435,1.439-8.369c0-2.847-0.476-5.582-1.356-8.135L129.771,79.306z"/>
+				<path fill="#FFAF03" d="M129.771,79.306l-16.073,3.412c-2.513-7.301-8.314-13.09-15.623-15.584l3.41-16.068
+					c6.655,1.908,12.754,5.485,17.788,10.517C124.29,66.599,127.858,72.676,129.771,79.306z"/>
+				<path fill="#FFAF03" d="M113.615,99.221l16.09,3.418c-1.933,6.538-5.475,12.532-10.432,17.487
+					c-5.028,5.026-11.124,8.602-17.775,10.514l-3.415-16.069C105.315,112.099,111.062,106.411,113.615,99.221z"/>
+				<path fill="#FFFFFF" d="M101.485,51.065l-3.41,16.068c-2.534-0.868-5.249-1.336-8.074-1.336c-2.983,0-5.845,0.523-8.5,1.489
+					l-3.415-16.099c3.818-1.141,7.818-1.732,11.915-1.732C93.939,49.454,97.796,50.006,101.485,51.065z"/>
+				<path fill="#FFFFFF" d="M78.418,130.614l3.412-16.073c2.562,0.886,5.311,1.367,8.171,1.367c2.829,0,5.545-0.469,8.082-1.338
+					l3.415,16.069c-3.693,1.061-7.552,1.61-11.497,1.61C86.022,132.25,82.133,131.689,78.418,130.614z"/>
+				<path fill="#FFAF03" d="M78.418,130.614c-6.617-1.919-12.685-5.482-17.689-10.488c-4.937-4.937-8.473-10.901-10.411-17.409
+					l16.097-3.414c2.559,7.12,8.256,12.76,15.416,15.238L78.418,130.614z"/>
+				<path fill="#FFAF03" d="M78.086,51.187l3.415,16.099c-7.194,2.599-12.874,8.407-15.287,15.692l-16.061-3.41
+					c1.895-6.733,5.491-12.906,10.575-17.985C65.655,56.656,71.596,53.125,78.086,51.187z"/>
+				<path fill="#FFFFFF" d="M66.414,99.303l-16.097,3.414c-1.13-3.799-1.715-7.786-1.715-11.865c0-3.868,0.527-7.659,1.551-11.285
+					l16.061,3.41c-0.82,2.477-1.269,5.124-1.269,7.875C64.945,93.817,65.462,96.663,66.414,99.303z"/>
+			</g>
+			<g>
+				<pattern  id="SVGID_2_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_2_)" stroke-width="0.2798" stroke-miterlimit="10" d="M81.83,114.541
+					c-7.16-2.479-12.857-8.118-15.416-15.238"/>
+				<pattern  id="SVGID_3_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_3_)" stroke-width="0.2798" stroke-miterlimit="10" d="M50.317,102.717
+					c1.938,6.508,5.475,12.473,10.411,17.409c5.005,5.006,11.072,8.569,17.689,10.488"/>
+				<pattern  id="SVGID_4_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_4_)" stroke-width="0.2798" stroke-miterlimit="10" d="M98.075,67.133
+					c7.309,2.495,13.11,8.283,15.623,15.584"/>
+				<pattern  id="SVGID_5_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_5_)" stroke-width="0.2798" stroke-miterlimit="10" d="M129.771,79.306
+					c-1.913-6.629-5.481-12.707-10.498-17.724c-5.034-5.032-11.133-8.609-17.788-10.517"/>
+				<pattern  id="SVGID_6_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_6_)" stroke-width="0.2798" stroke-miterlimit="10" d="M113.615,99.221
+					c-2.553,7.19-8.3,12.878-15.532,15.35"/>
+				<pattern  id="SVGID_7_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_7_)" stroke-width="0.2798" stroke-miterlimit="10" d="M101.498,130.64
+					c6.651-1.912,12.747-5.487,17.775-10.514c4.957-4.955,8.499-10.949,10.432-17.487"/>
+				<pattern  id="SVGID_8_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_8_)" stroke-width="0.2798" stroke-miterlimit="10" d="M66.214,82.977
+					c2.413-7.285,8.093-13.093,15.287-15.692"/>
+				<pattern  id="SVGID_9_" xlink:href="#Unnamed_Pattern" patternTransform="matrix(0.2798 0 0 0.2798 -5176.7109 -5832.043)">
+				</pattern>
+				<path fill="none" stroke="url(#SVGID_9_)" stroke-width="0.2798" stroke-miterlimit="10" d="M78.086,51.187
+					c-6.49,1.939-12.431,5.469-17.357,10.396c-5.084,5.079-8.681,11.252-10.575,17.985"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
