@@ -172,18 +172,21 @@ body {
 input {
   outline: 0 none;
   border: 0 none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: #A2A2A2;
 }
 
 /* ==========================================================================
    Header
    ========================================================================== */
-/* line 100, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 #mainHeader {
   background-color: #4C4C4C;
   height: 60px;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 .country {
   float: left;
   margin-top: 20px;
@@ -191,31 +194,31 @@ input {
   position: absolute;
   width: 100px;
 }
-/* line 113, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 .country a {
   color: black;
   text-decoration: none;
 }
-/* line 118, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 .country .currentCountry {
   background: url("../img/ArrowDown.svg") no-repeat scroll right rgba(0, 0, 0, 0);
   padding: 15px 16px 0;
 }
 
-/* line 124, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 .othersCountries {
   display: none;
 }
-/* line 127, ../sass/_base.scss */
+/* line 130, ../sass/_base.scss */
 .othersCountries li {
   margin: 5px 0;
 }
-/* line 131, ../sass/_base.scss */
+/* line 134, ../sass/_base.scss */
 .othersCountries a {
   display: block;
 }
 
-/* line 136, ../sass/_base.scss */
+/* line 139, ../sass/_base.scss */
 .rightHeader {
   float: right;
   height: 50px;
@@ -223,23 +226,23 @@ input {
   font-weight: 200;
   font-size: 0.875em;
 }
-/* line 143, ../sass/_base.scss */
+/* line 146, ../sass/_base.scss */
 .rightHeader li {
   display: block;
   float: left;
   margin: 0 0 0 23px;
 }
-/* line 148, ../sass/_base.scss */
+/* line 151, ../sass/_base.scss */
 .rightHeader li:first-of-type {
   margin-top: 9px;
 }
-/* line 153, ../sass/_base.scss */
+/* line 156, ../sass/_base.scss */
 .rightHeader a {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 159, ../sass/_base.scss */
+/* line 162, ../sass/_base.scss */
 .login {
   border: 1px solid #FFF;
   -webkit-border-radius: 5px;
@@ -248,33 +251,33 @@ input {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 164, ../sass/_base.scss */
+/* line 167, ../sass/_base.scss */
 .login a {
   padding: 7px 20px;
   display: block;
 }
 
-/* line 170, ../sass/_base.scss */
+/* line 173, ../sass/_base.scss */
 .logo {
   float: left;
 }
 
-/* line 174, ../sass/_base.scss */
+/* line 177, ../sass/_base.scss */
 #hero {
   height: 645px;
   padding-top: 25px;
 }
-/* line 179, ../sass/_base.scss */
+/* line 182, ../sass/_base.scss */
 #hero h1, #hero h2 {
   color: white;
 }
-/* line 183, ../sass/_base.scss */
+/* line 186, ../sass/_base.scss */
 #hero h1 {
   font-size: 6em;
   margin-bottom: 10px;
   font-weight: 300;
 }
-/* line 189, ../sass/_base.scss */
+/* line 192, ../sass/_base.scss */
 #hero h2 {
   font-size: 1.125em;
   font-weight: 300;
@@ -282,12 +285,12 @@ input {
   line-height: 1.313em;
   margin: 25px auto 50px;
 }
-/* line 197, ../sass/_base.scss */
+/* line 200, ../sass/_base.scss */
 #hero a {
   text-decoration: none;
   color: #4C4C4C;
 }
-/* line 202, ../sass/_base.scss */
+/* line 205, ../sass/_base.scss */
 #hero nav {
   list-style-type: none;
   padding: 0;
@@ -297,7 +300,7 @@ input {
   font-size: 1em;
   font-weight: 300;
 }
-/* line 211, ../sass/_base.scss */
+/* line 214, ../sass/_base.scss */
 #hero nav li {
   display: block;
   float: left;
@@ -311,21 +314,21 @@ input {
   border: 1px solid #fff;
   padding: 9px 10px;
 }
-/* line 220, ../sass/_base.scss */
+/* line 223, ../sass/_base.scss */
 #hero nav li:last-of-type {
   margin-right: 0;
 }
-/* line 225, ../sass/_base.scss */
+/* line 228, ../sass/_base.scss */
 #hero nav a {
   color: #FFF;
 }
 
-/* line 235, ../sass/_base.scss */
+/* line 238, ../sass/_base.scss */
 .mainTitle {
   margin-top: 150px;
 }
 
-/* line 239, ../sass/_base.scss */
+/* line 242, ../sass/_base.scss */
 .action {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -339,7 +342,7 @@ input {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 249, ../sass/_base.scss */
+/* line 252, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   color: #FFF;
@@ -350,24 +353,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 260, ../sass/_base.scss */
+/* line 263, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 265, ../sass/_base.scss */
+/* line 268, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 270, ../sass/_base.scss */
+/* line 273, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 278, ../sass/_base.scss */
+/* line 281, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -376,42 +379,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 286, ../sass/_base.scss */
+/* line 289, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 291, ../sass/_base.scss */
+/* line 294, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 295, ../sass/_base.scss */
+/* line 298, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 301, ../sass/_base.scss */
+/* line 304, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 305, ../sass/_base.scss */
+/* line 308, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 308, ../sass/_base.scss */
+/* line 311, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 312, ../sass/_base.scss */
+/* line 315, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 318, ../sass/_base.scss */
+/* line 321, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -419,16 +422,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 325, ../sass/_base.scss */
+/* line 328, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 329, ../sass/_base.scss */
+/* line 332, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 333, ../sass/_base.scss */
+/* line 336, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
