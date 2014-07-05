@@ -326,6 +326,13 @@ input{
 		line-height: 1.5em;
 		font-weight: 200;
 		font-size: 0.935em;
+
+
+	}
+
+	span{
+		font-size: 0.6em;
+		margin: 3px 0; 
 	}
 }
 
@@ -337,7 +344,12 @@ input{
 .planD7,
 .planD14,
 .planD25,
-.planD100{
+.planD100,
+.vps_1,
+.vps_2,
+.vps_3,
+.vps_4,
+.vps_5{
 	border: 1px solid #CCC;
     float: left;
     height: 540px;
