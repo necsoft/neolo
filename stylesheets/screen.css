@@ -418,12 +418,13 @@ input {
   font-size: 0.935em;
 }
 /* line 333, ../sass/_base.scss */
-#plans span {
+#plans h5 {
   font-size: 0.6em;
-  margin: 3px 0;
+  padding: 3px 0;
+  color: #E4744E;
 }
 
-/* line 352, ../sass/_base.scss */
+/* line 353, ../sass/_base.scss */
 .plan0,
 .plan1,
 .planIlimitado,
@@ -442,7 +443,7 @@ input {
   padding: 25px 0;
   width: 33%;
 }
-/* line 359, ../sass/_base.scss */
+/* line 360, ../sass/_base.scss */
 .plan0 h1,
 .plan1 h1,
 .planIlimitado h1,
@@ -460,7 +461,7 @@ input {
   font-weight: 600;
   margin: 20px 0;
 }
-/* line 366, ../sass/_base.scss */
+/* line 367, ../sass/_base.scss */
 .plan0 h4,
 .plan1 h4,
 .planIlimitado h4,
@@ -478,7 +479,7 @@ input {
   font-size: 0.813em;
   line-height: 1.375em;
 }
-/* line 373, ../sass/_base.scss */
+/* line 374, ../sass/_base.scss */
 .plan0 ul,
 .plan1 ul,
 .planIlimitado ul,
@@ -493,7 +494,7 @@ input {
 .vps_5 ul {
   margin: 35px 0;
 }
-/* line 377, ../sass/_base.scss */
+/* line 378, ../sass/_base.scss */
 .plan0 em,
 .plan1 em,
 .planIlimitado em,
@@ -508,7 +509,7 @@ input {
 .vps_5 em {
   font-weight: 700;
 }
-/* line 381, ../sass/_base.scss */
+/* line 382, ../sass/_base.scss */
 .plan0 a,
 .plan1 a,
 .planIlimitado a,
@@ -525,7 +526,7 @@ input {
   margin: 28px 0;
 }
 
-/* line 387, ../sass/_base.scss */
+/* line 388, ../sass/_base.scss */
 .iva {
   font-size: 0.938em;
 }
@@ -533,11 +534,11 @@ input {
 /* ==========================================================================
    Info
    ========================================================================== */
-/* line 395, ../sass/_base.scss */
+/* line 396, ../sass/_base.scss */
 #info {
   margin: 50px 0 70px 0;
 }
-/* line 398, ../sass/_base.scss */
+/* line 399, ../sass/_base.scss */
 #info p {
   text-align: left;
   font-size: 0.875em;
@@ -547,18 +548,18 @@ input {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 410, ../sass/_base.scss */
+/* line 411, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   font-size: 2.5em;
   background-color: #9DBC19;
 }
-/* line 416, ../sass/_base.scss */
+/* line 417, ../sass/_base.scss */
 #contact a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 420, ../sass/_base.scss */
+/* line 421, ../sass/_base.scss */
 #contact a:hover {
   text-decoration: underline;
 }
@@ -566,24 +567,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 430, ../sass/_base.scss */
+/* line 431, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 435, ../sass/_base.scss */
+/* line 436, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 440, ../sass/_base.scss */
+/* line 441, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 448, ../sass/_base.scss */
+/* line 449, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -592,42 +593,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 456, ../sass/_base.scss */
+/* line 457, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 461, ../sass/_base.scss */
+/* line 462, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 465, ../sass/_base.scss */
+/* line 466, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 471, ../sass/_base.scss */
+/* line 472, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 475, ../sass/_base.scss */
+/* line 476, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 478, ../sass/_base.scss */
+/* line 479, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 482, ../sass/_base.scss */
+/* line 483, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 488, ../sass/_base.scss */
+/* line 489, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -635,16 +636,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 495, ../sass/_base.scss */
+/* line 496, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 499, ../sass/_base.scss */
+/* line 500, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 503, ../sass/_base.scss */
+/* line 504, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
@@ -1107,7 +1108,7 @@ input {
 .vps_4,
 .vps_5 {
   width: 20%;
-  height: 600px;
+  height: 620px;
 }
 
 /* line 257, ../sass/screen.scss */
