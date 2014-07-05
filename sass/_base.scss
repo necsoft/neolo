@@ -329,6 +329,49 @@ input{
 	}
 }
 
+
+
+.plan0,
+.plan1,
+.planIlimitado,
+.planD7,
+.planD14,
+.planD25,
+.planD100{
+	border: 1px solid #CCC;
+    float: left;
+    height: 540px;
+    padding: 25px 0;
+    width: 33%;
+
+    h1{
+    	color:#6F6F6F;
+    	font-size: 1.375em;
+    	font-weight: 600;
+    	margin: 20px 0 ;
+    }
+
+    h4{
+    	width: 70%;
+    	margin: 0 auto;
+    	font-size: 0.813em;
+    	line-height: 1.375em;
+    }
+
+    ul{
+    	margin: 35px 0;
+    }
+
+    em{
+    	font-weight: 700;
+    }
+
+    a{
+    	font-size: 1em;
+    	margin: 28px 0;
+    }
+}
+
 .iva{
 	font-size: 0.938em;
 }

@@ -418,7 +418,79 @@ input {
   font-size: 0.935em;
 }
 
-/* line 332, ../sass/_base.scss */
+/* line 340, ../sass/_base.scss */
+.plan0,
+.plan1,
+.planIlimitado,
+.planD7,
+.planD14,
+.planD25,
+.planD100 {
+  border: 1px solid #CCC;
+  float: left;
+  height: 540px;
+  padding: 25px 0;
+  width: 33%;
+}
+/* line 347, ../sass/_base.scss */
+.plan0 h1,
+.plan1 h1,
+.planIlimitado h1,
+.planD7 h1,
+.planD14 h1,
+.planD25 h1,
+.planD100 h1 {
+  color: #6F6F6F;
+  font-size: 1.375em;
+  font-weight: 600;
+  margin: 20px 0;
+}
+/* line 354, ../sass/_base.scss */
+.plan0 h4,
+.plan1 h4,
+.planIlimitado h4,
+.planD7 h4,
+.planD14 h4,
+.planD25 h4,
+.planD100 h4 {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 0.813em;
+  line-height: 1.375em;
+}
+/* line 361, ../sass/_base.scss */
+.plan0 ul,
+.plan1 ul,
+.planIlimitado ul,
+.planD7 ul,
+.planD14 ul,
+.planD25 ul,
+.planD100 ul {
+  margin: 35px 0;
+}
+/* line 365, ../sass/_base.scss */
+.plan0 em,
+.plan1 em,
+.planIlimitado em,
+.planD7 em,
+.planD14 em,
+.planD25 em,
+.planD100 em {
+  font-weight: 700;
+}
+/* line 369, ../sass/_base.scss */
+.plan0 a,
+.plan1 a,
+.planIlimitado a,
+.planD7 a,
+.planD14 a,
+.planD25 a,
+.planD100 a {
+  font-size: 1em;
+  margin: 28px 0;
+}
+
+/* line 375, ../sass/_base.scss */
 .iva {
   font-size: 0.938em;
 }
@@ -426,11 +498,11 @@ input {
 /* ==========================================================================
    Info
    ========================================================================== */
-/* line 340, ../sass/_base.scss */
+/* line 383, ../sass/_base.scss */
 #info {
   margin: 50px 0 70px 0;
 }
-/* line 343, ../sass/_base.scss */
+/* line 386, ../sass/_base.scss */
 #info p {
   text-align: left;
   font-size: 0.875em;
@@ -440,18 +512,18 @@ input {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 355, ../sass/_base.scss */
+/* line 398, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   font-size: 2.5em;
   background-color: #9DBC19;
 }
-/* line 361, ../sass/_base.scss */
+/* line 404, ../sass/_base.scss */
 #contact a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 365, ../sass/_base.scss */
+/* line 408, ../sass/_base.scss */
 #contact a:hover {
   text-decoration: underline;
 }
@@ -459,24 +531,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 375, ../sass/_base.scss */
+/* line 418, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 380, ../sass/_base.scss */
+/* line 423, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 385, ../sass/_base.scss */
+/* line 428, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 393, ../sass/_base.scss */
+/* line 436, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -485,42 +557,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 401, ../sass/_base.scss */
+/* line 444, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 406, ../sass/_base.scss */
+/* line 449, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 410, ../sass/_base.scss */
+/* line 453, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 416, ../sass/_base.scss */
+/* line 459, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 420, ../sass/_base.scss */
+/* line 463, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 423, ../sass/_base.scss */
+/* line 466, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 427, ../sass/_base.scss */
+/* line 470, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 433, ../sass/_base.scss */
+/* line 476, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -528,16 +600,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 440, ../sass/_base.scss */
+/* line 483, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 444, ../sass/_base.scss */
+/* line 487, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 448, ../sass/_base.scss */
+/* line 491, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
@@ -550,59 +622,11 @@ input {
   background: #9dbc19 url("../img/icons.png");
 }
 
-/* line 24, ../sass/screen.scss */
-.plan0,
-.plan1,
-.planIlimitado {
-  border: 1px solid #CCC;
-  float: left;
-  height: 540px;
-  padding: 25px 0;
-  width: 33%;
-}
-/* line 31, ../sass/screen.scss */
-.plan0 h1,
-.plan1 h1,
-.planIlimitado h1 {
-  color: #6F6F6F;
-  font-size: 1.375em;
-  font-weight: 600;
-  margin: 20px 0;
-}
-/* line 38, ../sass/screen.scss */
-.plan0 h4,
-.plan1 h4,
-.planIlimitado h4 {
-  width: 70%;
-  margin: 0 auto;
-  font-size: 0.813em;
-  line-height: 1.375em;
-}
-/* line 45, ../sass/screen.scss */
-.plan0 ul,
-.plan1 ul,
-.planIlimitado ul {
-  margin: 35px 0;
-}
-/* line 49, ../sass/screen.scss */
-.plan0 em,
-.plan1 em,
-.planIlimitado em {
-  font-weight: 700;
-}
-/* line 53, ../sass/screen.scss */
-.plan0 a,
-.plan1 a,
-.planIlimitado a {
-  font-size: 1em;
-  margin: 28px 0;
-}
-
-/* line 59, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 .plan0 {
   border-right: none;
 }
-/* line 62, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .plan0 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -634,13 +658,13 @@ input {
   border-color: #4faab2;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .plan1 {
   margin-top: -46px;
   height: 615px;
   padding-top: 71px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .plan1 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -672,11 +696,11 @@ input {
   border-color: #81c369;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .planIlimitado {
   border-left: none;
 }
-/* line 82, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .planIlimitado a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -708,18 +732,18 @@ input {
   border-color: #b3dc20;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .price {
   font-size: 3.5em;
   font-weight: 200;
   margin-top: 30px;
 }
-/* line 93, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .price span {
   font-size: 18px;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 #domains {
   background: url("../img/bg_dominios.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -732,23 +756,23 @@ input {
   padding-top: 50px;
   text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 3px;
 }
-/* line 110, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #domains h1 {
   font-size: 3.5em;
 }
-/* line 114, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #domains h2 {
   margin: 22px auto 35px;
   font-size: 0.935em;
   width: 75%;
   line-height: 1.375em;
 }
-/* line 121, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #domains input {
   padding: 8px;
   width: 700px;
 }
-/* line 126, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 #domains button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -786,35 +810,35 @@ input {
   border-color: #b3dc20;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 #trust {
   height: 600px;
   margin: 100px 0;
 }
-/* line 142, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #trust h1 {
   font-size: 4em;
   color: #6C6C6C;
 }
-/* line 147, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #trust h2 {
   margin: 18px auto 50px;
   width: 78%;
   line-height: 1.5em;
   font-size: 0.935em;
 }
-/* line 154, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #trust .row {
   margin: 50px 0;
 }
-/* line 157, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #trust .row h1 {
   color: #6F6F6F;
   font-size: 1em;
   font-weight: 600;
   margin: 10px 0;
 }
-/* line 164, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #trust .row p {
   font-size: 0.75em;
   margin: 5px;
@@ -823,20 +847,20 @@ input {
 /* ==========================================================================
    More 
    ========================================================================== */
-/* line 176, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #more {
   margin: 50px 0;
 }
-/* line 179, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #more header {
   margin: 100px 0;
 }
-/* line 182, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #more header h1 {
   font-weight: 300;
   font-size: 2.750em;
 }
-/* line 188, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 #more img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -847,28 +871,28 @@ input {
   float: left;
   margin: 0 10px 35px 0;
 }
-/* line 195, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #more .column.one-third {
   text-align: left;
   margin: 35px 0;
 }
-/* line 199, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #more .column.one-third h1 {
   margin: 5px 0 10px 0;
   color: #4C4C4C;
 }
-/* line 204, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #more .column.one-third p {
   color: #7A7A7A;
   font-size: 0.875em;
   line-height: 1.375em;
   padding-right: 25px;
 }
-/* line 212, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #more h1 {
   font-weight: 600;
 }
-/* line 216, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #more .row div:last-of-type p {
   padding-right: 0;
 }
@@ -876,27 +900,166 @@ input {
 /* ==========================================================================
    Pay 
    ========================================================================== */
-/* line 226, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #pay {
   margin: 125px 0;
 }
-/* line 229, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #pay h1 {
   font-size: 2.5em;
   font-weight: 300;
   margin: 25px 0 45px;
 }
-/* line 235, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 #pay li {
   display: inline-block;
   margin: 15px 5px 15px;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .mysql {
   display: inline-block;
   margin-top: 25px;
   font-size: 0.938em;
+}
+
+/* ==========================================================================
+   Revendedores 
+   ========================================================================== */
+/* line 217, ../sass/screen.scss */
+.planD7,
+.planD14,
+.planD25,
+.planD100 {
+  width: 25%;
+}
+
+/* line 222, ../sass/screen.scss */
+.planD7 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #4faab2;
+  border-bottom: 3px solid black;
+  border-color: #3c8f96;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.planD7 a:hover {
+  background-color: #3c8f96;
+  border-color: #4faab2;
+}
+
+/* line 228, ../sass/screen.scss */
+.planD14 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #70bb81;
+  border-bottom: 3px solid black;
+  border-color: #469956;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.planD14 a:hover {
+  background-color: #469956;
+  border-color: #70bb81;
+}
+
+/* line 234, ../sass/screen.scss */
+.planD25 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #92cb51;
+  border-bottom: 3px solid black;
+  border-color: #72aa29;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.planD25 a:hover {
+  background-color: #72aa29;
+  border-color: #92cb51;
+}
+
+/* line 240, ../sass/screen.scss */
+.planD100 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #b3dc20;
+  border-bottom: 3px solid black;
+  border-color: #9dbc19;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 17, ../sass/_ui.scss */
+.planD100 a:hover {
+  background-color: #9dbc19;
+  border-color: #b3dc20;
 }
 
 /* ==========================================================================
