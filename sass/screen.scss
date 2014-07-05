@@ -18,77 +18,6 @@
 	background: #9DBC19 url("../img/icons.png");
 }
 
-#features{
-	padding:80px 0 60px 0;
-
-
-	h1{
-		color: #6F6F6F;
-		font-size: 1.125em;
-		font-weight: 600;
-		margin:15px;
-
-	}
-
-	p{
-		margin: 0 auto;
-		line-height: 1.35em;
-		width: 293px;
-		font-size: 0.813em;
-	}
-
-	img{
-		@include border-radius(50%);
-	}
-
-}
-
-.mainFeatures{
-	img{
-		background-color: #E4E4E4;
-		border: 1px solid #BBBBBB;
-	}
-}
-
-.otherFeatures{
-	img{
-		background-color: #E4744E;
-		border: 1px solid #E8E8E8;
-	}
-}
-
-#plans{
-	padding: 75px 0 25px;
-	margin: 0 auto;
-	color: #515151;
-
-	.wrap{
-		width: 990px;
-	}
-
-	header{
-		margin-bottom: 100px;
-
-		h1{
-			color: #6C6C6C;
-			font-size: 4em;
-			margin-bottom: 14px;
-		}
-
-		h2{
-			width: 755px;
-			margin: 0 auto;
-			line-height: 1.5em;
-			font-size: 0.935em;
-		}
-	}
-
-	li{
-		line-height: 1.5em;
-		font-weight: 200;
-		font-size: 0.935em;
-	}
-}
 
 .plan0,
 .plan1,
@@ -242,7 +171,7 @@
 
 
 /* ==========================================================================
-   Secciones 
+   More 
    ========================================================================== */
 #more{
 	margin: 50px 0;
@@ -262,13 +191,13 @@
 		float: left;
 		margin: 0 10px 35px 0;
 	}
-
+	
 	.column.one-third{
 		text-align: left;
 		margin: 35px 0;
 
 		h1{
-			margin: 10px 0;
+			margin: 5px 0 10px 0;
 			color: #4C4C4C;
 		}
 
@@ -283,8 +212,37 @@
 	h1{
 		font-weight: 600;
 	}
+	
+	.row div:last-of-type p{
+		padding-right: 0;
+	}
+
 }
 
+/* ==========================================================================
+   Pay 
+   ========================================================================== */
+
+	#pay{
+   		margin: 125px 0;
+
+   		h1{
+   			font-size: 2.5em;
+   			font-weight: 300;
+   			margin: 25px 0 45px;
+   		}
+
+   		li{
+   			display: inline-block;
+   			margin: 15px 5px 15px;
+   		}
+   }
+
+	.mysql{
+		display: inline-block;
+		margin-top: 25px;
+		font-size: 0.938em;
+	}
    
 /* ==========================================================================
    Responsive
