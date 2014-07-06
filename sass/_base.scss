@@ -177,6 +177,7 @@ input{
 }
 
 #hero{
+	background: #9DBC19 url("../img/icons.png");
 	height:645px;
 	padding-top: 25px;
 
@@ -194,7 +195,7 @@ input{
 	h2{
 		font-size: 1.125em;
 		font-weight: 300;
-		width: 650px;
+		width: 800px;
 		line-height: 1.313em;
 		margin: 25px auto 50px;
 	}
@@ -239,6 +240,17 @@ input{
 
 .mainTitle{
 	margin-top: 150px;
+}
+
+#hero .titleBig{
+
+	h1{
+		font-size: 5em;
+	}
+
+	h2{
+		width: 900px;
+	}
 }
 
 .action{
@@ -335,9 +347,40 @@ input{
 		padding: 3px 0;
 		color: #E4744E; 
 	}
+
+	h3{
+		font-size: 0.688em;
+		text-transform: uppercase;
+		margin-top: 35px;
+	}
 }
 
 
+.price,
+.priceAnual,
+.priceMonthly{
+	font-size: 3.5em;
+	font-weight: 200;
+
+	span{
+		font-size: 18px;
+	}
+}
+
+
+.priceAnual{
+	margin: 10px 0 50px 0;
+
+	h6{
+		font-size: 1em;
+	}
+}
+
+.priceMonthly{
+	font-size: 3em;
+	margin-top: 7px;
+	
+}
 
 .plan0,
 .plan1,

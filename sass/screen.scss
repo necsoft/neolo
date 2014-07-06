@@ -14,12 +14,6 @@
    Landing
    ========================================================================== */
 
-.heroLanding{
-	background: #9DBC19 url("../img/icons.png");
-}
-
-
-
 .plan0{
 	border-right: none;
 
@@ -49,15 +43,6 @@
 }
 
 
-.price{
-	font-size: 3.5em;
-	font-weight: 200;
-	margin-top: 30px;
-
-	span{
-		font-size: 18px;
-	}
-}
 
 #domains{
 	background: url("../img/bg_dominios.jpg") no-repeat center center fixed; 
@@ -120,7 +105,8 @@
 
 		h1{
 			color:#6F6F6F;
-			font-size: 1em;
+			font-size: 0.938em;
+			line-height: 1.250em;
 			font-weight: 600;
 			margin: 10px 0;
 		}
@@ -216,6 +202,7 @@
 	.planD25,
 	.planD100{
 		width: 25%;
+		height: 630px;
 	}
 
 	.planD7{
