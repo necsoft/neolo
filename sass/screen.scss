@@ -279,7 +279,60 @@
 		}
 	}
 
+/* ==========================================================================
+   Domains
+   ========================================================================== */
 
+#registerDomain{
+
+	input{
+		background-color: #B2B2B2;
+		color: #fff;
+		margin: 10px 0 25px 0;
+		padding: 5px 0 5px 10px;
+		font-weight: 400;
+		width: 600px;
+	}
+
+	h1{
+		font-weight: 300;
+		font-size: 3em;
+		margin: 30px 0;
+	}
+
+	h2{
+		color: #70BB81;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	p{
+		font-weight: 300;
+
+		span{
+			font-size: 0.875em;
+		}
+	}
+
+	button{
+		@include btn(#70BB81, #469956);
+		outline: 0 none;
+		border-left: none;
+		border-right: none;
+		border-top: 0 none;
+		font-size: 1em;
+		margin-bottom: 25px;
+	}
+
+	.wrap{
+		max-width: 800px;
+	}
+
+	.column.one-fourth{
+		border: 1px dashed #686868;
+		padding: 10px;
+	}
+}
 
 /* ==========================================================================
    Responsive

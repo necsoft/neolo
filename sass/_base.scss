@@ -164,6 +164,16 @@ input{
 .login{
 	border: 1px solid #FFF;
 	@include border-radius(5px);
+	-webkit-transition: background-color 200ms linear;
+	-moz-transition: background-color 200ms linear;
+	-o-transition: background-color 200ms linear;
+	-ms-transition: background-color 200ms linear;
+	transition: background-color 200ms linear;
+
+	&:hover{
+		background-color: red;
+		background-color: $naranja;
+	}
 	
 
 	a{
@@ -171,6 +181,7 @@ input{
 		display: block;
 	}
 }
+
 
 .logo{
 	float: left;
@@ -221,19 +232,25 @@ input{
     		color: #FFF;
     		@include border-radius(5px);
     		border: 1px solid #fff;
-    		padding: 9px 10px;
+    		-webkit-transition: background-color 200ms linear;
+		    -moz-transition: background-color 200ms linear;
+		    -o-transition: background-color 200ms linear;
+		    -ms-transition: background-color 200ms linear;
+		    transition: background-color 200ms linear;
 
     		&:last-of-type{
     			margin-right: 0;
+    		}
+
+    		&:hover{
+    			background-color: $naranja;
     		}
     	}
 
     	a{
     		color: #FFF;
-
-    		&:hover{
-    			
-    		}
+    		padding: 9px 10px;
+    		display: block;
     	}
 	}
 }
@@ -299,7 +316,7 @@ input{
 .otherFeatures{
 	img{
 		background-color: #E4744E;
-		border: 1px solid #E8E8E8;
+		border: 3px solid #E8E8E8;
 	}
 }
 
