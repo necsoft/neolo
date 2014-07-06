@@ -2,22 +2,26 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30.54px"
-	 height="30.538px" viewBox="2.693 2.668 30.54 30.538" enable-background="new 2.693 2.668 30.54 30.538" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32.835px"
+	 height="32.821px" viewBox="-1.148 -1.148 32.835 32.821" enable-background="new -1.148 -1.148 32.835 32.821"
+	 xml:space="preserve">
 <title>Oval 8 + facebook 2</title>
 <desc>Created with Sketch.</desc>
 <g>
-	<defs>
-		<circle id="SVGID_1_" cx="17.963" cy="17.937" r="15.27"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	
-		<rect x="-1.728" y="-1.753" clip-path="url(#SVGID_2_)" fill-rule="evenodd" clip-rule="evenodd" fill="#40619D" width="39.382" height="39.382"/>
+	<g>
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="15.27" cy="15.269" r="16.417"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<rect x="-5.901" y="-5.9" clip-path="url(#SVGID_2_)" fill="#40619D" width="42.341" height="42.34"/>
+		</g>
+	</g>
+	<path fill="#FFFFFF" d="M16.692,12.172h2.877l-0.336,3.098h-2.541v8.988h-3.819v-8.988h-1.904v-3.098h1.904v-1.866
+		c0-1.325,0.322-2.326,0.963-3.005c0.644-0.683,1.699-1.022,3.17-1.022h2.54V9.38h-1.591c-0.291,0-0.523,0.022-0.699,0.07
+		c-0.175,0.046-0.302,0.131-0.38,0.256c-0.078,0.123-0.128,0.249-0.151,0.375c-0.022,0.126-0.033,0.308-0.033,0.541V12.172
+		L16.692,12.172z"/>
 </g>
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M19.286,15.056h2.675l-0.312,2.882h-2.363v8.361h-3.552v-8.361
-	h-1.771v-2.882h1.771v-1.735c0-1.232,0.299-2.164,0.896-2.795c0.598-0.635,1.579-0.951,2.948-0.951h2.363v2.884h-1.479
-	c-0.271,0-0.488,0.021-0.651,0.065c-0.163,0.043-0.281,0.122-0.354,0.238c-0.072,0.115-0.119,0.232-0.14,0.35
-	c-0.021,0.117-0.031,0.286-0.031,0.502V15.056L19.286,15.056z"/>
 </svg>

@@ -331,11 +331,11 @@ input {
 
 /* line 247, ../sass/_base.scss */
 #hero .titleBig h1 {
-  font-size: 5em;
+  font-size: 4.875em;
 }
 /* line 251, ../sass/_base.scss */
 #hero .titleBig h2 {
-  width: 900px;
+  width: 960px;
 }
 
 /* line 256, ../sass/_base.scss */
@@ -423,7 +423,7 @@ input {
 }
 /* line 337, ../sass/_base.scss */
 #plans li {
-  line-height: 1.5em;
+  line-height: 1.563em;
   font-weight: 200;
   font-size: 0.935em;
 }
@@ -469,7 +469,12 @@ input {
   margin-top: 7px;
 }
 
-/* line 396, ../sass/_base.scss */
+/* line 385, ../sass/_base.scss */
+.priceVPS {
+  font-size: 2.750em;
+}
+
+/* line 400, ../sass/_base.scss */
 .plan0,
 .plan1,
 .planIlimitado,
@@ -488,7 +493,7 @@ input {
   padding: 25px 0;
   width: 33%;
 }
-/* line 403, ../sass/_base.scss */
+/* line 407, ../sass/_base.scss */
 .plan0 h1,
 .plan1 h1,
 .planIlimitado h1,
@@ -506,7 +511,7 @@ input {
   font-weight: 600;
   margin: 20px 0;
 }
-/* line 410, ../sass/_base.scss */
+/* line 414, ../sass/_base.scss */
 .plan0 h4,
 .plan1 h4,
 .planIlimitado h4,
@@ -524,7 +529,7 @@ input {
   font-size: 0.813em;
   line-height: 1.375em;
 }
-/* line 417, ../sass/_base.scss */
+/* line 421, ../sass/_base.scss */
 .plan0 ul,
 .plan1 ul,
 .planIlimitado ul,
@@ -539,7 +544,7 @@ input {
 .vps_5 ul {
   margin: 35px 0;
 }
-/* line 421, ../sass/_base.scss */
+/* line 425, ../sass/_base.scss */
 .plan0 em,
 .plan1 em,
 .planIlimitado em,
@@ -554,7 +559,7 @@ input {
 .vps_5 em {
   font-weight: 700;
 }
-/* line 425, ../sass/_base.scss */
+/* line 429, ../sass/_base.scss */
 .plan0 a,
 .plan1 a,
 .planIlimitado a,
@@ -571,7 +576,7 @@ input {
   margin: 28px 0;
 }
 
-/* line 431, ../sass/_base.scss */
+/* line 435, ../sass/_base.scss */
 .iva {
   font-size: 0.938em;
 }
@@ -579,11 +584,11 @@ input {
 /* ==========================================================================
    Info
    ========================================================================== */
-/* line 439, ../sass/_base.scss */
+/* line 443, ../sass/_base.scss */
 #info {
   margin: 50px 0 70px 0;
 }
-/* line 442, ../sass/_base.scss */
+/* line 446, ../sass/_base.scss */
 #info p {
   text-align: left;
   font-size: 0.875em;
@@ -593,18 +598,18 @@ input {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 454, ../sass/_base.scss */
+/* line 458, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   font-size: 2.5em;
   background-color: #9DBC19;
 }
-/* line 460, ../sass/_base.scss */
+/* line 464, ../sass/_base.scss */
 #contact a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 464, ../sass/_base.scss */
+/* line 468, ../sass/_base.scss */
 #contact a:hover {
   text-decoration: underline;
 }
@@ -612,24 +617,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 474, ../sass/_base.scss */
+/* line 478, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 479, ../sass/_base.scss */
+/* line 483, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 484, ../sass/_base.scss */
+/* line 488, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 492, ../sass/_base.scss */
+/* line 496, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -638,42 +643,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 500, ../sass/_base.scss */
+/* line 504, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 505, ../sass/_base.scss */
+/* line 509, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 509, ../sass/_base.scss */
+/* line 513, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 515, ../sass/_base.scss */
+/* line 519, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 519, ../sass/_base.scss */
+/* line 523, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 522, ../sass/_base.scss */
+/* line 526, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 526, ../sass/_base.scss */
+/* line 530, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 532, ../sass/_base.scss */
+/* line 536, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -681,16 +686,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 539, ../sass/_base.scss */
+/* line 543, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 543, ../sass/_base.scss */
+/* line 547, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 547, ../sass/_base.scss */
+/* line 551, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
@@ -1177,12 +1182,16 @@ input {
   background-color: #3c8f96;
   border-color: #4faab2;
 }
+/* line 250, ../sass/screen.scss */
+.vps_1 .firstVPS {
+  margin-top: 50px;
+}
 
-/* line 251, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .vps_2 {
   border-right: none;
 }
-/* line 253, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .vps_2 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1214,11 +1223,11 @@ input {
   border-color: #68b78e;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .vps_3 {
   border-right: none;
 }
-/* line 260, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .vps_3 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1250,7 +1259,7 @@ input {
   border-color: #81c369;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .vps_4 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1282,7 +1291,7 @@ input {
   border-color: #9ad045;
 }
 
-/* line 273, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .vps_5 a {
   display: -moz-inline-stack;
   display: inline-block;
