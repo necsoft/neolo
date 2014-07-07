@@ -998,7 +998,7 @@ input {
    ========================================================================== */
 /* line 176, ../sass/screen.scss */
 #pay {
-  margin: 125px 0;
+  margin: 50px 0 125px 0;
 }
 /* line 179, ../sass/screen.scss */
 #pay h1 {
@@ -1371,16 +1371,17 @@ input {
   color: #70BB81;
   font-weight: 700;
   margin-bottom: 10px;
+  font-size: 1.125em;
 }
-/* line 309, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 #registerDomain p {
   font-weight: 300;
 }
-/* line 312, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 #registerDomain p span {
   font-size: 0.875em;
 }
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 #registerDomain button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1410,21 +1411,35 @@ input {
   border-right: none;
   border-top: 0 none;
   font-size: 1em;
-  margin-bottom: 25px;
+  margin: 25px 0;
 }
 /* line 17, ../sass/_ui.scss */
 #registerDomain button:hover {
   background-color: #469956;
   border-color: #70bb81;
 }
-/* line 327, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 #registerDomain .wrap {
   max-width: 800px;
 }
-/* line 331, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
+#registerDomain .row {
+  width: 600px;
+  margin: 10px auto;
+}
+/* line 338, ../sass/screen.scss */
 #registerDomain .column.one-fourth {
   border: 1px dashed #686868;
-  padding: 10px;
+  padding: 24px;
+  width: 21.5%;
+}
+/* line 344, ../sass/screen.scss */
+#registerDomain .column {
+  margin-left: 3%;
+}
+/* line 348, ../sass/screen.scss */
+#registerDomain .iva {
+  margin-top: 25px;
 }
 
 /* ==========================================================================
