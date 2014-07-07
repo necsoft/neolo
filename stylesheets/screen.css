@@ -1442,6 +1442,135 @@ input {
   margin-top: 25px;
 }
 
+/* line 353, ../sass/screen.scss */
+.domainActive {
+  background-color: #DBDBDB;
+}
+
+/* ==========================================================================
+   Housing
+   ========================================================================== */
+/* line 361, ../sass/screen.scss */
+#calculateHousing {
+  margin-top: 25px;
+}
+/* line 365, ../sass/screen.scss */
+#calculateHousing h1,
+#calculateHousing h3 {
+  font-size: 4em;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+/* line 371, ../sass/screen.scss */
+#calculateHousing h3 {
+  color: #4C4C4C;
+  font-size: 3em;
+}
+/* line 375, ../sass/screen.scss */
+#calculateHousing h3 span {
+  font-size: 0.4em;
+}
+/* line 380, ../sass/screen.scss */
+#calculateHousing h2 {
+  line-height: 1.375em;
+}
+/* line 384, ../sass/screen.scss */
+#calculateHousing button {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #70bb81;
+  border-bottom: 3px solid black;
+  border-color: #469956;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: 0 none;
+  border-left: none;
+  border-right: none;
+  border-top: 0 none;
+  font-size: 1em;
+  margin-top: 25px;
+}
+/* line 17, ../sass/_ui.scss */
+#calculateHousing button:hover {
+  background-color: #469956;
+  border-color: #70bb81;
+}
+
+/* line 395, ../sass/screen.scss */
+#optionHousing {
+  margin: 50px auto;
+}
+/* line 398, ../sass/screen.scss */
+#optionHousing li {
+  display: inline-block;
+  border: 1px dashed #686868;
+  height: 80px;
+  width: 150px;
+  vertical-align: middle;
+  padding-top: 9px;
+  margin: 0 9px;
+}
+
+/* line 410, ../sass/screen.scss */
+#slider-horizontal {
+  width: 60%;
+  text-align: center;
+  margin: 30px auto 50px;
+  background-color: #C9C9C9;
+}
+
+/* line 417, ../sass/screen.scss */
+#amount {
+  border: 1px dashed #686868;
+  color: #70BB81;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px auto 20px;
+  width: 150px;
+  font-weight: 300;
+}
+
+/* line 430, ../sass/screen.scss */
+.ui-slider-horizontal .ui-slider-range-min {
+  background-color: #9DBC19;
+}
+
+/* line 434, ../sass/screen.scss */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-color: #E8E8E8;
+  border: 8px solid #9DBC19;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 442, ../sass/screen.scss */
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.6em;
+  outline: 0 none;
+}
+
 /* ==========================================================================
    Responsive
    ========================================================================== */

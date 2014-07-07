@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheets/jquery-ui.css" />
 	<link rel="stylesheet" href="stylesheets/screen.css">
 	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,600' rel='stylesheet' type='text/css'>
 	
 	<!--[if lt IE 9]>
@@ -40,16 +42,16 @@
 					<ul>
 						<li><a href="web_hosting.html">Web Hosting</a></li>
 						<li><a href="revendedores.html">Revendedores</a></li>
-						<li><a href="housing.html">Housing</a></li>
+						<li class="menuActive"><a href="housing.html">Housing</a></li>
 						<li><a href="vps.html">VPS</a></li>
-						<li class="menuActive"><a href="dominios.html">Dominios</a></li>
+						<li><a href="dominios.html">Dominios</a></li>
 						
 					</ul>
 				</nav>
 			</header>
 			<div class="mainTitle titleBig">
-				<h1>Un buen dominio, el primer gran paso</h1>
-				<h2>Lo difícil, elegir el nombre. Lo fácil, registrarlo. <br>Tu nueva identidad en Internet, a solo 3 clics de distancia</h2>
+				<h1>Más que Housing, spa de servidores</h1>
+				<h2>En nuestro Datacenter vamos a cuidar y dar soporte a tus servidores como si fueran nuestros.  <br>Contamos con la energía, conectividad y refrigeración que necesitan</h2>
 				<a href="" class="action">Registrar dominio</a>
 			</div>
 		</div>
@@ -58,34 +60,43 @@
 		<div class="wrap">
 			<div class="row">
 				<div class="column one-third">
-					<img src="img/features/save.svg">
-					<h1>Al precio que buscás</h1>
-					<p>Y en pesos argentinos. ¡Podés ahorrar más pagando varios años en forma anticipada!</p>
+					<img src="img/features/boutique.svg">
+					<h1>Housing Boutique</h1>
+					<p>Todos en Neolo conocemos a nuestros clientes por sus nombres y tratamos directamente con ello</p>
 				</div>
 				<div class="column one-third">
-					<img src="img/features/id.svg">
-					<h1>A nombre tuyo</h1>
-					<p>Elegí bien el nombre, porque el dominio siempre va a ser tuyo</p>
+					<img src="img/features/datacenter.svg">
+					<h1>Datacenter propio</h1>
+					<p>Al no tercerizar el servicio, solo te cobramos por el ancho de banda contratado, no por el espacio</p>
 				</div>
 				<div class="column one-third">
-					<img src="img/features/timer.svg">
-					<h1>Con alta rápida</h1>
-					<p>Acreditado el pago, nos lleva menos de 9 minutos registrar tu dominio</p>
+					<img src="img/features/servers.svg">
+					<h1>Alta disponibilidad</h1>
+					<p>Doble conexión a Internet (Telecom & Iplan), climatización y energía ininterrumpida gracias a múltiples fases, UPS y un grupo electrógeno</p>
 				</div>			
 			</div>
 		</div>
 	</section>
-	<section id="info">
+	<section id="calculateHousing">
 		<div class="wrap">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam suscipit accusantium deleniti similique, aperiam, repellendus hic sit, aliquid sapiente aspernatur a ullam veritatis! Illum laboriosam impedit obcaecati eos facilis atque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam suscipit accusantium deleniti similique, aperiam, repellendus hic sit, aliquid sapiente aspernatur a ullam veritatis! Illum laboriosam impedit obcaecati eos facilis atque!</p>
-		</div>
-	</section>
-	<section id="registerDomain">
-		<div class="wrap">
-			<h1>¿Qué dominio estás buscando ?</h1>
-			<form id="formDomains" action="" novalidate="novalidate">
-				<input id="inputDomains" type="text"><br>
-				
+			<h1>Calculá tu plan</h1>
+			<h2>No te cobramos mínimo de contratación porque queremos acompañarte en tu crecimiento.<br>El piso es de 1MB. Al techo, lo fijás vos</h2>
+
+			<form id="slider" method="POST" action="">
+				<p class="velocity">
+					<input type="text" id="amount" name="amount" readonly="readonly"/>
+					<input type="hidden" name="item" value="1" />
+				</p>
+				<div id="slider-horizontal" style="height: 10px;"></div>
+				<div id="priceHousing">
+					<input type="text" id="priceHousing" name="priceHousing" readonly="readonly"/>
+					<!-- <h3>$699<span>/mes</span></h3> -->
+				</div>
+				<button id="contract" name"contract"="" type="submit">Contratar</button>
+			</form>
+
+			<div id="optionHousing">
+
 				<div class="row">
 					<div class="column one-fourth">
 						<h2>.com.ar</h2>
@@ -104,66 +115,28 @@
 						<p>$160<span>/año</span></p>
 					</div>			
 				</div>
-				<div class="row">
-					<div class="column one-fourth">
-						<h2>.com.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.net.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.org.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.edu.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>			
-				</div>
-				<div class="row">
-					<div class="column one-fourth">
-						<h2>.com.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.net.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.org.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.edu.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>			
-				</div>
-				<div class="row">
-					<div class="column one-fourth">
-						<h2>.com.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.net.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.org.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>
-					<div class="column one-fourth">
-						<h2>.edu.ar</h2>
-						<p>$160<span>/año</span></p>
-					</div>			
-				</div>
-				<div class="iva wrap"><p>*Al precio hay que incluirle el IVA 21%</p></div>
-			<button id="register" name"register"="" type="submit">Registrar</button>
-			</form>
+				
+				<!-- <ul>
+					<li>
+						<h2>Backup <br>(cada 50gb)</h2>
+						<p>$240</p>
+					</li>
+					<li>
+						<h2>VPN Server</h2>
+						<p>$240</p>
+					</li>
+					<li>
+						<h2>IP Adicional</h2>
+						<p>$240</p>
+					</li>
+					<li>
+						<h2>Licencia Windows <br>Server</h2>
+						<p>$240</p>
+					</li>
+				</ul> -->
+			</div>
 		</div>
-	</section>
-		
+	</section>		
 	<section id="pay" class="cf">
 		<div class="wrap">
 			<h1>Podés pagar de todas estas formas</h1>
