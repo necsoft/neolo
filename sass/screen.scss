@@ -123,6 +123,7 @@
 /* ==========================================================================
    More 
    ========================================================================== */
+
 #more{
 	margin: 50px 0 ;
 	
@@ -442,6 +443,90 @@
 .ui-slider-horizontal .ui-slider-handle{
 	top: -0.6em;
 	outline: 0 none;
+}
+
+
+/* ==========================================================================
+   Consultas
+   ========================================================================== */
+
+#stepOne,
+#stepTwo,
+#stepThree{
+	margin: 25px 0;
+}   
+
+#help{
+	margin: 50px 0;
+
+	h1{
+		font-size: 4em;
+		background-color: $naranja;
+		border: 3px solid #E8E8E8;
+		@include border-radius(50%);
+		display: inline-block;
+		padding: 20px 32px;
+		color: #FFF;
+	}
+
+	h2{
+		font-size: 	2.5em;
+		font-weight: 300;
+		margin: 25px 0;
+	}
+
+	h3{
+		margin-bottom: 20px;
+	}
+
+	input,
+	textarea{
+		background-color: #B2B2B2;
+		color: #FFF;
+	}
+
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #FFF;}
+	input:-moz-placeholder, textarea:-moz-placeholder {color: #FFF;}
+
+	form{
+		width: 500px;
+		margin: 0 auto;
+	}
+}
+
+#stepOne{
+
+	ul{
+		text-align: center;
+		margin: 0 auto;
+		width: 700px;
+
+		li{
+			display: inline-block;
+			margin: 12px 5px;
+
+			a{
+				padding: 3px 10px;
+				background-color: #B2B2B2;
+				text-decoration: none;
+				color: #FFF;
+				font-weight: 300;
+
+				&:hover{
+					background-color: $naranja;
+				}
+			}
+		}
+	}
+}
+
+.helpActive{ background-color: $naranja;}
+
+.dontKnow{
+	font-weight: 300;
+	color: #A2A2A2;
+	display: block;
+	margin: 15px 0;
 }
 /* ==========================================================================
    Responsive

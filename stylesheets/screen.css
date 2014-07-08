@@ -943,20 +943,20 @@ input {
 /* ==========================================================================
    More 
    ========================================================================== */
-/* line 126, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #more {
   margin: 50px 0;
 }
-/* line 129, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #more header {
   margin: 100px 0;
 }
-/* line 132, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #more header h1 {
   font-weight: 300;
   font-size: 2.750em;
 }
-/* line 138, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 #more img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -967,28 +967,28 @@ input {
   float: left;
   margin: 0 10px 35px 0;
 }
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #more .column.one-third {
   text-align: left;
   margin: 35px 0;
 }
-/* line 149, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #more .column.one-third h1 {
   margin: 5px 0 10px 0;
   color: #4C4C4C;
 }
-/* line 154, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #more .column.one-third p {
   color: #7A7A7A;
   font-size: 0.875em;
   line-height: 1.375em;
   padding-right: 25px;
 }
-/* line 162, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #more h1 {
   font-weight: 600;
 }
-/* line 166, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 #more .row div:last-of-type p {
   padding-right: 0;
 }
@@ -996,23 +996,23 @@ input {
 /* ==========================================================================
    Pay 
    ========================================================================== */
-/* line 176, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #pay {
   margin: 50px 0 125px 0;
 }
-/* line 179, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #pay h1 {
   font-size: 2.5em;
   font-weight: 300;
   margin: 25px 0 45px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 #pay li {
   display: inline-block;
   margin: 15px 5px 15px;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .mysql {
   display: inline-block;
   margin-top: 25px;
@@ -1022,7 +1022,7 @@ input {
 /* ==========================================================================
    Revendedores 
    ========================================================================== */
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .planD7,
 .planD14,
 .planD25,
@@ -1031,7 +1031,7 @@ input {
   height: 630px;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .planD7 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1063,7 +1063,7 @@ input {
   border-color: #4faab2;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .planD14 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1095,7 +1095,7 @@ input {
   border-color: #70bb81;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .planD25 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1127,7 +1127,7 @@ input {
   border-color: #92cb51;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .planD100 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1162,7 +1162,7 @@ input {
 /* ==========================================================================
    VPS
    ========================================================================== */
-/* line 239, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .vps_1,
 .vps_2,
 .vps_3,
@@ -1172,11 +1172,11 @@ input {
   height: 620px;
 }
 
-/* line 244, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .vps_1 {
   border-right: none;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .vps_1 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1207,16 +1207,16 @@ input {
   background-color: #3c8f96;
   border-color: #4faab2;
 }
-/* line 250, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .vps_1 .firstVPS {
   margin-top: 50px;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 .vps_2 {
   border-right: none;
 }
-/* line 257, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .vps_2 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1248,11 +1248,11 @@ input {
   border-color: #68b78e;
 }
 
-/* line 262, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .vps_3 {
   border-right: none;
 }
-/* line 264, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .vps_3 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1284,7 +1284,7 @@ input {
   border-color: #81c369;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .vps_4 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1316,7 +1316,7 @@ input {
   border-color: #9ad045;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 .vps_5 a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1351,7 +1351,7 @@ input {
 /* ==========================================================================
    Domains
    ========================================================================== */
-/* line 288, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #registerDomain input {
   background-color: #B2B2B2;
   color: #fff;
@@ -1360,28 +1360,28 @@ input {
   font-weight: 400;
   width: 600px;
 }
-/* line 297, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 #registerDomain h1 {
   font-weight: 300;
   font-size: 3em;
   margin: 30px 0;
 }
-/* line 303, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 #registerDomain h2 {
   color: #70BB81;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 1.125em;
 }
-/* line 310, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 #registerDomain p {
   font-weight: 300;
 }
-/* line 313, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 #registerDomain p span {
   font-size: 0.875em;
 }
-/* line 318, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 #registerDomain button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1418,31 +1418,31 @@ input {
   background-color: #469956;
   border-color: #70bb81;
 }
-/* line 328, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 #registerDomain .wrap {
   max-width: 800px;
 }
-/* line 333, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 #registerDomain .row {
   width: 600px;
   margin: 10px auto;
 }
-/* line 338, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 #registerDomain .column.one-fourth {
   border: 1px dashed #686868;
   padding: 24px;
   width: 21.5%;
 }
-/* line 344, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 #registerDomain .column {
   margin-left: 3%;
 }
-/* line 348, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 #registerDomain .iva {
   margin-top: 25px;
 }
 
-/* line 353, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .domainActive {
   background-color: #DBDBDB;
 }
@@ -1450,31 +1450,31 @@ input {
 /* ==========================================================================
    Housing
    ========================================================================== */
-/* line 361, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 #calculateHousing {
   margin-top: 25px;
 }
-/* line 365, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 #calculateHousing h1,
 #calculateHousing h3 {
   font-size: 4em;
   font-weight: 300;
   margin-bottom: 25px;
 }
-/* line 371, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 #calculateHousing h3 {
   color: #4C4C4C;
   font-size: 3em;
 }
-/* line 375, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 #calculateHousing h3 span {
   font-size: 0.4em;
 }
-/* line 380, ../sass/screen.scss */
+/* line 381, ../sass/screen.scss */
 #calculateHousing h2 {
   line-height: 1.375em;
 }
-/* line 384, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 #calculateHousing button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1512,11 +1512,11 @@ input {
   border-color: #70bb81;
 }
 
-/* line 395, ../sass/screen.scss */
+/* line 396, ../sass/screen.scss */
 #optionHousing {
   margin: 50px auto;
 }
-/* line 398, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 #optionHousing li {
   display: inline-block;
   border: 1px dashed #686868;
@@ -1527,7 +1527,7 @@ input {
   margin: 0 9px;
 }
 
-/* line 410, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 #slider-horizontal {
   width: 60%;
   text-align: center;
@@ -1535,7 +1535,7 @@ input {
   background-color: #C9C9C9;
 }
 
-/* line 417, ../sass/screen.scss */
+/* line 418, ../sass/screen.scss */
 #amount {
   border: 1px dashed #686868;
   color: #70BB81;
@@ -1547,12 +1547,12 @@ input {
   font-weight: 300;
 }
 
-/* line 430, ../sass/screen.scss */
+/* line 431, ../sass/screen.scss */
 .ui-slider-horizontal .ui-slider-range-min {
   background-color: #9DBC19;
 }
 
-/* line 434, ../sass/screen.scss */
+/* line 435, ../sass/screen.scss */
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   background-color: #E8E8E8;
   border: 8px solid #9DBC19;
@@ -1565,10 +1565,105 @@ input {
   border-radius: 50%;
 }
 
-/* line 442, ../sass/screen.scss */
+/* line 443, ../sass/screen.scss */
 .ui-slider-horizontal .ui-slider-handle {
   top: -0.6em;
   outline: 0 none;
+}
+
+/* ==========================================================================
+   Consultas
+   ========================================================================== */
+/* line 455, ../sass/screen.scss */
+#stepOne,
+#stepTwo,
+#stepThree {
+  margin: 25px 0;
+}
+
+/* line 459, ../sass/screen.scss */
+#help {
+  margin: 50px 0;
+}
+/* line 462, ../sass/screen.scss */
+#help h1 {
+  font-size: 4em;
+  background-color: #e4744e;
+  border: 3px solid #E8E8E8;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 20px 32px;
+  color: #FFF;
+}
+/* line 472, ../sass/screen.scss */
+#help h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 25px 0;
+}
+/* line 478, ../sass/screen.scss */
+#help h3 {
+  margin-bottom: 20px;
+}
+/* line 483, ../sass/screen.scss */
+#help input,
+#help textarea {
+  background-color: #B2B2B2;
+  color: #FFF;
+}
+/* line 488, ../sass/screen.scss */
+#help input::-webkit-input-placeholder, #help textarea::-webkit-input-placeholder {
+  color: #FFF;
+}
+/* line 489, ../sass/screen.scss */
+#help input:-moz-placeholder, #help textarea:-moz-placeholder {
+  color: #FFF;
+}
+/* line 491, ../sass/screen.scss */
+#help form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 499, ../sass/screen.scss */
+#stepOne ul {
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+}
+/* line 504, ../sass/screen.scss */
+#stepOne ul li {
+  display: inline-block;
+  margin: 12px 5px;
+}
+/* line 508, ../sass/screen.scss */
+#stepOne ul li a {
+  padding: 3px 10px;
+  background-color: #B2B2B2;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 300;
+}
+/* line 515, ../sass/screen.scss */
+#stepOne ul li a:hover {
+  background-color: #e4744e;
+}
+
+/* line 523, ../sass/screen.scss */
+.helpActive {
+  background-color: #e4744e;
+}
+
+/* line 525, ../sass/screen.scss */
+.dontKnow {
+  font-weight: 300;
+  color: #A2A2A2;
+  display: block;
+  margin: 15px 0;
 }
 
 /* ==========================================================================
