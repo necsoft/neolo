@@ -7,6 +7,9 @@
 	background-color:$fondo;
 	border-bottom: 3px solid black;
 	border-color: $borde;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 	cursor: pointer;
 	outline: none;
 	position: relative;
@@ -17,6 +20,7 @@
 	&:hover{
 		background-color: $borde;
 		border-color: $fondo;
+
 	}
 }
 

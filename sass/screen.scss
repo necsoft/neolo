@@ -198,6 +198,7 @@
 /* ==========================================================================
    Revendedores 
    ========================================================================== */   
+
 	.planD7,
 	.planD14,
 	.planD25,
@@ -528,6 +529,58 @@
 	display: block;
 	margin: 15px 0;
 }
+
+/* ==========================================================================
+   Login 
+   ========================================================================== */   
+
+   #login{
+   		background: #525252 url("../img/bg_login.jpg") 0 0 ;
+   		height: 100vh;
+   		width: 100%;
+   		
+
+   		.logo{
+   			float: none;
+   			padding:60px;
+
+   			h1{
+   				font-weight: 300;
+   				color: #FFF;
+   				margin: 25px 0 0 0;
+   			}
+   		}
+
+   		.row img{
+   			background-color: #B3D234;
+   			@include border-radius(50%);
+   		}
+
+   		h2{
+   			color: #fff;
+   			margin: 20px 0;
+   			font-weight: 300;
+   		}
+
+   		input{
+   			background-color: rgba(82,82,82,0.8);
+   			font-weight: 300;
+   			padding: 6px;
+   			margin: 5px 0;
+   		}
+
+   		button{
+   			@include btn(#B3DC20, #9DBC19);
+   			outline: 0 none;
+   			color: #515151;
+   			display: block;
+   			margin: 15px auto;
+   			font-size: 0.875em;
+   		}
+   }
+   
+
+
 /* ==========================================================================
    Responsive
    ========================================================================== */
