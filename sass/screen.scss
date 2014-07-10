@@ -610,6 +610,7 @@
    			font-weight: 300;
    			padding: 6px;
    			margin: 5px 0;
+   			color: #FFF;
    		}
 
    		button{
@@ -620,8 +621,40 @@
    			margin: 15px auto;
    			font-size: 0.875em;
    		}
+
+   		.column{
+   			vertical-align: top;
+   			display: inline-block;
+   			float: none;
+   		}
+
+   		.column.one-third{
+   			width: 27%;
+   		}
    }
    
+/* ==========================================================================
+   Guias de ayuda
+   ========================================================================== */
+
+#heroGuides{
+	background-image: none;
+	height: 330px;
+
+	h1{
+		font-size: 3em;
+		line-height: 0;
+	}
+
+}
+
+#guides{
+	img{
+		background-color: #9DBC3B;
+		border: 5px solid #99AE3A;
+		@include border-radius(50%);
+	}
+}
 
 
 /* ==========================================================================

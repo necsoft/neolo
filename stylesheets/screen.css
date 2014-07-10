@@ -281,41 +281,49 @@ input {
   float: left;
 }
 
-/* line 195, ../sass/_base.scss */
-#hero {
+/* line 196, ../sass/_base.scss */
+#hero,
+#heroGuides {
   background: #9dbc19 url("../img/icons.png");
   height: 645px;
   padding-top: 25px;
 }
-/* line 201, ../sass/_base.scss */
-#hero h1, #hero h2 {
+/* line 202, ../sass/_base.scss */
+#hero h1, #hero h2,
+#heroGuides h1,
+#heroGuides h2 {
   color: white;
 }
-/* line 205, ../sass/_base.scss */
-#hero h1 {
+/* line 206, ../sass/_base.scss */
+#hero h1,
+#heroGuides h1 {
   font-size: 6em;
   margin-bottom: 10px;
   font-weight: 300;
 }
-/* line 211, ../sass/_base.scss */
-#hero h2 {
+/* line 212, ../sass/_base.scss */
+#hero h2,
+#heroGuides h2 {
   font-size: 1.125em;
   font-weight: 300;
   width: 800px;
   line-height: 1.313em;
   margin: 25px auto 50px;
 }
-/* line 219, ../sass/_base.scss */
-#hero a {
+/* line 220, ../sass/_base.scss */
+#hero a,
+#heroGuides a {
   text-decoration: none;
   color: #4C4C4C;
 }
-/* line 223, ../sass/_base.scss */
-#hero a:hover {
+/* line 224, ../sass/_base.scss */
+#hero a:hover,
+#heroGuides a:hover {
   color: #FFF;
 }
-/* line 228, ../sass/_base.scss */
-#hero nav {
+/* line 229, ../sass/_base.scss */
+#hero nav,
+#heroGuides nav {
   list-style-type: none;
   padding: 0;
   margin-top: 11px;
@@ -324,8 +332,9 @@ input {
   font-size: 1em;
   font-weight: 300;
 }
-/* line 237, ../sass/_base.scss */
-#hero nav li {
+/* line 238, ../sass/_base.scss */
+#hero nav li,
+#heroGuides nav li {
   display: block;
   float: left;
   margin: 0 5px;
@@ -342,36 +351,39 @@ input {
   -ms-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
-/* line 250, ../sass/_base.scss */
-#hero nav li:last-of-type {
+/* line 251, ../sass/_base.scss */
+#hero nav li:last-of-type,
+#heroGuides nav li:last-of-type {
   margin-right: 0;
 }
-/* line 254, ../sass/_base.scss */
-#hero nav li:hover {
+/* line 255, ../sass/_base.scss */
+#hero nav li:hover,
+#heroGuides nav li:hover {
   background-color: #e4744e;
 }
-/* line 259, ../sass/_base.scss */
-#hero nav a {
+/* line 260, ../sass/_base.scss */
+#hero nav a,
+#heroGuides nav a {
   color: #FFF;
   padding: 9px 10px;
   display: block;
 }
 
-/* line 267, ../sass/_base.scss */
+/* line 268, ../sass/_base.scss */
 .mainTitle {
   margin-top: 150px;
 }
 
-/* line 273, ../sass/_base.scss */
+/* line 274, ../sass/_base.scss */
 #hero .titleBig h1 {
   font-size: 4.875em;
 }
-/* line 277, ../sass/_base.scss */
+/* line 278, ../sass/_base.scss */
 #hero .titleBig h2 {
   width: 960px;
 }
 
-/* line 282, ../sass/_base.scss */
+/* line 283, ../sass/_base.scss */
 .action {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -386,7 +398,7 @@ input {
   -ms-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
-/* line 292, ../sass/_base.scss */
+/* line 293, ../sass/_base.scss */
 .action:hover {
   background-color: #e4744e;
   color: #FFF;
@@ -395,25 +407,25 @@ input {
 /* ==========================================================================
    Features
    ========================================================================== */
-/* line 303, ../sass/_base.scss */
+/* line 304, ../sass/_base.scss */
 #features {
   padding: 80px 0 60px 0;
 }
-/* line 307, ../sass/_base.scss */
+/* line 308, ../sass/_base.scss */
 #features h1 {
   color: #6F6F6F;
   font-size: 1.125em;
   font-weight: 600;
   margin: 15px;
 }
-/* line 315, ../sass/_base.scss */
+/* line 316, ../sass/_base.scss */
 #features p {
   margin: 0 auto;
   line-height: 1.35em;
   width: 293px;
   font-size: 0.938em;
 }
-/* line 322, ../sass/_base.scss */
+/* line 323, ../sass/_base.scss */
 #features img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -422,13 +434,13 @@ input {
   border-radius: 50%;
 }
 
-/* line 329, ../sass/_base.scss */
+/* line 330, ../sass/_base.scss */
 .mainFeatures img {
   background-color: #E4E4E4;
   border: 1px solid #BBBBBB;
 }
 
-/* line 336, ../sass/_base.scss */
+/* line 337, ../sass/_base.scss */
 .otherFeatures img {
   background-color: #E4744E;
   border: 3px solid #E8E8E8;
@@ -437,87 +449,87 @@ input {
 /* ==========================================================================
    Plans
    ========================================================================== */
-/* line 347, ../sass/_base.scss */
+/* line 348, ../sass/_base.scss */
 #plans {
   padding: 75px 0 25px;
   margin: 0 auto;
   color: #515151;
 }
-/* line 352, ../sass/_base.scss */
+/* line 353, ../sass/_base.scss */
 #plans .wrap {
   width: 990px;
 }
-/* line 356, ../sass/_base.scss */
+/* line 357, ../sass/_base.scss */
 #plans header {
   margin-bottom: 100px;
 }
-/* line 359, ../sass/_base.scss */
+/* line 360, ../sass/_base.scss */
 #plans header h1 {
   color: #6C6C6C;
   font-size: 4em;
   margin-bottom: 14px;
 }
-/* line 365, ../sass/_base.scss */
+/* line 366, ../sass/_base.scss */
 #plans header h2 {
   width: 755px;
   margin: 0 auto;
   line-height: 1.5em;
   font-size: 0.935em;
 }
-/* line 373, ../sass/_base.scss */
+/* line 374, ../sass/_base.scss */
 #plans li {
   line-height: 1.563em;
   font-weight: 200;
   font-size: 0.935em;
 }
-/* line 381, ../sass/_base.scss */
+/* line 382, ../sass/_base.scss */
 #plans h5 {
   font-size: 0.6em;
   padding: 3px 0;
   color: #E4744E;
 }
-/* line 387, ../sass/_base.scss */
+/* line 388, ../sass/_base.scss */
 #plans h3 {
   font-size: 0.688em;
   text-transform: uppercase;
   margin-top: 35px;
 }
 
-/* line 397, ../sass/_base.scss */
+/* line 398, ../sass/_base.scss */
 .price,
 .priceAnual,
 .priceMonthly {
   font-size: 3.5em;
   font-weight: 200;
 }
-/* line 401, ../sass/_base.scss */
+/* line 402, ../sass/_base.scss */
 .price span,
 .priceAnual span,
 .priceMonthly span {
   font-size: 18px;
 }
 
-/* line 407, ../sass/_base.scss */
+/* line 408, ../sass/_base.scss */
 .priceAnual {
   margin: 10px 0 50px 0;
 }
-/* line 410, ../sass/_base.scss */
+/* line 411, ../sass/_base.scss */
 .priceAnual h6 {
   font-size: 1em;
 }
 
-/* line 415, ../sass/_base.scss */
+/* line 416, ../sass/_base.scss */
 .priceMonthly {
   font-size: 3em;
   margin-top: 7px;
 }
 
-/* line 421, ../sass/_base.scss */
+/* line 422, ../sass/_base.scss */
 .priceVPS {
   font-size: 2.750em;
 }
 
-/* line 436, ../sass/_base.scss */
+/* line 437, ../sass/_base.scss */
 .plan0,
 .plan1,
 .planIlimitado,
@@ -536,7 +548,7 @@ input {
   padding: 25px 0;
   width: 33%;
 }
-/* line 443, ../sass/_base.scss */
+/* line 444, ../sass/_base.scss */
 .plan0 h1,
 .plan1 h1,
 .planIlimitado h1,
@@ -554,7 +566,7 @@ input {
   font-weight: 600;
   margin: 20px 0;
 }
-/* line 450, ../sass/_base.scss */
+/* line 451, ../sass/_base.scss */
 .plan0 h4,
 .plan1 h4,
 .planIlimitado h4,
@@ -572,7 +584,7 @@ input {
   font-size: 0.813em;
   line-height: 1.375em;
 }
-/* line 457, ../sass/_base.scss */
+/* line 458, ../sass/_base.scss */
 .plan0 ul,
 .plan1 ul,
 .planIlimitado ul,
@@ -587,7 +599,7 @@ input {
 .vps_5 ul {
   margin: 35px 0;
 }
-/* line 461, ../sass/_base.scss */
+/* line 462, ../sass/_base.scss */
 .plan0 em,
 .plan1 em,
 .planIlimitado em,
@@ -602,7 +614,7 @@ input {
 .vps_5 em {
   font-weight: 700;
 }
-/* line 465, ../sass/_base.scss */
+/* line 466, ../sass/_base.scss */
 .plan0 a,
 .plan1 a,
 .planIlimitado a,
@@ -619,7 +631,7 @@ input {
   margin: 28px 0;
 }
 
-/* line 471, ../sass/_base.scss */
+/* line 472, ../sass/_base.scss */
 .iva {
   font-size: 0.938em;
 }
@@ -627,11 +639,11 @@ input {
 /* ==========================================================================
    Info
    ========================================================================== */
-/* line 479, ../sass/_base.scss */
+/* line 480, ../sass/_base.scss */
 #info {
   margin: 50px 0 70px 0;
 }
-/* line 482, ../sass/_base.scss */
+/* line 483, ../sass/_base.scss */
 #info p {
   text-align: left;
   font-size: 0.875em;
@@ -641,18 +653,18 @@ input {
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 494, ../sass/_base.scss */
+/* line 495, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   font-size: 2.5em;
   background-color: #9DBC19;
 }
-/* line 500, ../sass/_base.scss */
+/* line 501, ../sass/_base.scss */
 #contact a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 504, ../sass/_base.scss */
+/* line 505, ../sass/_base.scss */
 #contact a:hover {
   text-decoration: underline;
 }
@@ -660,24 +672,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 514, ../sass/_base.scss */
+/* line 515, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 519, ../sass/_base.scss */
+/* line 520, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 524, ../sass/_base.scss */
+/* line 525, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 532, ../sass/_base.scss */
+/* line 533, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -686,42 +698,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 540, ../sass/_base.scss */
+/* line 541, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 545, ../sass/_base.scss */
+/* line 546, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 549, ../sass/_base.scss */
+/* line 550, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 555, ../sass/_base.scss */
+/* line 556, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 559, ../sass/_base.scss */
+/* line 560, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 562, ../sass/_base.scss */
+/* line 563, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 566, ../sass/_base.scss */
+/* line 567, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 572, ../sass/_base.scss */
+/* line 573, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -729,16 +741,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 579, ../sass/_base.scss */
+/* line 580, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 583, ../sass/_base.scss */
+/* line 584, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 587, ../sass/_base.scss */
+/* line 588, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
@@ -1851,8 +1863,9 @@ input {
   font-weight: 300;
   padding: 6px;
   margin: 5px 0;
+  color: #FFF;
 }
-/* line 615, ../sass/screen.scss */
+/* line 616, ../sass/screen.scss */
 #login button {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1890,6 +1903,41 @@ input {
 #login button:hover {
   background-color: #9dbc19;
   border-color: #b3dc20;
+}
+/* line 625, ../sass/screen.scss */
+#login .column {
+  vertical-align: top;
+  display: inline-block;
+  float: none;
+}
+/* line 631, ../sass/screen.scss */
+#login .column.one-third {
+  width: 27%;
+}
+
+/* ==========================================================================
+   Guias de ayuda
+   ========================================================================== */
+/* line 640, ../sass/screen.scss */
+#heroGuides {
+  background-image: none;
+  height: 330px;
+}
+/* line 644, ../sass/screen.scss */
+#heroGuides h1 {
+  font-size: 3em;
+  line-height: 0;
+}
+
+/* line 652, ../sass/screen.scss */
+#guides img {
+  background-color: #9DBC3B;
+  border: 5px solid #99AE3A;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* ==========================================================================
