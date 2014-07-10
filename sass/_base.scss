@@ -485,6 +485,19 @@ input{
 		font-size: 0.875em;
 		line-height: 1.5em;
 	}
+
+	em,
+	strong{
+		font-weight: 700;
+	}
+
+	a{
+		color:$naranja;
+
+		&:hover{
+			color:#9dbc19;
+		}
+	}
 }
 
 

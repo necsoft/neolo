@@ -649,22 +649,35 @@ input {
   font-size: 0.875em;
   line-height: 1.5em;
 }
+/* line 490, ../sass/_base.scss */
+#info em,
+#info strong {
+  font-weight: 700;
+}
+/* line 494, ../sass/_base.scss */
+#info a {
+  color: #e4744e;
+}
+/* line 497, ../sass/_base.scss */
+#info a:hover {
+  color: #9dbc19;
+}
 
 /* ==========================================================================
    Contact
    ========================================================================== */
-/* line 495, ../sass/_base.scss */
+/* line 508, ../sass/_base.scss */
 #contact {
   padding: 75px 0;
   font-size: 2.5em;
   background-color: #9DBC19;
 }
-/* line 501, ../sass/_base.scss */
+/* line 514, ../sass/_base.scss */
 #contact a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 505, ../sass/_base.scss */
+/* line 518, ../sass/_base.scss */
 #contact a:hover {
   text-decoration: underline;
 }
@@ -672,24 +685,24 @@ input {
 /* ==========================================================================
    Footer
    ========================================================================== */
-/* line 515, ../sass/_base.scss */
+/* line 528, ../sass/_base.scss */
 #footer {
   background-color: #4C4C4C;
   padding: 80px 0 35px 0;
   font-weight: 200;
 }
-/* line 520, ../sass/_base.scss */
+/* line 533, ../sass/_base.scss */
 #footer h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
 }
-/* line 525, ../sass/_base.scss */
+/* line 538, ../sass/_base.scss */
 #footer li {
   line-height: 1.65em;
   font-size: 0.875em;
 }
 
-/* line 533, ../sass/_base.scss */
+/* line 546, ../sass/_base.scss */
 .contentFooter div {
   float: left;
   border-right: 1px solid #646464;
@@ -698,42 +711,42 @@ input {
   color: #FFF;
   padding: 15px 2% 0 2%;
 }
-/* line 541, ../sass/_base.scss */
+/* line 554, ../sass/_base.scss */
 .contentFooter div:last-of-type {
   border-right: 0 none;
 }
-/* line 546, ../sass/_base.scss */
+/* line 559, ../sass/_base.scss */
 .contentFooter a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 550, ../sass/_base.scss */
+/* line 563, ../sass/_base.scss */
 .contentFooter a:hover {
   text-decoration: underline;
 }
 
-/* line 556, ../sass/_base.scss */
+/* line 569, ../sass/_base.scss */
 .logoFooter {
   line-height: 185px;
 }
 
-/* line 560, ../sass/_base.scss */
+/* line 573, ../sass/_base.scss */
 .contactFooter ul {
   margin-top: 55px;
 }
 
-/* line 563, ../sass/_base.scss */
+/* line 576, ../sass/_base.scss */
 .socialIconsFooter {
   display: inline-block;
   margin: 0 0 0 25px;
 }
-/* line 567, ../sass/_base.scss */
+/* line 580, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
   margin: -8px 7px;
 }
 
-/* line 573, ../sass/_base.scss */
+/* line 586, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -741,16 +754,16 @@ input {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 580, ../sass/_base.scss */
+/* line 593, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 584, ../sass/_base.scss */
+/* line 597, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 588, ../sass/_base.scss */
+/* line 601, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
