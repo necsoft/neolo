@@ -105,6 +105,7 @@ input{
 #mainHeader{
 	background-color: #4C4C4C;
 	height: 60px;
+
 }
 
 .country{
@@ -152,6 +153,10 @@ input{
 
 		&:first-of-type{
 			margin-top: 9px;
+
+			&:hover{
+				text-decoration: underline;
+			}
 		}
 	}
 
@@ -214,6 +219,10 @@ input{
 	a{
 		text-decoration: none;
 		color: #4C4C4C;
+
+		&:hover{
+			color: #FFF;
+		}
 	}
 
 	nav{
@@ -274,6 +283,16 @@ input{
 	@include border-radius(5px);
 	padding: 10px 15px;
 	background-color: rgba(255,255,255,0.7);
+	-webkit-transition: background-color 200ms linear;
+	-moz-transition: background-color 200ms linear;
+	-o-transition: background-color 200ms linear;
+	-ms-transition: background-color 200ms linear;
+	transition: background-color 200ms linear;
+
+	&:hover{
+		background-color: $naranja;
+		color: #FFF;
+	}
 }
 
 
