@@ -75,9 +75,8 @@
 
 body{
 	color: #A2A2A2;
-	// -webkit-font-smoothing: antialiased;
-	// -moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden; 
+	overflow-x: hidden;
+	font-family: $openSans; 
 }
 
 .wrap{
@@ -192,6 +191,10 @@ input{
 	float: left;
 }
 
+.menuActive{
+	background-color: $naranja;
+}
+
 #hero,
 #heroGuides{
 	background: #9DBC19 url("../img/icons.png");
@@ -263,6 +266,20 @@ input{
     		display: block;
     	}
 	}
+}
+
+#navbtn{
+	display: none;
+	float: right;
+	width: 30px;
+	height: 30px;
+	background: url("../img/menu.png") center no-repeat;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	padding: 10px 20px;
+	@include border-radius(3px);
+	margin-top: 11px;
+
 }
 
 .mainTitle{

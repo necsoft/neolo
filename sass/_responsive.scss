@@ -1,18 +1,231 @@
-@media screen and (max-width: 640px) {
-  .column.full,
-  .column.two-thirds,
-  .column.half,
-  .column.one-third,
-  .column.one-fourth,
-  .column.two-third {
-  	float: none;
-    margin: 0;
-    width: 100%;
-  }
+/* ==========================================================================
+   1024PX 
+   ========================================================================== */
 
-  .btnsucces,
-  .btnwarning,
-  .btnerror{
-  	display: block;
-  }
+@media screen and (max-width: 1024px){
+	// .wrap{
+	// 	background-color: rgba(255,0,0,0.2);
+	// }
+
+	#features {
+		
+		.wrap{
+			width: 100%;
+		}
+
+		img{
+			width: 50%;
+		}
+
+		h1{
+			font-size: 1em;
+		}
+
+		p{
+			font-size: 0.875em;
+			width: 200px;
+		}
+	}
+
+	#domains{
+
+		h1{
+			font-size: 3em;
+		}
+
+		h2{
+			width: 90%;
+		}
+	}
+
+	#hero {
+		height: 545px;
+		
+		h1{
+			font-size: 5em;
+		}
+
+		h2{
+			font-size: 1em;
+			width: 90%;
+		}
+	}
+
+	.mainTitle{
+		margin-top: 100px;
+	}
+
+	#plans{
+		.wrap{
+			width: auto;
+		}
+	}
+	
+	#more{
+
+		img{
+			float: none;
+			margin-bottom: 10px;
+		}
+
+		.column.one-third{
+			text-align: center;
+			margin: 20px 0;
+
+			h1{
+				font-size: 0.935em;
+			}
+
+			p{
+				font-size: 0.75em;
+			}
+		}
+	}	
+}
+
+/* ==========================================================================
+   800px 
+   ========================================================================== */
+
+@media screen and (max-width: 800px){
+
+	#navbtn{
+		display: block;
+	}
+
+	#hero {
+		height: 450px;
+		
+		h1{
+			font-size: 4em;
+		}
+
+		h2{
+			font-size: 0.9em;
+			width: 90%;
+		}
+
+		nav{
+			display: none;
+		}
+	}
+
+	#plans{
+		padding-top: 25px;
+	}
+
+	.mainTitle{
+		margin-top: 75px;
+	}
+
+	#trust h1,
+	#plans header h1{
+		font-size: 3em;
+	}
+	
+	#plans header h2,
+	#trust h2{
+		width: 95%;
+		font-size: 0.875em;
+	}
+
+
+}
+
+/* ==========================================================================
+   720px 
+   ========================================================================== */
+
+@media screen and (max-width: 720px){
+
+	#features{
+		p{
+			font-size: 0.75em;
+		}
+	}
+
+}
+
+
+/* ==========================================================================
+   640PX 
+   ========================================================================== */
+
+@media screen and (max-width: 640px) {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth,
+	.column.two-third {
+		float: none;
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	.btnsucces,
+	.btnwarning,
+	.btnerror{
+		display: block;
+	}
+
+
+	#features{
+		padding: 20px  0;
+
+		.row{
+			width: 60%;
+			margin: 10px auto;
+		}
+
+		img{
+			width: 35%;
+			float: left;
+			margin-right: 15px;
+		}
+
+		.column.one-third,{
+			overflow: hidden;
+			margin: 30px 0;
+		}
+
+		h1{
+			text-align: left;
+		}
+		p{
+			text-align: left;
+			width: auto;
+		}
+	}
+
+	#info{
+		p{
+			width: 96%;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+/* ==========================================================================
+   580PX 
+   ========================================================================== */
+
+@media screen and (max-width: 580px){
+
+	#hero{
+
+		h1{
+			font-size: 3em;
+		}
+
+		header{
+			width: 96%;
+			margin: 0 auto;
+		}
+	}
+
+	.logo img{
+		width: 200px;
+	}
 }
