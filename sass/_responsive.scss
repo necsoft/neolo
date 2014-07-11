@@ -89,6 +89,7 @@
 
 			h4{
 				line-height: 1.275em;
+				width: 95%;
 			}
 
 			ul{
@@ -98,9 +99,7 @@
 			.price{
 				font-size: 3em;
 			}
-		}
-
-		
+		}		
 	}
 	
 	.plan0,
@@ -108,14 +107,13 @@
 		height: 500px;
 	}
 
-	.plan_1{
+	.plan1{
 		margin-top: -30px;
 		height: 560px;
-		border:1px solid yellow;
+		padding-top: 55px;
 	}
 
 	#more{
-
 		img{
 			float: none;
 			margin-bottom: 10px;
@@ -273,6 +271,53 @@
 
 		}
 	}
+
+
+	.plan0,
+	.plan1,
+	.planIlimitado,
+	.planD7,
+	.planD14,
+	.planD25,
+	.planD100,
+	.vps_1,
+	.vps_2,
+	.vps_3,
+	.vps_4,
+	.vps_5{
+		
+		h1{
+			font-size: 1.250em;
+			margin-top: 12px;
+		}
+
+		h4{
+			line-height: 1.275em;
+			width: 95%;
+		}
+
+		ul{
+			margin:24px 0;
+		}
+
+		.price{
+			font-size: 2.5em;
+		}
+
+		li{
+			font-size: 0.875em;
+		}
+	}
+
+	.plan0,
+	.planIlimitado{
+		height: 455px;
+	}
+
+	.plan1{
+		height: 510px;
+	}
+
 }
 
 
