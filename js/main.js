@@ -3,16 +3,15 @@
 
 
 
-$(document).ready(function() {
-    $('.country').hover(function() {
-        $(".othersCountries").slideDown("fast");
-    }, function() {
-        $(".othersCountries").slideUp("fast");
-    });
+// $(document).ready(function() {
+//     $('.country').hover(function() {
+//         $(".othersCountries").slideDown("fast");
+//     }, function() {
+//         $(".othersCountries").slideUp("fast");
+//     });
 
 
-});
-
+// });
 $(function() {
     $("#slider-horizontal").slider({
         orientation: "horizontal",

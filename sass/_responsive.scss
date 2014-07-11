@@ -59,8 +59,61 @@
 		.wrap{
 			width: auto;
 		}
+
+		img{
+			width: 35%;
+		}
+		
+		.plan_1{
+			margin-top: -30px;
+			height: 560px;
+		}
+
+		.plan0,
+		.plan1,
+		.planIlimitado,
+		.planD7,
+		.planD14,
+		.planD25,
+		.planD100,
+		.vps_1,
+		.vps_2,
+		.vps_3,
+		.vps_4,
+		.vps_5{
+			
+			h1{
+				font-size: 1.250em;
+				margin-top: 12px;
+			}
+
+			h4{
+				line-height: 1.275em;
+			}
+
+			ul{
+				margin:24px 0;
+			}
+
+			.price{
+				font-size: 3em;
+			}
+		}
+
+		
 	}
 	
+	.plan0,
+	.planIlimitado{
+		height: 500px;
+	}
+
+	.plan_1{
+		margin-top: -30px;
+		height: 560px;
+		border:1px solid yellow;
+	}
+
 	#more{
 
 		img{
@@ -154,7 +207,13 @@
 				float: none;
 				display: inline-block;
 				font-size: 0.935em;
+				margin-top: 5px;
+				margin-bottom: 5px;
 			}
+		}
+
+		.mainTitle{
+			margin-top: 50px;
 		}
 
 		header{
@@ -208,7 +267,7 @@
 
 	#trust{
 		height: auto;
-		
+
 		ul li{
 			width: 49%;
 
@@ -331,7 +390,7 @@
    580PX 
    ========================================================================== */
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 600px){
 
 	#hero{
 
@@ -339,5 +398,29 @@
 			font-size: 3em;
 		}
 
+		.action{
+			font-size: 0.875em;
+		}
+
 	}
 }
+
+/* ==========================================================================
+   480PX 
+   ========================================================================== */
+
+@media screen and (max-width: 480px){
+	
+	#hero{
+
+		h1{
+			font-size: 2.5em;
+		}
+
+		h2{
+			margin-bottom: 35px;
+			font-size: 0.875em;
+		}
+	}
+}
+
