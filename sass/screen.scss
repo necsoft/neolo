@@ -99,7 +99,8 @@
 		font-size: 0.935em;
 	}
 
-	.row{
+// .row	
+	ul{
 		margin: 50px 0;
 
 		h1{
@@ -113,6 +114,12 @@
 		p{
 			font-size: 0.75em;
 			margin: 5px;
+		}
+
+		li{
+			display: inline-block;
+			width: 32%;
+			margin:0 0 25px 0;
 		}
 	}
 }
@@ -708,6 +715,11 @@
 	margin-top: 23px;
 }
 
+.alf{
+	&:hover{
+		display: none;
+	}
+}
 
 /* ==========================================================================
    Responsive

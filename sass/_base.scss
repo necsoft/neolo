@@ -268,19 +268,19 @@ input{
 	}
 }
 
-#navbtn{
-	display: none;
-	float: right;
-	width: 30px;
-	height: 30px;
-	background: url("../img/menu.png") center no-repeat;
-	cursor: pointer;
-	border: 1px solid #FFF;
-	padding: 10px 20px;
-	@include border-radius(3px);
-	margin-top: 7px;
+// #navbtn{
+// 	display: none;
+// 	float: right;
+// 	width: 30px;
+// 	height: 30px;
+// 	background: url("../img/menu.png") center no-repeat;
+// 	cursor: pointer;
+// 	border: 1px solid #FFF;
+// 	padding: 10px 20px;
+// 	@include border-radius(3px);
+// 	margin-top: 7px;
 
-}
+// }
 
 .mainTitle{
 	margin-top: 150px;

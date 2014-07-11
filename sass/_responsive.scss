@@ -120,9 +120,9 @@
 
 @media screen and (max-width: 800px){
 
-	#navbtn{
-		display: block;
-	}
+	// #navbtn{
+	// 	display: block;
+	// }
 
 	#hero {
 		height: 450px;
@@ -136,12 +136,25 @@
 			width: 90%;
 		}
 
-		nav{
-			display: none;
+
+		.logo{
+			float: none;
+			text-align: center;
+
+			img{
+				width: 200px;
+			}
 		}
 
-		.logo img{
-			width: 200px;
+		nav{
+			float: none;
+			margin-top: 15px;
+
+			li{
+				float: none;
+				display: inline-block;
+				font-size: 0.935em;
+			}
 		}
 
 		header{
@@ -192,7 +205,18 @@
 		font-size: 1.35em;
 	}
 
+
+	#trust{
+		height: auto;
+		
+		ul li{
+			width: 49%;
+
+		}
+	}
 }
+
+
 
 
 /* ==========================================================================
