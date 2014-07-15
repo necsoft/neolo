@@ -2571,76 +2571,77 @@ input {
     width: 25%;
     float: left;
     margin-right: 15px;
+    margin-bottom: 10px;
   }
-  /* line 445, ../sass/_responsive.scss */
+  /* line 446, ../sass/_responsive.scss */
   #features .column.one-third {
     overflow: hidden;
     margin: 30px 0;
   }
-  /* line 450, ../sass/_responsive.scss */
+  /* line 451, ../sass/_responsive.scss */
   #features h1 {
     text-align: left;
   }
-  /* line 453, ../sass/_responsive.scss */
+  /* line 454, ../sass/_responsive.scss */
   #features p {
     text-align: left;
     width: auto;
   }
 
-  /* line 460, ../sass/_responsive.scss */
+  /* line 461, ../sass/_responsive.scss */
   #info p {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 469, ../sass/_responsive.scss */
+  /* line 470, ../sass/_responsive.scss */
   #more .row {
     margin: 0 5%;
     overflow: inherit;
   }
-  /* line 473, ../sass/_responsive.scss */
+  /* line 474, ../sass/_responsive.scss */
   #more .row .column.one-third {
     overflow: hidden;
     margin: 30px 0;
     width: auto;
   }
-  /* line 478, ../sass/_responsive.scss */
+  /* line 479, ../sass/_responsive.scss */
   #more .row .column.one-third img {
     float: left;
     margin-right: 15px;
   }
-  /* line 484, ../sass/_responsive.scss */
+  /* line 485, ../sass/_responsive.scss */
   #more .row .column.one-third h1,
   #more .row .column.one-third p {
     text-align: left;
     width: auto;
   }
-  /* line 491, ../sass/_responsive.scss */
+  /* line 492, ../sass/_responsive.scss */
   #more header {
     margin: 50px 0;
   }
-  /* line 494, ../sass/_responsive.scss */
+  /* line 495, ../sass/_responsive.scss */
   #more header h1 {
     font-size: 1.5em;
   }
 
-  /* line 500, ../sass/_responsive.scss */
+  /* line 501, ../sass/_responsive.scss */
   #contact {
     font-size: 1em;
     padding: 40px 0;
   }
 
-  /* line 505, ../sass/_responsive.scss */
+  /* line 506, ../sass/_responsive.scss */
   #pay h1 {
     font-size: 1.75em;
   }
 
-  /* line 509, ../sass/_responsive.scss */
+  /* line 510, ../sass/_responsive.scss */
   .guidesList > li {
     width: 100%;
   }
 
-  /* line 513, ../sass/_responsive.scss */
+  /* line 514, ../sass/_responsive.scss */
   #heroGuides h1 {
     font-size: 1.5em;
   }
@@ -2649,34 +2650,39 @@ input {
    580PX 
    ========================================================================== */
 @media screen and (max-width: 600px) {
-  /* line 527, ../sass/_responsive.scss */
+  /* line 530, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 3em;
   }
-  /* line 531, ../sass/_responsive.scss */
+  /* line 534, ../sass/_responsive.scss */
   #hero .action {
     font-size: 0.875em;
   }
-  /* line 536, ../sass/_responsive.scss */
+  /* line 539, ../sass/_responsive.scss */
   #hero .titleBig h1 {
     font-size: 2.5em;
+  }
+
+  /* line 546, ../sass/_responsive.scss */
+  #trust h1, #plans header h1 {
+    font-size: 2em;
   }
 }
 /* ==========================================================================
    480PX 
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  /* line 554, ../sass/_responsive.scss */
+  /* line 560, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 2.5em;
   }
-  /* line 558, ../sass/_responsive.scss */
+  /* line 564, ../sass/_responsive.scss */
   #hero h2 {
     margin-bottom: 35px;
     font-size: 0.875em;
   }
 
-  /* line 564, ../sass/_responsive.scss */
+  /* line 570, ../sass/_responsive.scss */
   .logoGuides {
     width: 125px;
     margin-top: 11px;
