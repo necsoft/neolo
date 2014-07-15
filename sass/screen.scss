@@ -713,11 +713,46 @@
 	margin-top: 23px;
 }
 
-.alf{
-	&:hover{
-		display: none;
+
+/* ==========================================================================
+   Paises
+   ========================================================================== */
+
+#flags{
+	background-color: #4C4C4C;
+	height: 100%;
+	width: 100%;
+	padding-top: 100px;
+
+	ul{
+		padding-top: 50px;
+		text-align: center;
+		background-color: #4C4C4C;
+
+		li{
+			display:inline-block;
+			margin: 15px 10px;
+			vertical-align: top;
+
+			a{
+				color: #FFF;
+				text-decoration: none;
+
+				&:hover{
+					text-decoration: underline;;
+				}
+			}
+
+			img{
+				width: 45px;
+				position: relative;
+				top: 12px;
+				padding-bottom: 20px;
+			}
+		}
 	}
 }
+
 
 /* ==========================================================================
    Responsive
