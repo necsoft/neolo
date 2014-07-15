@@ -2213,19 +2213,39 @@ input {
   #contact {
     font-size: 2em;
   }
+
+  /* line 141, ../sass/_responsive.scss */
+  #footer {
+    padding-top: 20px;
+  }
+
+  /* line 147, ../sass/_responsive.scss */
+  .contentFooter div {
+    float: none;
+    text-align: center;
+    height: auto;
+    padding: 15px 0;
+    border: 0 none;
+  }
+  /* line 155, ../sass/_responsive.scss */
+  .contentFooter .logoFooter {
+    line-height: 0;
+    height: 80px;
+    margin-bottom: -40px;
+  }
 }
 /* ==========================================================================
    900px 
    ========================================================================== */
 @media screen and (max-width: 900px) {
-  /* line 152, ../sass/_responsive.scss */
+  /* line 179, ../sass/_responsive.scss */
   #more .column.one-third p,
   #more .column.one-third h1 {
     width: 200px;
     margin: 0 auto;
     padding: 0;
   }
-  /* line 158, ../sass/_responsive.scss */
+  /* line 185, ../sass/_responsive.scss */
   #more .column.one-third h1 {
     margin: 5px auto 10px;
     line-height: 1.4em;
@@ -2235,34 +2255,34 @@ input {
    800px 
    ========================================================================== */
 @media screen and (max-width: 800px) {
-  /* line 178, ../sass/_responsive.scss */
+  /* line 205, ../sass/_responsive.scss */
   #hero {
     height: 450px;
   }
-  /* line 181, ../sass/_responsive.scss */
+  /* line 208, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 4em;
   }
-  /* line 185, ../sass/_responsive.scss */
+  /* line 212, ../sass/_responsive.scss */
   #hero h2 {
     font-size: 0.9em;
     width: 90%;
   }
-  /* line 191, ../sass/_responsive.scss */
+  /* line 218, ../sass/_responsive.scss */
   #hero .logo {
     float: none;
     text-align: center;
   }
-  /* line 195, ../sass/_responsive.scss */
+  /* line 222, ../sass/_responsive.scss */
   #hero .logo img {
     width: 200px;
   }
-  /* line 200, ../sass/_responsive.scss */
+  /* line 227, ../sass/_responsive.scss */
   #hero nav {
     float: none;
     margin-top: 15px;
   }
-  /* line 204, ../sass/_responsive.scss */
+  /* line 231, ../sass/_responsive.scss */
   #hero nav li {
     float: none;
     display: inline-block;
@@ -2270,40 +2290,40 @@ input {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  /* line 213, ../sass/_responsive.scss */
+  /* line 240, ../sass/_responsive.scss */
   #hero .mainTitle {
     margin-top: 50px;
   }
-  /* line 217, ../sass/_responsive.scss */
+  /* line 244, ../sass/_responsive.scss */
   #hero header {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 223, ../sass/_responsive.scss */
+  /* line 250, ../sass/_responsive.scss */
   #plans {
     padding-top: 25px;
   }
 
-  /* line 227, ../sass/_responsive.scss */
+  /* line 254, ../sass/_responsive.scss */
   .mainTitle {
     margin-top: 75px;
   }
 
-  /* line 232, ../sass/_responsive.scss */
+  /* line 259, ../sass/_responsive.scss */
   #trust h1,
   #plans header h1 {
     font-size: 3em;
   }
 
-  /* line 237, ../sass/_responsive.scss */
+  /* line 264, ../sass/_responsive.scss */
   #plans header h2,
   #trust h2 {
     width: 95%;
     font-size: 0.875em;
   }
 
-  /* line 242, ../sass/_responsive.scss */
+  /* line 269, ../sass/_responsive.scss */
   #contact {
     font-size: 1.5em;
   }
@@ -2312,26 +2332,26 @@ input {
    720px 
    ========================================================================== */
 @media screen and (max-width: 720px) {
-  /* line 256, ../sass/_responsive.scss */
+  /* line 283, ../sass/_responsive.scss */
   #features p {
     font-size: 0.75em;
   }
 
-  /* line 261, ../sass/_responsive.scss */
+  /* line 288, ../sass/_responsive.scss */
   #contact {
     font-size: 1.35em;
   }
 
-  /* line 266, ../sass/_responsive.scss */
+  /* line 293, ../sass/_responsive.scss */
   #trust {
     height: auto;
   }
-  /* line 269, ../sass/_responsive.scss */
+  /* line 296, ../sass/_responsive.scss */
   #trust ul li {
     width: 49%;
   }
 
-  /* line 289, ../sass/_responsive.scss */
+  /* line 316, ../sass/_responsive.scss */
   .plan0 h1,
   .plan1 h1,
   .planIlimitado h1,
@@ -2347,7 +2367,7 @@ input {
     font-size: 1.250em;
     margin-top: 12px;
   }
-  /* line 294, ../sass/_responsive.scss */
+  /* line 321, ../sass/_responsive.scss */
   .plan0 h4,
   .plan1 h4,
   .planIlimitado h4,
@@ -2363,7 +2383,7 @@ input {
     line-height: 1.275em;
     width: 95%;
   }
-  /* line 299, ../sass/_responsive.scss */
+  /* line 326, ../sass/_responsive.scss */
   .plan0 ul,
   .plan1 ul,
   .planIlimitado ul,
@@ -2378,7 +2398,7 @@ input {
   .vps_5 ul {
     margin: 24px 0;
   }
-  /* line 303, ../sass/_responsive.scss */
+  /* line 330, ../sass/_responsive.scss */
   .plan0 .price,
   .plan1 .price,
   .planIlimitado .price,
@@ -2393,7 +2413,7 @@ input {
   .vps_5 .price {
     font-size: 2.5em;
   }
-  /* line 307, ../sass/_responsive.scss */
+  /* line 334, ../sass/_responsive.scss */
   .plan0 li,
   .plan1 li,
   .planIlimitado li,
@@ -2409,13 +2429,13 @@ input {
     font-size: 0.875em;
   }
 
-  /* line 313, ../sass/_responsive.scss */
+  /* line 340, ../sass/_responsive.scss */
   .plan0,
   .planIlimitado {
     height: 455px;
   }
 
-  /* line 317, ../sass/_responsive.scss */
+  /* line 344, ../sass/_responsive.scss */
   .plan1 {
     height: 510px;
   }
@@ -2424,7 +2444,7 @@ input {
    640PX 
    ========================================================================== */
 @media screen and (max-width: 640px) {
-  /* line 336, ../sass/_responsive.scss */
+  /* line 363, ../sass/_responsive.scss */
   .column.full,
   .column.two-thirds,
   .column.half,
@@ -2436,84 +2456,84 @@ input {
     width: 100%;
   }
 
-  /* line 344, ../sass/_responsive.scss */
+  /* line 371, ../sass/_responsive.scss */
   .btnsucces,
   .btnwarning,
   .btnerror {
     display: block;
   }
 
-  /* line 349, ../sass/_responsive.scss */
+  /* line 376, ../sass/_responsive.scss */
   #features {
     padding: 20px  0;
   }
-  /* line 352, ../sass/_responsive.scss */
+  /* line 379, ../sass/_responsive.scss */
   #features .row {
     margin: 10px 5%;
   }
-  /* line 356, ../sass/_responsive.scss */
+  /* line 383, ../sass/_responsive.scss */
   #features img {
     width: 25%;
     float: left;
     margin-right: 15px;
   }
-  /* line 362, ../sass/_responsive.scss */
+  /* line 389, ../sass/_responsive.scss */
   #features .column.one-third {
     overflow: hidden;
     margin: 30px 0;
   }
-  /* line 367, ../sass/_responsive.scss */
+  /* line 394, ../sass/_responsive.scss */
   #features h1 {
     text-align: left;
   }
-  /* line 370, ../sass/_responsive.scss */
+  /* line 397, ../sass/_responsive.scss */
   #features p {
     text-align: left;
     width: auto;
   }
 
-  /* line 377, ../sass/_responsive.scss */
+  /* line 404, ../sass/_responsive.scss */
   #info p {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 386, ../sass/_responsive.scss */
+  /* line 413, ../sass/_responsive.scss */
   #more .row {
     margin: 0 5%;
     overflow: inherit;
   }
-  /* line 390, ../sass/_responsive.scss */
+  /* line 417, ../sass/_responsive.scss */
   #more .row .column.one-third {
     overflow: hidden;
     margin: 30px 0;
     width: auto;
   }
-  /* line 395, ../sass/_responsive.scss */
+  /* line 422, ../sass/_responsive.scss */
   #more .row .column.one-third img {
     float: left;
     margin-right: 15px;
   }
-  /* line 401, ../sass/_responsive.scss */
+  /* line 428, ../sass/_responsive.scss */
   #more .row .column.one-third h1,
   #more .row .column.one-third p {
     text-align: left;
     width: auto;
   }
 
-  /* line 409, ../sass/_responsive.scss */
+  /* line 436, ../sass/_responsive.scss */
   #contact {
     font-size: 1em;
   }
 }
-/* line 421, ../sass/_responsive.scss */
+/* line 448, ../sass/_responsive.scss */
 #more .column.one-third p,
 #more .column.one-third h1 {
   width: 200px;
   margin: 0 auto;
   padding: 0;
 }
-/* line 427, ../sass/_responsive.scss */
+/* line 454, ../sass/_responsive.scss */
 #more .column.one-third h1 {
   margin: 5px auto 10px;
   line-height: 1.4em;
@@ -2523,11 +2543,11 @@ input {
    580PX 
    ========================================================================== */
 @media screen and (max-width: 600px) {
-  /* line 442, ../sass/_responsive.scss */
+  /* line 469, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 3em;
   }
-  /* line 446, ../sass/_responsive.scss */
+  /* line 473, ../sass/_responsive.scss */
   #hero .action {
     font-size: 0.875em;
   }
@@ -2536,11 +2556,11 @@ input {
    480PX 
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  /* line 461, ../sass/_responsive.scss */
+  /* line 488, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 2.5em;
   }
-  /* line 465, ../sass/_responsive.scss */
+  /* line 492, ../sass/_responsive.scss */
   #hero h2 {
     margin-bottom: 35px;
     font-size: 0.875em;

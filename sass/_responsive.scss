@@ -135,6 +135,33 @@
 
 	#contact{
 		font-size: 2em;
+	}
+
+
+	#footer{
+		padding-top: 20px;
+	}
+
+	.contentFooter{
+
+		div{
+			float: none;
+			text-align: center;
+			height: auto;
+			padding: 15px 0;
+			border: 0 none;
+		}
+
+		.logoFooter{
+			line-height: 0;
+			height: 80px;
+			margin-bottom: -40px;
+		}
+
+		.contactFooter{
+
+		}
+
 	}	
 }
 
