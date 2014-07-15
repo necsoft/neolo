@@ -3,9 +3,6 @@
    ========================================================================== */
 
 @media screen and (max-width: 1024px){
-	// .wrap{
-	// 	background-color: rgba(255,0,0,0.2);
-	// }
 
 	#features {
 		
@@ -294,6 +291,14 @@
 		font-size: 2em;
 	}
 
+	.guidesList > li{
+		width: 49%;
+	}
+	#heroGuides h1{
+		font-size: 2em;
+		padding: 50px 0;
+	}
+
 }
 
 /* ==========================================================================
@@ -384,6 +389,17 @@
 		float: none;
 		margin:25px 0;
 	}
+
+	.nameGuides{
+		display: none;
+	}
+
+	.logoGuides{
+		width: 200px;
+		margin-top: 5px;
+	}
+
+
 
 }
 
@@ -489,8 +505,14 @@
 	#pay h1{
 		font-size: 1.75em;
 	}
-
-
+	
+	.guidesList > li{
+		width: 100%;
+	}
+	
+	#heroGuides h1{
+		font-size: 1.5em;
+	}
 }
 
 
@@ -517,6 +539,8 @@
 		}
 
 	}
+
+
 }
 
 /* ==========================================================================
@@ -537,5 +561,9 @@
 		}
 	}
 
+	.logoGuides{
+		width: 125px;
+		margin-top: 11px;
+	}
 }
 
