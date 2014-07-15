@@ -41,19 +41,31 @@
 	#hero {
 		height: 545px;
 		
-		h1{
-			font-size: 5em;
-		}
-
 		h2{
 			font-size: 1em;
 			width: 90%;
+		}
+
+		.titleBig{
+
+			h1{
+				font-size: 3.5em;
+			}
+
+			h2{
+				font-size: 1em;
+				width: 96%;
+			}
 		}
 	}
 
 	.mainTitle{
 		margin-top: 100px;
-	}
+
+		h1{
+			font-size: 5em;
+		}
+	}	
 
 	#plans{
 		.wrap{
@@ -102,6 +114,9 @@
 		}		
 	}
 	
+	.priceAnual{
+		font-size: 3em;
+	}
 	.plan0,
 	.planIlimitado{
 		height: 500px;
@@ -189,6 +204,11 @@
 		}
 	}
 
+	#login .column.one-third{
+		width: 31%;
+		float: none;
+	}
+
 }
 
 
@@ -203,7 +223,8 @@
 	// }
 
 	#hero {
-		height: 450px;
+		height: auto;
+		padding-bottom: 10%;
 		
 		h1{
 			font-size: 4em;
@@ -240,7 +261,6 @@
 		.mainTitle{
 			margin-top: 50px;
 		}
-
 		header{
 			width: 96%;
 			margin: 0 auto;
@@ -270,6 +290,9 @@
 		font-size: 1.5em;
 	}
 
+	#more header h1{
+		font-size: 2em;
+	}
 
 }
 
@@ -327,7 +350,9 @@
 			margin:24px 0;
 		}
 
-		.price{
+		.price,
+		.priceAnual,
+		.priceMonthly{
 			font-size: 2.5em;
 		}
 
@@ -343,6 +368,21 @@
 
 	.plan1{
 		height: 510px;
+	}
+
+	#pay{
+		margin:50px 0 75px 0;
+
+		h1{
+			font-size: 2em;
+		}
+
+	}
+
+	#login .column.one-third{
+		width: 50%;
+		float: none;
+		margin:25px 0;
 	}
 
 }
@@ -431,32 +471,28 @@
 				}
 			}
 		}
+
+		header{
+			margin:50px 0;
+
+			h1{
+				font-size: 1.5em;
+			}
+		}
 	}
 	
 	#contact{
 		font-size: 1em;
+		padding: 40px 0;
 	}
+
+	#pay h1{
+		font-size: 1.75em;
+	}
+
 
 }
 
-
-#more{
-
-		.column.one-third{
-
-			p,
-			h1{
-				width: 200px;
-				margin: 0 auto;
-				padding: 0;
-			}
-
-			h1{
-				margin: 5px auto 10px;
-				line-height: 1.4em;
-			}
-		}
-	}
 
 /* ==========================================================================
    580PX 
@@ -472,6 +508,12 @@
 
 		.action{
 			font-size: 0.875em;
+		}
+
+		.titleBig{
+			h1{
+				font-size: 2.5em;
+			}
 		}
 
 	}
@@ -494,5 +536,6 @@
 			font-size: 0.875em;
 		}
 	}
+
 }
 

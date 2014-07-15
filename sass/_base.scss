@@ -200,23 +200,7 @@ input{
 	padding-top: 25px;
 
 
-	h1,h2{
-		color: white;
-	}	
-
-	h1{
-		font-size: 6em;
-		margin-bottom: 10px;
-		font-weight: 300;
-	}
-
-	h2{
-		font-size: 1.125em;
-		font-weight: 300;
-		width: 800px;
-		line-height: 1.313em;
-		margin: 25px auto 50px;
-	}
+	
 
 	a{
 		text-decoration: none;
@@ -266,22 +250,26 @@ input{
 	}
 }
 
-// #navbtn{
-// 	display: none;
-// 	float: right;
-// 	width: 30px;
-// 	height: 30px;
-// 	background: url("../img/menu.png") center no-repeat;
-// 	cursor: pointer;
-// 	border: 1px solid #FFF;
-// 	padding: 10px 20px;
-// 	@include border-radius(3px);
-// 	margin-top: 7px;
-
-// }
-
 .mainTitle{
 	margin-top: 150px;
+
+	h1,h2{
+		color: white;
+	}	
+
+	h1{
+		font-size: 6em;
+		margin-bottom: 10px;
+		font-weight: 300;
+	}
+
+	h2{
+		font-size: 1.125em;
+		font-weight: 300;
+		width: 800px;
+		line-height: 1.313em;
+		margin: 25px auto 50px;
+	}
 }
 
 #hero .titleBig{
