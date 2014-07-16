@@ -542,18 +542,6 @@ input{
 
 .contentFooter{
 
-	div{
-		float: left;
-		border-right: 1px solid #646464;
-		height: 200px;
-		text-align: left;
-		color: #FFF;
-		padding: 15px 2% 0 2%;
-
-		&:last-of-type{
-			border-right: 0 none;
-		}
-	}
 
 	a{
 		color: #FFF;
@@ -565,8 +553,30 @@ input{
 	}
 }
 
+div.contactFooter,
+div.footerHosting,
+div.empresa,
+div.soporte{
+	float: left;
+	border-right: 1px solid #646464;
+	height: 200px;
+	text-align: left;
+	color: #FFF;
+	padding: 15px 2% 0 2%;
+
+	&:last-of-type{
+		border-right: 0 none;
+	}
+}
+
 .logoFooter{
 	line-height: 185px;
+	float: left;
+	border-right: 1px solid #646464;
+	height: 200px;
+	text-align: left;
+	color: #FFF;
+	padding: 15px 2% 0 2%;
 }
 
 .contactFooter ul{

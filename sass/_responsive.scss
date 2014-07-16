@@ -151,30 +151,49 @@
 
 
 	#footer{
-		padding-top: 20px;
+		padding-top: 0;
+	}
+	
+	
+	div.logoFooter{
+		float: none;
+		text-align: center;
+		border: 0 none;
+		line-height: 0;
+		height: 148px;
+		margin-top: 15px;
 	}
 
-	.contentFooter{
+	div.contactFooter,
+	div.footerHosting,
+	div.empresa,
+	div.soporte{
+		float: left;
+	}
+
+	.infoFooter{
+		float: none;
 
 		div{
 			float: none;
-			text-align: center;
-			height: auto;
-			padding: 15px 0;
-			border: 0 none;
+			display: inline-block;
+			vertical-align: top;
 		}
+	}
+	
+	.socialIconsFooter{
+		display: block;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-top: 25px;
+		height: 100px;
 
-		.logoFooter{
-			line-height: 0;
-			height: 80px;
-			margin-bottom: -40px;
+		li{
+			float: none;
+			display: inline-block;
 		}
+	}
 
-		.contactFooter{
-
-		}
-
-	}	
 }
 
 /* ==========================================================================
@@ -541,6 +560,20 @@
 		}
 	}
 
+	#domains{
+		h1{
+			font-size: 2em;
+		}
+		h2{
+			width: 96%;
+			font-size: 0.875em;
+		}
+
+		input{
+			width: 100%;
+		}
+	}
+
 }
 
 
@@ -595,6 +628,12 @@
 	.logoGuides{
 		width: 125px;
 		margin-top: 11px;
+	}
+
+	.infoFooter div{
+		text-align: center;
+		display: block;
+		border:0 none;
 	}
 }
 
