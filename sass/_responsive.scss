@@ -75,17 +75,13 @@
 
 		.wrap{
 			width: 99%;
+			margin-left: 8px;
 		}
 
 		img{
 			width: 35%;
 		}
 		
-		.plan_1{
-			margin-top: -30px;
-			height: 560px;
-		}
-
 		.plan0,
 		.plan1,
 		.planIlimitado,
@@ -120,18 +116,6 @@
 			}
 		}
 
-		.planD7,
-		.planD14,
-		.planD25,
-		.planD100{
-			float: left;
-			height: auto;
-
-			img{
-
-			}
-		}
-
 		.vps_1,
 		.vps_2,
 		.vps_3,
@@ -146,24 +130,31 @@
 
 		.vps_1 .firstVPS{
 			margin-top: 38px;
-		}		
+		}	
+
+		.plan1{
+			padding: 60px 0 30px;
+		}	
+
+		.plan0,
+		.plan1,
+		.planIlimitado{
+			h4{
+				width: 98%;
+			}
+		}
+
 	}
-
-
 	
 	.priceAnual{
 		font-size: 3em;
 	}
+
 	.plan0,
 	.planIlimitado{
 		height: 500px;
 	}
 
-	.plan1{
-		margin-top: -30px;
-		height: 560px;
-		padding-top: 55px;
-	}
 
 	#more{
 
@@ -190,11 +181,9 @@
 		font-size: 2em;
 	}
 
-
 	#footer{
 		padding-top: 0;
-	}
-	
+	}	
 	
 	div.logoFooter{
 		float: none;
@@ -213,6 +202,7 @@
 	}
 
 	.infoFooter{
+
 		float: none;
 
 		div{
@@ -266,11 +256,6 @@
 		float: none;
 	}
 
-	.plan0,
-	.plan1,
-	.planIlimitado{
-		width: 32%;
-	}
 
 	#plans{
 		.vps_1,
@@ -284,24 +269,14 @@
 			margin: 15px 0;
 			border:1px solid #CCC;
 		}
-	}
-
-	
-
+	}	
 }
-
-
-
 
 /* ==========================================================================
    800px 
    ========================================================================== */
 
 @media screen and (max-width: 800px){
-
-	// #navbtn{
-	// 	display: block;
-	// }
 
 	#hero {
 		height: auto;
@@ -315,7 +290,6 @@
 			font-size: 0.9em;
 			width: 90%;
 		}
-
 
 		.logo{
 			float: none;
@@ -342,6 +316,7 @@
 		.mainTitle{
 			margin-top: 50px;
 		}
+
 		header{
 			width: 96%;
 			margin: 0 auto;
@@ -358,6 +333,7 @@
 			width: 48%;
 			float: none;
 			margin: 10px 0;
+			border-right:1px solid #CCC;
 		}
 	}
 
@@ -390,6 +366,14 @@
 	#heroGuides h1{
 		font-size: 2em;
 		padding: 50px 0;
+	}
+
+	.plan0, .planIlimitado{
+		height: 465px;
+	}
+
+	.plan1{
+		height: 520px;
 	}
 
 }
@@ -458,28 +442,7 @@
 			font-size: 0.875em;
 		}
 	}
-	#plans{
-		
-		.plan0,
-		.planIlimitado,
-		.plan1{
-			height: 510px;
-			float: left;
-			display: inline-block;
-		}
-	}
 	
-
-	.plan1{
-		width: 60%;
-		margin-top: 0;
-		padding-top: 0;
-	}
-
-	.plan0,
-	.planIlimitado{
-		width: 20%;
-	}
 
 	#pay{
 		margin:50px 0 75px 0;
@@ -491,9 +454,6 @@
 	}
 	
 
-
-
-
 	#login .column.one-third{
 		width: 50%;
 		float: none;
@@ -503,6 +463,11 @@
 	#login{
 		height: auto;
 		background-attachment: fixed;
+		background-size:cover;
+
+		.row{
+			margin: 0;
+		}
 	}
 
 	.nameGuides{
@@ -533,8 +498,41 @@
 	#stepOne ul{
 		width: 96%;
 	}
-}
 
+	#plans{
+		.wrap{
+			width: 100%;
+			margin: 0;
+		}
+		.plan0,
+		.plan1,
+		.planIlimitado{
+			width: 90%;
+			float: none;
+			height: auto;
+			margin: 5px 0;
+			border:1px solid #CCC;
+
+			h1{
+				font-size: 2em;
+			}
+
+			img{
+				width: 100px;
+			}
+
+			li{
+				font-size: 1em;
+			}
+
+			h4{
+				width: 75%;
+			}
+		}
+	}
+
+
+}
 
 /* ==========================================================================
    640PX 
@@ -696,12 +694,13 @@
 			width: auto;
 		}
 	}
+	
+
 
 }
 
-
 /* ==========================================================================
-   580PX 
+   600PX 
    ========================================================================== */
 
 @media screen and (max-width: 600px){
@@ -733,41 +732,40 @@
 		.vps_2,
 		.vps_3,
 		.vps_4,
-		.vps_5{
+		.vps_5,
+		.planD7,
+		.planD14,
+		.planD25,
+		.planD100,
+		.plan0,
+		.plan1,
+		.planIlimitado{
 			width: 90%;
 			float: none;
 			height: auto;
 			margin: 5px 0;
 			border:1px solid #CCC;
 
-			// img,
-			// ul,
-			// p,
-			// a{
-			// 	display: none;
-			// }
+			h1{
+				font-size: 2em;
+			}
 
 			img{
 				width: 100px;
 			}
 
+			li{
+				font-size: 1em;
+			}
+
+			.priceVPS{
+				font-size: 3em;
+			}
 		}
 
-		// .vps_1{
-		// 	background-color: #4FAAB2;
-		// }
-		// .vps_2{
-		// 	background-color: #68B78E;
-		// }
-		// .vps_3{
-		// 	background-color: #81C369;
-		// }
-		// .vps_4{
-		// 	background-color: #9AD045;
-		// }
-		// .vps_5{
-		// 	background-color: #B3DC20;
-		// }
+		header{
+			margin-bottom: 50px;
+		}
 
 	}
 
@@ -802,14 +800,4 @@
 		border:0 none;
 	}
 
-
-	#plans{
-
-		.planD7,
-		.planD14,
-		.planD25,
-		.planD100{
-			padding: 15px 0 0 0;
-		}
-	}
 }

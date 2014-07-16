@@ -23,9 +23,9 @@
 
 
 .plan1{
-	margin-top: -46px;
-	height: 615px;
-	padding-top: 71px;
+	margin-top: -35px;
+	height: auto;
+	padding: 60px 0;
 
 	a{
 		@include btn(#81C369, #68A652);
@@ -210,10 +210,12 @@
 	.planD25,
 	.planD100{
 		width: 25%;
-		height: 630px;
+		height: auto;
+		border-right: none;
 	}
 
 	.planD7{
+
 		a{
 			@include btn(#4FAAB2, #3C8F96);
 		}
@@ -232,6 +234,8 @@
 	}
 
 	.planD100{
+		border-right:1px solid #CCC;
+
 		a{
 			@include btn(#B3DC20, #9DBC19);
 		}
