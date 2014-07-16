@@ -140,13 +140,6 @@
 		}	
 	}
 
-	img{
-		@include border-radius(50%);
-		background-color: #E4744E;
-		float: left;
-		margin: 0 10px 50px 0;
-	}
-	
 	.column.one-third{
 		text-align: left;
 		margin: 35px 0;
@@ -161,6 +154,15 @@
 			font-size: 0.875em;
 			line-height: 1.375em;
 			padding-right: 25px;
+		}
+
+		header{
+			width: 65px;
+			height: 65px;
+			@include border-radius(50%);
+			background-color: #E4744E;
+			float: left;
+			margin: 0 10px 50px 0;
 		}
 	}
 
@@ -606,9 +608,12 @@
    			}
    		}
 
-   		.row img{
+   		.row header{
    			background-color: #B3D234;
    			@include border-radius(50%);
+   			width: 65px;
+   			height: 65px;
+   			margin: 0 auto;
    		}
 
    		h2{
@@ -668,10 +673,14 @@
 	margin-top: 25px;
 	font-weight: 300;
 
-	img{
+
+	header{
 		background-color: #9DBC3B;
 		border: 5px solid #99AE3A;
 		@include border-radius(50%);
+		width: 75px;
+		height: 75px;
+		margin: 0 auto;
 	}
 
 	h1{

@@ -325,18 +325,24 @@ input{
 
 }
 
-.mainFeatures{
-	img{
-		background-color: #E4E4E4;
-		border: 1px solid #BBBBBB;
-	}
+
+.imgFeature{
+	background-color: #E4E4E4;
+	@include border-radius(50%);
+	height: 182px;
+	width: 182px;
+	border: 1px solid #BBBBBB;
+	margin: 0 auto;
 }
 
-.otherFeatures{
-	img{
-		background-color: #E4744E;
-		border: 3px solid #E8E8E8;
-	}
+
+.imgOtherFeatures{
+	background-color: #E4744E;
+	border: 3px solid #E8E8E8;
+	@include border-radius(50%);
+	height: 182px;
+	width: 182px;
+	margin: 0 auto;
 }
 
 
