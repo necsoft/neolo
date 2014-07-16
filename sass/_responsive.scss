@@ -398,12 +398,27 @@
 		width: 200px;
 		margin-top: 5px;
 	}
+	
+	#registerDomain h1{
+		font-size: 2em;
+	}
 
+	#help{
+		h1{
+			font-size: 3em;
+		}
+		h2{
+			font-size: 2em;
+		}
+		h3{
+			font-size: 0.875em;
+		}
+	}
 
-
+	#stepOne ul{
+		width: 96%;
+	}
 }
-
-
 
 
 /* ==========================================================================
@@ -514,7 +529,17 @@
 	#heroGuides h1{
 		font-size: 1.5em;
 	}
+	
+	#help{
 
+		form, input{
+			width: 100%;
+		}
+
+		textarea{
+			margin-top: 18px;
+		}
+	}
 
 }
 
