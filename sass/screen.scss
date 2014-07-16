@@ -294,12 +294,22 @@
 #registerDomain{
 
 	input{
-		background-color: #B2B2B2;
-		color: #fff;
+		background-color: #FFF;
+		border:1px solid #B3B3B3;
+		color: #4C4C4C;
 		margin: 10px 0 25px 0;
 		padding: 5px 0 5px 10px;
 		font-weight: 400;
 		width: 600px;
+		-webkit-transition: background-color 200ms linear;
+		-moz-transition: background-color 200ms linear;
+		-o-transition: background-color 200ms linear;
+		-ms-transition: background-color 200ms linear;
+		transition: background-color 200ms linear;
+
+		&:focus{
+			background-color: #F8F8F8;
+		}
 	}
 
 	h1{
@@ -309,7 +319,7 @@
 	}
 
 	h2{
-		color: #70BB81;
+		color: #686868;
 		font-weight: 700;
 		margin-bottom: 10px;
 		font-size: 1.125em;
@@ -359,7 +369,16 @@
 }
 
 .domainActive{
-	background-color: #DBDBDB; 
+	background-color: #9dbc19; 
+
+}
+
+#registerDomain .domainActive{
+
+	h2,p{
+		color: #FFF;
+		font-weight: 400;
+	}
 }
 
 /* ==========================================================================
@@ -756,12 +775,12 @@
 	ul{
 		padding-top: 50px;
 		text-align: center;
-		background-color: #4C4C4C;
 
 		li{
 			display:inline-block;
 			margin: 15px 10px;
 			vertical-align: top;
+			line-height: 1.35em;
 
 			a{
 				color: #FFF;

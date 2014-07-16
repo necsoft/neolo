@@ -416,6 +416,11 @@
 		margin:25px 0;
 	}
 
+	#login{
+		height: auto;
+		background-attachment: fixed;
+	}
+
 	.nameGuides{
 		display: none;
 	}
@@ -581,6 +586,30 @@
 
 		input{
 			width: 100%;
+		}
+	}
+
+	#flags{
+		height: auto;
+	}
+
+	#registerDomain{
+		
+		input{
+			width: 100%;
+		}
+
+		.wrap{
+			max-width: 100%;
+		}
+
+		.column.one-fourth{
+			float: left;
+			width: 45%;
+		}
+
+		.row{
+			width: auto;
 		}
 	}
 
