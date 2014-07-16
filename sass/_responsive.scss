@@ -71,8 +71,10 @@
 	}	
 
 	#plans{
+		padding-top: 25px;
+
 		.wrap{
-			width: auto;
+			width: 99%;
 		}
 
 		img{
@@ -96,7 +98,9 @@
 		.vps_3,
 		.vps_4,
 		.vps_5{
-			
+			display: inline-block;
+			float: left;
+
 			h1{
 				font-size: 1.250em;
 				margin-top: 12px;
@@ -114,8 +118,38 @@
 			.price{
 				font-size: 3em;
 			}
+		}
+
+		.planD7,
+		.planD14,
+		.planD25,
+		.planD100{
+			float: left;
+			height: auto;
+
+			img{
+
+			}
+		}
+
+		.vps_1,
+		.vps_2,
+		.vps_3,
+		.vps_4,
+		.vps_5{
+			height: 510px;
+
+			.price{
+				font-size: 2em;
+			}
+		}
+
+		.vps_1 .firstVPS{
+			margin-top: 38px;
 		}		
 	}
+
+
 	
 	.priceAnual{
 		font-size: 3em;
@@ -232,7 +266,31 @@
 		float: none;
 	}
 
+	.plan0,
+	.plan1,
+	.planIlimitado{
+		width: 32%;
+	}
+
+	#plans{
+		.vps_1,
+		.vps_2,
+		.vps_3,
+		.vps_4,
+		.vps_5{
+			width: 32%;
+			float: none;
+			height: auto;
+			margin: 15px 0;
+			border:1px solid #CCC;
+		}
+	}
+
+	
+
 }
+
+
 
 
 /* ==========================================================================
@@ -292,6 +350,15 @@
 
 	#plans{
 		padding-top: 25px;
+
+		.planD7,
+		.planD14,
+		.planD25,
+		.planD100{
+			width: 48%;
+			float: none;
+			margin: 10px 0;
+		}
 	}
 
 	.mainTitle{
@@ -391,14 +458,27 @@
 			font-size: 0.875em;
 		}
 	}
+	#plans{
+		
+		.plan0,
+		.planIlimitado,
+		.plan1{
+			height: 510px;
+			float: left;
+			display: inline-block;
+		}
+	}
+	
+
+	.plan1{
+		width: 60%;
+		margin-top: 0;
+		padding-top: 0;
+	}
 
 	.plan0,
 	.planIlimitado{
-		height: 455px;
-	}
-
-	.plan1{
-		height: 510px;
+		width: 20%;
 	}
 
 	#pay{
@@ -409,6 +489,10 @@
 		}
 
 	}
+	
+
+
+
 
 	#login .column.one-third{
 		width: 50%;
@@ -644,6 +728,49 @@
 		font-size: 2em;
 	}
 
+	#plans{
+		.vps_1,
+		.vps_2,
+		.vps_3,
+		.vps_4,
+		.vps_5{
+			width: 90%;
+			float: none;
+			height: auto;
+			margin: 5px 0;
+			border:1px solid #CCC;
+
+			// img,
+			// ul,
+			// p,
+			// a{
+			// 	display: none;
+			// }
+
+			img{
+				width: 100px;
+			}
+
+		}
+
+		// .vps_1{
+		// 	background-color: #4FAAB2;
+		// }
+		// .vps_2{
+		// 	background-color: #68B78E;
+		// }
+		// .vps_3{
+		// 	background-color: #81C369;
+		// }
+		// .vps_4{
+		// 	background-color: #9AD045;
+		// }
+		// .vps_5{
+		// 	background-color: #B3DC20;
+		// }
+
+	}
+
 }
 
 /* ==========================================================================
@@ -674,5 +801,15 @@
 		display: block;
 		border:0 none;
 	}
-}
 
+
+	#plans{
+
+		.planD7,
+		.planD14,
+		.planD25,
+		.planD100{
+			padding: 15px 0 0 0;
+		}
+	}
+}

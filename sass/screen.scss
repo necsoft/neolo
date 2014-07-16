@@ -251,6 +251,7 @@
 	
 	.vps_1{
 		border-right:none;
+
 		a{
 			@include btn(#4FAAB2, #3C8F96);
 		}
@@ -262,6 +263,7 @@
 
 	.vps_2{
 		border-right:none;
+
 		a{
 			@include btn(#68B78E, #489B6D);
 		}
@@ -282,6 +284,7 @@
 	}
 
 	.vps_5{
+		border-left: none;
 		a{
 			@include btn(#B3DC20, #9DBC19);
 		}
@@ -406,6 +409,9 @@
 
 	h2{
 		line-height: 1.375em;
+		color: #686868;
+		margin-bottom: 4px;
+		font-weight: 600;
 	}
 
 	button{
@@ -419,6 +425,8 @@
 	}
 
 
+
+
 }
 
 #optionHousing{
@@ -426,16 +434,24 @@
 
 	.column.one-fourth{
 		border: 1px dashed #686868;
-		padding: 24px;
-		width: 21.5%;
+		width: 23.5%;
 	}
 
 	.row{
 		width: 600px;
 		margin: 10px auto;
 	}
-}
 
+	a{
+		text-decoration: none;
+		color: #A2A2A2;
+		display: block;
+		padding: 24px;
+	}
+}
+.innerHousing{
+	padding: 24px;	
+}
 
 #slider-horizontal{
     width: 60%;
