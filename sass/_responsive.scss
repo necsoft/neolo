@@ -216,7 +216,7 @@
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
-		padding-top: 25px;
+		padding-top: 38px;
 		height: 100px;
 
 		li{
@@ -334,7 +334,20 @@
 			float: none;
 			margin: 10px 0;
 			border-right:1px solid #CCC;
+
+			h1{
+				font-size: 1.375em;
+			}
+
+			li{
+				font-size: 1em;
+			}
+			.priceAnual{
+				margin-bottom: 30px;
+			}
 		}
+
+
 	}
 
 	.mainTitle{
@@ -375,6 +388,24 @@
 	.plan1{
 		height: 520px;
 	}
+
+	#calculateHousing{
+
+		h1{
+			font-size: 3em;
+		}
+
+		h2{
+			font-weight: 400;
+			font-size: 0.875em;
+		}
+	}
+
+	#slider-horizontal{
+		width: 80%;
+	}
+		
+	
 
 }
 
@@ -443,7 +474,6 @@
 		}
 	}
 	
-
 	#pay{
 		margin:50px 0 75px 0;
 
@@ -504,6 +534,7 @@
 			width: 100%;
 			margin: 0;
 		}
+
 		.plan0,
 		.plan1,
 		.planIlimitado{
@@ -514,19 +545,24 @@
 			border:1px solid #CCC;
 
 			h1{
-				font-size: 2em;
+				font-size: 2.125em;
 			}
 
 			img{
-				width: 100px;
+				width: 125px;
 			}
 
 			li{
-				font-size: 1em;
+				font-size: 1.125em;
 			}
 
 			h4{
 				width: 75%;
+				font-size: 0.938em;
+			}
+
+			.price{
+				font-size: 3.5em;
 			}
 		}
 	}
@@ -736,10 +772,7 @@
 		.planD7,
 		.planD14,
 		.planD25,
-		.planD100,
-		.plan0,
-		.plan1,
-		.planIlimitado{
+		.planD100{
 			width: 90%;
 			float: none;
 			height: auto;
@@ -751,15 +784,17 @@
 			}
 
 			img{
-				width: 100px;
+				width: 120px;
 			}
 
 			li{
 				font-size: 1em;
 			}
 
-			.priceVPS{
-				font-size: 3em;
+			.priceVPS,
+			.priceAnual,
+			.priceMonthly{
+				font-size: 3.5em;
 			}
 		}
 
@@ -767,6 +802,34 @@
 			margin-bottom: 50px;
 		}
 
+	}
+
+	#trust{
+		margin-bottom: 25px; 
+	}
+
+}
+
+/* ==========================================================================
+   520PX 
+   ========================================================================== */
+
+@media screen and (max-width: 520px){
+
+	.infoFooter div{
+		text-align: center;
+		display: block;
+		border:0 none;
+	}
+
+	.infoFooter div{
+		height: auto;
+		padding: 15px;
+		border-bottom: 1px solid #575757;
+	}
+
+	.contactFooter ul{
+		margin:0;
 	}
 
 }
@@ -794,10 +857,6 @@
 		margin-top: 11px;
 	}
 
-	.infoFooter div{
-		text-align: center;
-		display: block;
-		border:0 none;
-	}
+
 
 }

@@ -52,6 +52,7 @@
 	color: #FFF;
 	padding-top: 50px;
 	text-shadow: rgba(0, 0, 0, 0.75) -1px -1px 3px;
+	overflow-x: hidden; 
 
 	h1{
 		font-size: 3.5em;
@@ -78,6 +79,10 @@
 		font-size: 1em;
 		margin-top: 25px;
 	}
+
+	form{
+		overflow: hidden;
+	}
 }
 
 
@@ -97,7 +102,6 @@
 		font-size: 0.935em;
 	}
 
-// .row	
 	ul{
 		margin: 50px 0;
 
@@ -118,6 +122,7 @@
 			display: inline-block;
 			width: 32%;
 			margin:0 0 25px 0;
+			vertical-align: top;
 		}
 	}
 }
@@ -460,7 +465,7 @@
 #slider-horizontal{
     width: 60%;
     text-align: center;
-    margin: 30px auto 50px;
+    margin: 30px auto 40px;
     background-color: #C9C9C9;
 }
 
