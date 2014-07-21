@@ -1,0 +1,355 @@
+/* line 17, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* ==========================================================================
+   Border-box
+   ========================================================================== */
+/* line 8, ../sass/blog.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Clearfix para los floats
+   ========================================================================== */
+/* line 19, ../sass/blog.scss */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+/* line 24, ../sass/blog.scss */
+.cf:after {
+  clear: both;
+}
+
+/* line 28, ../sass/blog.scss */
+.cf {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Estilos generales
+   ========================================================================== */
+/* line 37, ../sass/blog.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 41, ../sass/blog.scss */
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 47, ../sass/blog.scss */
+.wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+  overflow: hidden;
+  width: 98%;
+}
+
+/* line 54, ../sass/blog.scss */
+#wrapper {
+  width: 1150px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 60, ../sass/blog.scss */
+header {
+  background: #9dbc19 url("../blog/img/headerBlog.png") repeat-x;
+  height: 157px;
+  padding-top: 40px;
+  text-align: center;
+}
+/* line 66, ../sass/blog.scss */
+header h1 {
+  color: #FFF;
+  font-weight: 300;
+  line-height: 1.25em;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 250px;
+}
+
+/* line 76, ../sass/blog.scss */
+#main {
+  color: #595959;
+  width: 750px;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 83, ../sass/blog.scss */
+article {
+  margin: 50px auto 60px;
+}
+/* line 86, ../sass/blog.scss */
+article .wrap {
+  text-align: left;
+  width: 100%;
+}
+/* line 91, ../sass/blog.scss */
+article footer {
+  margin-top: 15px;
+  padding-bottom: 3px;
+  overflow: hidden;
+}
+/* line 96, ../sass/blog.scss */
+article footer p {
+  display: inline-block;
+}
+/* line 99, ../sass/blog.scss */
+article footer p img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+/* line 105, ../sass/blog.scss */
+article footer .social {
+  float: right;
+}
+/* line 108, ../sass/blog.scss */
+article footer .social li {
+  display: inline-block;
+  margin: 0 3px;
+}
+/* line 112, ../sass/blog.scss */
+article footer .social li:last-of-type {
+  margin-right: 0;
+}
+/* line 117, ../sass/blog.scss */
+article footer .social img {
+  vertical-align: middle;
+}
+/* line 121, ../sass/blog.scss */
+article footer .social a {
+  display: block;
+  -webkit-transition: background-color 0.25s ease;
+  -moz-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  -ms-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
+
+/* line 134, ../sass/blog.scss */
+.follow {
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 138, ../sass/blog.scss */
+.follow ul {
+  text-align: center;
+}
+/* line 141, ../sass/blog.scss */
+.follow ul li {
+  display: inline-block;
+  margin: 20px 10px 0;
+}
+/* line 145, ../sass/blog.scss */
+.follow ul li:last-of-type {
+  margin-right: 0;
+}
+/* line 151, ../sass/blog.scss */
+.follow img {
+  -webkit-transition: background-color 0.25s ease;
+  -moz-transition: background-color 0.25s ease;
+  -o-transition: background-color 0.25s ease;
+  -ms-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
+
+/* line 161, ../sass/blog.scss */
+.post {
+  border-bottom: 2px solid #4C4C4C;
+  padding-bottom: 15px;
+}
+/* line 165, ../sass/blog.scss */
+.post h1 {
+  font-size: 2.875em;
+  margin: 20px 0;
+}
+/* line 171, ../sass/blog.scss */
+.post img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* line 176, ../sass/blog.scss */
+.post figcaption {
+  background-color: #4C4C4C;
+  color: #FFF;
+  padding: 5px;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+/* line 184, ../sass/blog.scss */
+.post p {
+  margin: 15px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.35em;
+}
+/* line 190, ../sass/blog.scss */
+.post p em,
+.post p strong {
+  font-weight: 600;
+}
+/* line 194, ../sass/blog.scss */
+.post p a {
+  color: #9dbc19;
+  text-decoration: none;
+}
+/* line 198, ../sass/blog.scss */
+.post p a:hover {
+  text-decoration: underline;
+}
+
+/* line 206, ../sass/blog.scss */
+aside {
+  margin: 50px auto;
+  overflow: hidden;
+  float: right;
+  width: 290px;
+}
+/* line 212, ../sass/blog.scss */
+aside h2 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+/* line 217, ../sass/blog.scss */
+aside li {
+  margin: 20px 0;
+  font-size: 0.875em;
+}
+/* line 221, ../sass/blog.scss */
+aside li a {
+  color: #4C4C4C;
+  line-height: 1.25em;
+}
+/* line 226, ../sass/blog.scss */
+aside li span {
+  color: #9CBB1A;
+}
+/* line 230, ../sass/blog.scss */
+aside li img {
+  vertical-align: middle;
+}
+/* line 236, ../sass/blog.scss */
+aside .categories li {
+  margin: 10px 0;
+}
+
+/* line 244, ../sass/blog.scss */
+.follow {
+  background-color: #4C4C4C;
+  padding: 25px;
+}
+/* line 248, ../sass/blog.scss */
+.follow h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* line 256, ../sass/blog.scss */
+.recent ul {
+  overflow: auto;
+}
+/* line 259, ../sass/blog.scss */
+.recent ul img {
+  float: left;
+  padding-top: 7px;
+}
+/* line 264, ../sass/blog.scss */
+.recent ul a {
+  margin-left: 23px;
+  display: block;
+  line-height: 1.5em;
+}
+
+/* line 276, ../sass/blog.scss */
+.follow,
+.recentComments,
+.recent,
+.categories,
+.flags {
+  margin: 50px 0;
+}
+
+/* line 282, ../sass/blog.scss */
+.date {
+  background-color: #9DBC19;
+  display: inline-block;
+}
+/* line 286, ../sass/blog.scss */
+.date p {
+  color: #FFF;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  font-weight: 300;
+}

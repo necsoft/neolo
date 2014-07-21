@@ -1,0 +1,292 @@
+@import "compass/reset";
+@import "compass/css3";
+
+/* ==========================================================================
+   Border-box
+   ========================================================================== */
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Clearfix para los floats
+   ========================================================================== */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Estilos generales
+   ========================================================================== */
+
+
+body,html{
+	height: 100%;
+}
+
+body{
+	// color: #A2A2A2;
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.wrap{
+	margin: 0 auto;
+	max-width: 1100px;
+	overflow: hidden;
+	width: 98%;	
+}
+
+#wrapper{
+	width: 1150px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header{
+	background: #9DBC19 url("../blog/img/headerBlog.png") repeat-x;
+	height: 157px;
+	padding-top: 40px;
+	text-align: center;
+
+	h1{
+		color: #FFF;
+		font-weight: 300;
+		line-height: 1.25em;
+		margin: 0 auto;
+		padding-top: 15px;
+		width: 250px;
+	}
+}
+
+#main{
+	color: #595959;
+	width: 750px;	
+	float: left;
+	overflow: hidden;
+}
+
+article{
+	margin: 50px auto 60px;
+
+	.wrap{
+		text-align: left;
+		width: 100%;
+	}
+
+	footer{
+		margin-top: 15px;
+		padding-bottom: 3px;
+		overflow: hidden;
+
+		p{
+			display: inline-block;
+
+			img{
+				margin-right: 8px;
+				vertical-align: middle;
+			}
+		}
+
+		.social{
+			float: right;
+
+			li{
+				display: inline-block;
+				margin: 0 3px;
+
+				&:last-of-type{
+					margin-right: 0;
+				}
+			}
+
+			img{
+				vertical-align: middle;
+			}
+
+			a{
+				display: block;
+				-webkit-transition: background-color 0.25s ease;
+				-moz-transition: background-color 0.25s ease;
+				-o-transition: background-color 0.25s ease;
+				-ms-transition: background-color 0.25s ease;
+				transition: background-color 0.25s ease;
+			}
+		}
+	}
+}
+
+
+.follow{
+	display: block;
+	margin-bottom: 20px;
+	
+	ul{
+		text-align: center;
+
+		li{
+			display: inline-block;
+			margin: 20px 10px 0;
+
+			&:last-of-type{
+				margin-right: 0;
+			}
+		}
+	}
+
+	img{
+	-webkit-transition: background-color 0.25s ease;
+	-moz-transition: background-color 0.25s ease;
+	-o-transition: background-color 0.25s ease;
+	-ms-transition: background-color 0.25s ease;
+	transition: background-color 0.25s ease;
+	}
+}
+
+
+.post{
+	border-bottom: 2px solid #4C4C4C;
+	padding-bottom: 15px;
+
+	h1{
+		font-size: 2.875em;
+		margin: 20px 0;
+
+	}
+
+	img{
+		width: 100%;
+		vertical-align: middle;
+	}
+
+	figcaption{
+		background-color: #4C4C4C;
+		color: #FFF;
+		padding: 5px;
+		font-size: 0.875em;
+		font-weight: 300;
+	}
+
+	p{
+		margin: 15px 0;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		line-height: 1.35em;
+
+		em,
+		strong{
+			font-weight: 600;
+		}
+
+		a{
+			color: #9dbc19;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+
+aside{
+	margin: 50px auto;
+	overflow: hidden;
+	float: right;
+	width: 290px;
+
+	h2{
+		font-size: 1.25em;
+		margin-bottom: 10px;
+	}
+
+	li{
+		margin: 20px 0;
+		font-size: 0.875em;
+
+		a{
+			color: #4C4C4C;
+			line-height: 1.25em;
+		}
+
+		span{
+			color:#9CBB1A;
+		}
+
+		img{
+			vertical-align: middle;
+		}
+	}
+
+	.categories{
+		li{
+			margin: 10px 0;
+		}
+}	
+}
+
+
+
+.follow{
+	background-color: #4C4C4C;
+	padding: 25px;
+
+	h1{
+		color: #FFF;
+		text-align: center;
+		font-size: 1.2em;
+	}
+}
+
+.recent{
+	ul{
+		overflow: auto;
+
+		img{
+			float: left;
+			padding-top: 7px;
+		}
+
+		a{
+			margin-left: 23px;
+			display: block;
+			line-height: 1.5em;
+		}
+	}
+}
+
+.follow,
+.recentComments,
+.recent,
+.categories,
+.flags{
+	margin: 50px 0;
+}
+
+
+
+.date{
+	background-color: #9DBC19;
+	display: inline-block;
+
+	p{
+		color: #FFF;
+		padding: 3px 5px;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+}
