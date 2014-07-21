@@ -492,3 +492,43 @@ aside .recentComments img {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media screen and (max-width: 1150px) {
+  /* line 435, ../sass/blog.scss */
+  #wrapper {
+    width: 96%;
+  }
+
+  /* line 439, ../sass/blog.scss */
+  #main {
+    width: 66%;
+  }
+
+  /* line 442, ../sass/blog.scss */
+  #sidebar {
+    width: 29%;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 451, ../sass/blog.scss */
+  #main,
+  #sidebar {
+    width: 99%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 460, ../sass/blog.scss */
+  #wrapper {
+    width: 94%;
+  }
+
+  /* line 464, ../sass/blog.scss */
+  .post h1 {
+    font-size: 2em;
+  }
+}

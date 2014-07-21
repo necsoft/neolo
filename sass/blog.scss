@@ -426,8 +426,42 @@ aside{
 	transition: all 0.3s;
 }
 
-
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
 	
+@media screen and (max-width: 1150px){
+	
+	#wrapper{
+		width: 96%;
+	}
 
+	#main{
+		width: 66%;
+	}
+	#sidebar{
+		width: 29%;
+	}
 
+}
 
+@media screen and (max-width: 900px){
+
+	#main,
+	#sidebar{
+		width: 99%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 720px){
+	
+	#wrapper{
+		width: 94%;
+	}
+	
+	.post h1{
+		font-size: 2em;
+	}
+}
