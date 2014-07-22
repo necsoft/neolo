@@ -107,9 +107,9 @@
 				width: 95%;
 			}
 
-			ul{
-				margin:24px 0;
-			}
+			// ul{
+			// 	margin:24px 0;
+			// }
 
 			.price{
 				font-size: 3em;
@@ -125,6 +125,10 @@
 
 			.price{
 				font-size: 2em;
+			}
+
+			ul{
+				margin:24px 0;
 			}
 		}
 
@@ -153,6 +157,13 @@
 	.plan0,
 	.planIlimitado{
 		height: 500px;
+	}
+
+	.landingPlans{
+		.plan0,
+		.planIlimitado{
+			height: 540px;
+		}
 	}
 
 
@@ -224,6 +235,17 @@
 			display: inline-block;
 		}
 	}
+
+
+	.landingPlans{
+		.plan1,
+		.planIlimitado{
+			ul{
+				margin-top: 54px;
+			}
+		}
+	}
+
 
 }
 
@@ -381,12 +403,14 @@
 		padding: 50px 0;
 	}
 
-	.plan0, .planIlimitado{
-		height: 465px;
+	.landingPlans{
+		.plan0, .planIlimitado{
+			height: 510px;
+		}
 	}
 
 	.plan1{
-		height: 520px;
+		height: 570px;
 	}
 
 	#calculateHousing{
