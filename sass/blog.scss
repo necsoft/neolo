@@ -33,7 +33,6 @@
    Estilos generales
    ========================================================================== */
 
-
 body,html{
 	height: 100%;
 }
@@ -55,6 +54,7 @@ body{
 	width: 1150px;
 	overflow: hidden;
 	margin: 0 auto;
+	padding-bottom: 50px;
 }
 
 #header{
@@ -159,13 +159,6 @@ article{
 		}
 	}
 
-	img{
-	-webkit-transition: background-color 0.25s ease;
-	-moz-transition: background-color 0.25s ease;
-	-o-transition: background-color 0.25s ease;
-	-ms-transition: background-color 0.25s ease;
-	transition: background-color 0.25s ease;
-	}
 }
 
 
@@ -335,16 +328,17 @@ aside{
 	color:#FFF;
 	padding: 10px 15px;
 	background-color: #9CBB1A;
+	text-align: center;
 }
 
 #comments{
 
+	h1{
+		font-size: 1.5em;
+	}
+
 	header{
-
-		h1{
-			font-size: 1.5em;
-		}
-
+	
 		img{
 			width: 20px;
 			margin-right: 15px;
@@ -354,6 +348,10 @@ aside{
 
 	article{
 		margin-bottom: 50px;
+
+			&:last-of-type{
+				margin-bottom: 75px;
+			}
 
 		img{
 			float: left;
@@ -369,6 +367,8 @@ aside{
 			color:#9CBB1A;
 			font-size: 1em;
 		}
+
+
 	}
 
 	p{
@@ -381,6 +381,7 @@ aside{
 
 
 #commentForm{
+	margin-top: 25px;
 
 	input,
 	textarea{
@@ -390,6 +391,7 @@ aside{
 		padding: 10px;
 		width: 100%;
 		font-size: 1em;
+		margin: 8px 0;
 
 		&:focus{
 			outline: none;
@@ -404,7 +406,7 @@ aside{
 		font-size: 0.750em;
 		color: #A3A3A3;
 		float: right;
-		padding: 5px 0;
+		padding: 0 0 5px 0;
 	}
 
 }
@@ -439,6 +441,7 @@ aside{
 	#main{
 		width: 66%;
 	}
+
 	#sidebar{
 		width: 29%;
 	}
@@ -460,7 +463,6 @@ aside{
 	#wrapper{
 		width: 94%;
 	}
-	
 	.post h1{
 		font-size: 2em;
 	}
