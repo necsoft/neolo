@@ -222,6 +222,20 @@
 		}
 	}
 
+.empresa{
+
+	.wrap{
+		width: 96%;
+	}
+
+	.maincontent{
+		width: 66%;
+	}
+	.sidebar{
+		width: 29%;
+	}
+}
+
 
 
 }
@@ -268,7 +282,20 @@
 			margin: 15px 0;
 			border:1px solid #CCC;
 		}
-	}	
+	}
+
+
+.empresa{
+
+	.maincontent{
+		width: 99%;
+		margin-bottom: 25px;
+	}
+
+	.sidebar{
+		width: 99%;
+	}
+}	
 }
 
 /* ==========================================================================

@@ -2123,37 +2123,121 @@ div.soporte:last-of-type {
 }
 
 /* ==========================================================================
+   La Empresa
+   ========================================================================== */
+/* line 806, ../sass/screen.scss */
+.empresa {
+  padding: 50px 0;
+}
+/* line 809, ../sass/screen.scss */
+.empresa p {
+  text-align: left;
+  margin: 20px 0;
+  line-height: 1.35em;
+  color: #818080;
+}
+/* line 816, ../sass/screen.scss */
+.empresa p em,
+.empresa p strong {
+  font-size: 600;
+}
+/* line 820, ../sass/screen.scss */
+.empresa p i {
+  font-style: italic;
+}
+/* line 824, ../sass/screen.scss */
+.empresa p a {
+  color: #9dbc19;
+  text-decoration: none;
+}
+/* line 828, ../sass/screen.scss */
+.empresa p a:hover {
+  text-decoration: underline;
+}
+/* line 834, ../sass/screen.scss */
+.empresa h1 {
+  font-size: 1.35em;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* line 842, ../sass/screen.scss */
+.maincontent {
+  width: 650px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+}
+/* line 847, ../sass/screen.scss */
+.maincontent img {
+  border: 3px solid #D6D6D6;
+}
+
+/* line 852, ../sass/screen.scss */
+.sidebar {
+  float: right;
+  width: 290px;
+  text-align: left;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+  overflow: hidden;
+}
+/* line 860, ../sass/screen.scss */
+.sidebar h2 {
+  color: #E4744E;
+  font-size: 1em;
+}
+/* line 865, ../sass/screen.scss */
+.sidebar ul {
+  margin: 15px 0 0 25px;
+}
+/* line 869, ../sass/screen.scss */
+.sidebar ul li {
+  margin: 5px 0;
+  list-style: disc;
+  color: #9dbc19;
+}
+/* line 874, ../sass/screen.scss */
+.sidebar ul li a {
+  color: #9dbc19;
+  text-decoration: none;
+}
+/* line 878, ../sass/screen.scss */
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
    Paises
    ========================================================================== */
-/* line 807, ../sass/screen.scss */
+/* line 890, ../sass/screen.scss */
 #flags {
   background-color: #4C4C4C;
   height: 100%;
   width: 100%;
   padding-top: 100px;
 }
-/* line 813, ../sass/screen.scss */
+/* line 896, ../sass/screen.scss */
 #flags ul {
   padding-top: 50px;
   text-align: center;
 }
-/* line 817, ../sass/screen.scss */
+/* line 900, ../sass/screen.scss */
 #flags ul li {
   display: inline-block;
   margin: 15px 10px;
   vertical-align: top;
   line-height: 1.35em;
 }
-/* line 823, ../sass/screen.scss */
+/* line 906, ../sass/screen.scss */
 #flags ul li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 827, ../sass/screen.scss */
+/* line 910, ../sass/screen.scss */
 #flags ul li a:hover {
   text-decoration: underline;
 }
-/* line 832, ../sass/screen.scss */
+/* line 915, ../sass/screen.scss */
 #flags ul li img {
   width: 45px;
   position: relative;
@@ -2430,31 +2514,44 @@ div.soporte:last-of-type {
     float: none;
     display: inline-block;
   }
+
+  /* line 227, ../sass/_responsive.scss */
+  .empresa .wrap {
+    width: 96%;
+  }
+  /* line 231, ../sass/_responsive.scss */
+  .empresa .maincontent {
+    width: 66%;
+  }
+  /* line 234, ../sass/_responsive.scss */
+  .empresa .sidebar {
+    width: 29%;
+  }
 }
 /* ==========================================================================
    900px 
    ========================================================================== */
 @media screen and (max-width: 900px) {
-  /* line 240, ../sass/_responsive.scss */
+  /* line 254, ../sass/_responsive.scss */
   #more .column.one-third p,
   #more .column.one-third h1 {
     width: 200px;
     margin: 0 auto;
     padding: 0;
   }
-  /* line 246, ../sass/_responsive.scss */
+  /* line 260, ../sass/_responsive.scss */
   #more .column.one-third h1 {
     margin: 5px auto 10px;
     line-height: 1.4em;
   }
 
-  /* line 253, ../sass/_responsive.scss */
+  /* line 267, ../sass/_responsive.scss */
   #login .column.one-third {
     width: 31%;
     float: none;
   }
 
-  /* line 264, ../sass/_responsive.scss */
+  /* line 278, ../sass/_responsive.scss */
   #plans .vps_1,
   #plans .vps_2,
   #plans .vps_3,
@@ -2466,40 +2563,50 @@ div.soporte:last-of-type {
     margin: 15px 0;
     border: 1px solid #CCC;
   }
+
+  /* line 290, ../sass/_responsive.scss */
+  .empresa .maincontent {
+    width: 99%;
+    margin-bottom: 25px;
+  }
+  /* line 295, ../sass/_responsive.scss */
+  .empresa .sidebar {
+    width: 99%;
+  }
 }
 /* ==========================================================================
    800px 
    ========================================================================== */
 @media screen and (max-width: 800px) {
-  /* line 280, ../sass/_responsive.scss */
+  /* line 307, ../sass/_responsive.scss */
   #hero {
     height: auto;
     padding-bottom: 10%;
   }
-  /* line 284, ../sass/_responsive.scss */
+  /* line 311, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 4em;
   }
-  /* line 288, ../sass/_responsive.scss */
+  /* line 315, ../sass/_responsive.scss */
   #hero h2 {
     font-size: 0.9em;
     width: 90%;
   }
-  /* line 293, ../sass/_responsive.scss */
+  /* line 320, ../sass/_responsive.scss */
   #hero .logo {
     float: none;
     text-align: center;
   }
-  /* line 297, ../sass/_responsive.scss */
+  /* line 324, ../sass/_responsive.scss */
   #hero .logo img {
     width: 200px;
   }
-  /* line 302, ../sass/_responsive.scss */
+  /* line 329, ../sass/_responsive.scss */
   #hero nav {
     float: none;
     margin-top: 15px;
   }
-  /* line 306, ../sass/_responsive.scss */
+  /* line 333, ../sass/_responsive.scss */
   #hero nav li {
     float: none;
     display: inline-block;
@@ -2507,21 +2614,21 @@ div.soporte:last-of-type {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  /* line 315, ../sass/_responsive.scss */
+  /* line 342, ../sass/_responsive.scss */
   #hero .mainTitle {
     margin-top: 50px;
   }
-  /* line 319, ../sass/_responsive.scss */
+  /* line 346, ../sass/_responsive.scss */
   #hero header {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 325, ../sass/_responsive.scss */
+  /* line 352, ../sass/_responsive.scss */
   #plans {
     padding-top: 25px;
   }
-  /* line 331, ../sass/_responsive.scss */
+  /* line 358, ../sass/_responsive.scss */
   #plans .planD7,
   #plans .planD14,
   #plans .planD25,
@@ -2531,21 +2638,21 @@ div.soporte:last-of-type {
     margin: 10px 0;
     border-right: 1px solid #CCC;
   }
-  /* line 337, ../sass/_responsive.scss */
+  /* line 364, ../sass/_responsive.scss */
   #plans .planD7 h1,
   #plans .planD14 h1,
   #plans .planD25 h1,
   #plans .planD100 h1 {
     font-size: 1.375em;
   }
-  /* line 341, ../sass/_responsive.scss */
+  /* line 368, ../sass/_responsive.scss */
   #plans .planD7 li,
   #plans .planD14 li,
   #plans .planD25 li,
   #plans .planD100 li {
     font-size: 1em;
   }
-  /* line 344, ../sass/_responsive.scss */
+  /* line 371, ../sass/_responsive.scss */
   #plans .planD7 .priceAnual,
   #plans .planD14 .priceAnual,
   #plans .planD25 .priceAnual,
@@ -2553,66 +2660,66 @@ div.soporte:last-of-type {
     margin-bottom: 30px;
   }
 
-  /* line 352, ../sass/_responsive.scss */
+  /* line 379, ../sass/_responsive.scss */
   .mainTitle {
     margin-top: 75px;
   }
 
-  /* line 357, ../sass/_responsive.scss */
+  /* line 384, ../sass/_responsive.scss */
   #trust h1,
   #plans header h1 {
     font-size: 3em;
   }
 
-  /* line 362, ../sass/_responsive.scss */
+  /* line 389, ../sass/_responsive.scss */
   #plans header h2,
   #trust h2 {
     width: 95%;
     font-size: 0.875em;
   }
 
-  /* line 367, ../sass/_responsive.scss */
+  /* line 394, ../sass/_responsive.scss */
   #contact {
     font-size: 1.5em;
   }
 
-  /* line 371, ../sass/_responsive.scss */
+  /* line 398, ../sass/_responsive.scss */
   #more header h1 {
     font-size: 2em;
   }
 
-  /* line 375, ../sass/_responsive.scss */
+  /* line 402, ../sass/_responsive.scss */
   .guidesList > li {
     width: 49%;
   }
 
-  /* line 378, ../sass/_responsive.scss */
+  /* line 405, ../sass/_responsive.scss */
   #heroGuides h1 {
     font-size: 2em;
     padding: 50px 0;
   }
 
-  /* line 383, ../sass/_responsive.scss */
+  /* line 410, ../sass/_responsive.scss */
   .plan0, .planIlimitado {
     height: 510px;
   }
 
-  /* line 387, ../sass/_responsive.scss */
+  /* line 414, ../sass/_responsive.scss */
   .plan1 {
     height: 570px;
   }
 
-  /* line 393, ../sass/_responsive.scss */
+  /* line 420, ../sass/_responsive.scss */
   #calculateHousing h1 {
     font-size: 3em;
   }
-  /* line 397, ../sass/_responsive.scss */
+  /* line 424, ../sass/_responsive.scss */
   #calculateHousing h2 {
     font-weight: 400;
     font-size: 0.875em;
   }
 
-  /* line 403, ../sass/_responsive.scss */
+  /* line 430, ../sass/_responsive.scss */
   #slider-horizontal {
     width: 80%;
   }
@@ -2621,26 +2728,26 @@ div.soporte:last-of-type {
    720px 
    ========================================================================== */
 @media screen and (max-width: 720px) {
-  /* line 417, ../sass/_responsive.scss */
+  /* line 444, ../sass/_responsive.scss */
   #features p {
     font-size: 0.75em;
   }
 
-  /* line 422, ../sass/_responsive.scss */
+  /* line 449, ../sass/_responsive.scss */
   #contact {
     font-size: 1.35em;
   }
 
-  /* line 427, ../sass/_responsive.scss */
+  /* line 454, ../sass/_responsive.scss */
   #trust {
     height: auto;
   }
-  /* line 430, ../sass/_responsive.scss */
+  /* line 457, ../sass/_responsive.scss */
   #trust ul li {
     width: 49%;
   }
 
-  /* line 450, ../sass/_responsive.scss */
+  /* line 477, ../sass/_responsive.scss */
   .plan0 h1,
   .plan1 h1,
   .planIlimitado h1,
@@ -2656,7 +2763,7 @@ div.soporte:last-of-type {
     font-size: 1.250em;
     margin-top: 12px;
   }
-  /* line 455, ../sass/_responsive.scss */
+  /* line 482, ../sass/_responsive.scss */
   .plan0 h4,
   .plan1 h4,
   .planIlimitado h4,
@@ -2672,7 +2779,7 @@ div.soporte:last-of-type {
     line-height: 1.275em;
     width: 95%;
   }
-  /* line 460, ../sass/_responsive.scss */
+  /* line 487, ../sass/_responsive.scss */
   .plan0 ul,
   .plan1 ul,
   .planIlimitado ul,
@@ -2687,7 +2794,7 @@ div.soporte:last-of-type {
   .vps_5 ul {
     margin: 24px 0;
   }
-  /* line 466, ../sass/_responsive.scss */
+  /* line 493, ../sass/_responsive.scss */
   .plan0 .price,
   .plan0 .priceAnual,
   .plan0 .priceMonthly,
@@ -2726,7 +2833,7 @@ div.soporte:last-of-type {
   .vps_5 .priceMonthly {
     font-size: 2.5em;
   }
-  /* line 470, ../sass/_responsive.scss */
+  /* line 497, ../sass/_responsive.scss */
   .plan0 li,
   .plan1 li,
   .planIlimitado li,
@@ -2742,73 +2849,73 @@ div.soporte:last-of-type {
     font-size: 0.875em;
   }
 
-  /* line 475, ../sass/_responsive.scss */
+  /* line 502, ../sass/_responsive.scss */
   #pay {
     margin: 50px 0 75px 0;
   }
-  /* line 478, ../sass/_responsive.scss */
+  /* line 505, ../sass/_responsive.scss */
   #pay h1 {
     font-size: 2em;
   }
 
-  /* line 485, ../sass/_responsive.scss */
+  /* line 512, ../sass/_responsive.scss */
   #login .column.one-third {
     width: 50%;
     float: none;
     margin: 25px 0;
   }
 
-  /* line 491, ../sass/_responsive.scss */
+  /* line 518, ../sass/_responsive.scss */
   #login {
     height: auto;
     background-attachment: fixed;
     background-size: cover;
   }
-  /* line 496, ../sass/_responsive.scss */
+  /* line 523, ../sass/_responsive.scss */
   #login .row {
     margin: 0;
   }
 
-  /* line 501, ../sass/_responsive.scss */
+  /* line 528, ../sass/_responsive.scss */
   .nameGuides {
     display: none;
   }
 
-  /* line 505, ../sass/_responsive.scss */
+  /* line 532, ../sass/_responsive.scss */
   .logoGuides {
     width: 200px;
     margin-top: 5px;
   }
 
-  /* line 510, ../sass/_responsive.scss */
+  /* line 537, ../sass/_responsive.scss */
   #registerDomain h1 {
     font-size: 2em;
   }
 
-  /* line 515, ../sass/_responsive.scss */
+  /* line 542, ../sass/_responsive.scss */
   #help h1 {
     font-size: 3em;
   }
-  /* line 518, ../sass/_responsive.scss */
+  /* line 545, ../sass/_responsive.scss */
   #help h2 {
     font-size: 2em;
   }
-  /* line 521, ../sass/_responsive.scss */
+  /* line 548, ../sass/_responsive.scss */
   #help h3 {
     font-size: 0.875em;
   }
 
-  /* line 526, ../sass/_responsive.scss */
+  /* line 553, ../sass/_responsive.scss */
   #stepOne ul {
     width: 96%;
   }
 
-  /* line 531, ../sass/_responsive.scss */
+  /* line 558, ../sass/_responsive.scss */
   #plans .wrap {
     width: 100%;
     margin: 0;
   }
-  /* line 538, ../sass/_responsive.scss */
+  /* line 565, ../sass/_responsive.scss */
   #plans .plan0,
   #plans .plan1,
   #plans .planIlimitado {
@@ -2818,32 +2925,32 @@ div.soporte:last-of-type {
     margin: 5px 0;
     border: 1px solid #CCC;
   }
-  /* line 545, ../sass/_responsive.scss */
+  /* line 572, ../sass/_responsive.scss */
   #plans .plan0 h1,
   #plans .plan1 h1,
   #plans .planIlimitado h1 {
     font-size: 2.125em;
   }
-  /* line 549, ../sass/_responsive.scss */
+  /* line 576, ../sass/_responsive.scss */
   #plans .plan0 img,
   #plans .plan1 img,
   #plans .planIlimitado img {
     width: 125px;
   }
-  /* line 553, ../sass/_responsive.scss */
+  /* line 580, ../sass/_responsive.scss */
   #plans .plan0 li,
   #plans .plan1 li,
   #plans .planIlimitado li {
     font-size: 1.125em;
   }
-  /* line 557, ../sass/_responsive.scss */
+  /* line 584, ../sass/_responsive.scss */
   #plans .plan0 h4,
   #plans .plan1 h4,
   #plans .planIlimitado h4 {
     width: 75%;
     font-size: 0.938em;
   }
-  /* line 562, ../sass/_responsive.scss */
+  /* line 589, ../sass/_responsive.scss */
   #plans .plan0 .price,
   #plans .plan1 .price,
   #plans .planIlimitado .price {
@@ -2854,7 +2961,7 @@ div.soporte:last-of-type {
    640PX 
    ========================================================================== */
 @media screen and (max-width: 640px) {
-  /* line 580, ../sass/_responsive.scss */
+  /* line 607, ../sass/_responsive.scss */
   .column.full,
   .column.two-thirds,
   .column.half,
@@ -2866,37 +2973,37 @@ div.soporte:last-of-type {
     width: 100%;
   }
 
-  /* line 588, ../sass/_responsive.scss */
+  /* line 615, ../sass/_responsive.scss */
   .btnsucces,
   .btnwarning,
   .btnerror {
     display: block;
   }
 
-  /* line 593, ../sass/_responsive.scss */
+  /* line 620, ../sass/_responsive.scss */
   #features {
     padding: 20px  0;
   }
-  /* line 596, ../sass/_responsive.scss */
+  /* line 623, ../sass/_responsive.scss */
   #features .row {
     margin: 10px 5%;
   }
-  /* line 601, ../sass/_responsive.scss */
+  /* line 628, ../sass/_responsive.scss */
   #features .column.one-third {
     overflow: hidden;
     margin: 30px 0;
   }
-  /* line 606, ../sass/_responsive.scss */
+  /* line 633, ../sass/_responsive.scss */
   #features h1 {
     text-align: left;
   }
-  /* line 609, ../sass/_responsive.scss */
+  /* line 636, ../sass/_responsive.scss */
   #features p {
     text-align: left;
     width: auto;
   }
 
-  /* line 616, ../sass/_responsive.scss */
+  /* line 643, ../sass/_responsive.scss */
   .imgFeature,
   .imgOtherFeatures {
     float: left;
@@ -2906,106 +3013,106 @@ div.soporte:last-of-type {
     margin-bottom: 10px;
   }
 
-  /* line 625, ../sass/_responsive.scss */
+  /* line 652, ../sass/_responsive.scss */
   #info p {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 634, ../sass/_responsive.scss */
+  /* line 661, ../sass/_responsive.scss */
   #more .row {
     margin: 0 5%;
     overflow: inherit;
   }
-  /* line 638, ../sass/_responsive.scss */
+  /* line 665, ../sass/_responsive.scss */
   #more .row .column.one-third {
     overflow: hidden;
     margin: 30px 0;
     width: auto;
   }
-  /* line 643, ../sass/_responsive.scss */
+  /* line 670, ../sass/_responsive.scss */
   #more .row .column.one-third header {
     float: left;
     margin-right: 15px;
   }
-  /* line 649, ../sass/_responsive.scss */
+  /* line 676, ../sass/_responsive.scss */
   #more .row .column.one-third h1,
   #more .row .column.one-third p {
     text-align: left;
     width: auto;
   }
-  /* line 656, ../sass/_responsive.scss */
+  /* line 683, ../sass/_responsive.scss */
   #more header {
     margin: 50px 0;
   }
-  /* line 659, ../sass/_responsive.scss */
+  /* line 686, ../sass/_responsive.scss */
   #more header h1 {
     font-size: 1.5em;
   }
 
-  /* line 665, ../sass/_responsive.scss */
+  /* line 692, ../sass/_responsive.scss */
   #contact {
     font-size: 1em;
     padding: 40px 0;
   }
 
-  /* line 670, ../sass/_responsive.scss */
+  /* line 697, ../sass/_responsive.scss */
   #pay h1 {
     font-size: 1.75em;
   }
 
-  /* line 674, ../sass/_responsive.scss */
+  /* line 701, ../sass/_responsive.scss */
   .guidesList > li {
     width: 100%;
   }
 
-  /* line 678, ../sass/_responsive.scss */
+  /* line 705, ../sass/_responsive.scss */
   #heroGuides h1 {
     font-size: 1.5em;
   }
 
-  /* line 684, ../sass/_responsive.scss */
+  /* line 711, ../sass/_responsive.scss */
   #help form, #help input {
     width: 100%;
   }
-  /* line 688, ../sass/_responsive.scss */
+  /* line 715, ../sass/_responsive.scss */
   #help textarea {
     margin-top: 18px;
   }
 
-  /* line 694, ../sass/_responsive.scss */
+  /* line 721, ../sass/_responsive.scss */
   #domains h1 {
     font-size: 2em;
   }
-  /* line 697, ../sass/_responsive.scss */
+  /* line 724, ../sass/_responsive.scss */
   #domains h2 {
     width: 96%;
     font-size: 0.875em;
   }
-  /* line 702, ../sass/_responsive.scss */
+  /* line 729, ../sass/_responsive.scss */
   #domains input {
     width: 100%;
   }
 
-  /* line 707, ../sass/_responsive.scss */
+  /* line 734, ../sass/_responsive.scss */
   #flags {
     height: auto;
   }
 
-  /* line 713, ../sass/_responsive.scss */
+  /* line 740, ../sass/_responsive.scss */
   #registerDomain input {
     width: 100%;
   }
-  /* line 717, ../sass/_responsive.scss */
+  /* line 744, ../sass/_responsive.scss */
   #registerDomain .wrap {
     max-width: 100%;
   }
-  /* line 721, ../sass/_responsive.scss */
+  /* line 748, ../sass/_responsive.scss */
   #registerDomain .column.one-fourth {
     float: left;
     width: 45%;
   }
-  /* line 726, ../sass/_responsive.scss */
+  /* line 753, ../sass/_responsive.scss */
   #registerDomain .row {
     width: auto;
   }
@@ -3014,25 +3121,25 @@ div.soporte:last-of-type {
    600PX 
    ========================================================================== */
 @media screen and (max-width: 600px) {
-  /* line 741, ../sass/_responsive.scss */
+  /* line 768, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 3em;
   }
-  /* line 745, ../sass/_responsive.scss */
+  /* line 772, ../sass/_responsive.scss */
   #hero .action {
     font-size: 0.875em;
   }
-  /* line 750, ../sass/_responsive.scss */
+  /* line 777, ../sass/_responsive.scss */
   #hero .titleBig h1 {
     font-size: 2.5em;
   }
 
-  /* line 757, ../sass/_responsive.scss */
+  /* line 784, ../sass/_responsive.scss */
   #trust h1, #plans header h1 {
     font-size: 2em;
   }
 
-  /* line 770, ../sass/_responsive.scss */
+  /* line 797, ../sass/_responsive.scss */
   #plans .vps_1,
   #plans .vps_2,
   #plans .vps_3,
@@ -3048,7 +3155,7 @@ div.soporte:last-of-type {
     margin: 5px 0;
     border: 1px solid #CCC;
   }
-  /* line 777, ../sass/_responsive.scss */
+  /* line 804, ../sass/_responsive.scss */
   #plans .vps_1 h1,
   #plans .vps_2 h1,
   #plans .vps_3 h1,
@@ -3060,7 +3167,7 @@ div.soporte:last-of-type {
   #plans .planD100 h1 {
     font-size: 2em;
   }
-  /* line 781, ../sass/_responsive.scss */
+  /* line 808, ../sass/_responsive.scss */
   #plans .vps_1 img,
   #plans .vps_2 img,
   #plans .vps_3 img,
@@ -3072,7 +3179,7 @@ div.soporte:last-of-type {
   #plans .planD100 img {
     width: 120px;
   }
-  /* line 785, ../sass/_responsive.scss */
+  /* line 812, ../sass/_responsive.scss */
   #plans .vps_1 li,
   #plans .vps_2 li,
   #plans .vps_3 li,
@@ -3084,7 +3191,7 @@ div.soporte:last-of-type {
   #plans .planD100 li {
     font-size: 1em;
   }
-  /* line 791, ../sass/_responsive.scss */
+  /* line 818, ../sass/_responsive.scss */
   #plans .vps_1 .priceVPS,
   #plans .vps_1 .priceAnual,
   #plans .vps_1 .priceMonthly,
@@ -3114,12 +3221,12 @@ div.soporte:last-of-type {
   #plans .planD100 .priceMonthly {
     font-size: 3.5em;
   }
-  /* line 796, ../sass/_responsive.scss */
+  /* line 823, ../sass/_responsive.scss */
   #plans header {
     margin-bottom: 50px;
   }
 
-  /* line 802, ../sass/_responsive.scss */
+  /* line 829, ../sass/_responsive.scss */
   #trust {
     margin-bottom: 25px;
   }
@@ -3128,21 +3235,21 @@ div.soporte:last-of-type {
    520PX 
    ========================================================================== */
 @media screen and (max-width: 520px) {
-  /* line 814, ../sass/_responsive.scss */
+  /* line 841, ../sass/_responsive.scss */
   .infoFooter div {
     text-align: center;
     display: block;
     border: 0 none;
   }
 
-  /* line 820, ../sass/_responsive.scss */
+  /* line 847, ../sass/_responsive.scss */
   .infoFooter div {
     height: auto;
     padding: 15px;
     border-bottom: 1px solid #575757;
   }
 
-  /* line 826, ../sass/_responsive.scss */
+  /* line 853, ../sass/_responsive.scss */
   .contactFooter ul {
     margin: 0;
   }
@@ -3151,17 +3258,17 @@ div.soporte:last-of-type {
    480PX 
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  /* line 840, ../sass/_responsive.scss */
+  /* line 867, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 2.5em;
   }
-  /* line 844, ../sass/_responsive.scss */
+  /* line 871, ../sass/_responsive.scss */
   #hero h2 {
     margin-bottom: 35px;
     font-size: 0.875em;
   }
 
-  /* line 850, ../sass/_responsive.scss */
+  /* line 877, ../sass/_responsive.scss */
   .logoGuides {
     width: 125px;
     margin-top: 11px;

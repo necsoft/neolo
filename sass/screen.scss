@@ -799,6 +799,89 @@
 	margin-top: 23px;
 }
 
+/* ==========================================================================
+   La Empresa
+   ========================================================================== */
+
+.empresa{
+	padding: 50px 0;
+
+	p{
+		text-align: left;
+		margin: 20px 0;
+		line-height: 1.35em;
+		color: #818080;
+
+		em,
+		strong{
+			font-size: 600;
+		}
+
+		i{
+			font-style: italic;
+		}
+
+		a{
+			color: #9dbc19;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	h1{
+		font-size: 1.35em;
+		font-weight: 600;
+		text-align: left;
+	}
+
+}
+
+.maincontent{
+	width: 650px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+
+	img{
+		border: 3px solid #D6D6D6;
+	}
+}
+
+.sidebar{
+	float: right;
+	width: 290px;
+	text-align: left;
+	border-left: 1px solid #ccc;
+	padding-left: 10px;
+	overflow: hidden;
+
+	h2{
+		color: #E4744E;
+		font-size: 1em;
+	}
+
+	ul{
+		margin: 15px 0 0 25px;
+
+
+		li{
+			margin: 5px 0;
+			list-style: disc;
+			color: #9dbc19;
+
+			a{
+				color: #9dbc19;
+				text-decoration: none;
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
 
 /* ==========================================================================
    Paises
