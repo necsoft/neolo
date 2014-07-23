@@ -814,7 +814,8 @@
 
 		em,
 		strong{
-			font-size: 600;
+			font-weight: 600;
+			color: #5F5E5E;
 		}
 
 		i{
@@ -843,10 +844,120 @@
 	width: 650px;
 	float: left;
 	border-bottom: 1px solid #ccc;
+	text-align: left;
 
 	img{
 		border: 3px solid #D6D6D6;
 	}
+
+	.listMotivos{
+		text-align: left;
+
+		li{
+			margin: 30px 0;
+		}
+
+		span{
+			color: #9dbc19;
+			font-size: 1.75em;
+			font-weight: 600;
+			margin-top: -7px;
+			float: left;
+			margin-right: 10px;
+		}
+	}
+
+	h2{
+		font-size: 1.25em;
+		color: #9dbc19;
+		font-weight: 600;
+		margin: 45px 0;
+
+	}
+
+	h3{
+		font-weight: 600;
+		margin: 40px 0 10px 0;
+		color: #5F5E5E;
+
+	}
+
+	h4{
+		margin-bottom: 10px;
+	}
+
+}
+
+.cv{
+	background-color: #9dbc19;
+	text-align: center;
+	padding: 10px;
+	margin-top: 35px;
+
+	h4{
+		color: #FFF;
+		font-size: 1.5em;
+	}
+
+	p{
+		color: #FFF;
+		text-align: center;
+
+		a{
+			color: #FFF;
+		}
+	}
+
+}
+
+.listrrhh{
+
+	li{
+		margin: 15px 0;
+		line-height: 1.25em;
+		list-style-type: disc;
+		margin-left: 35px;
+		color: #E4744E;
+	}
+}
+
+#feedbackForm{
+	input,
+	textarea{
+		background-color: #EAEAEA;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		border: 0 none;
+		padding: 10px;
+		width: 100%;
+		font-size: 1em;
+		margin: 8px 0;
+
+		&:focus{
+			outline: none;
+		}
+	}
+
+	textarea {
+    	resize: none;
+	}
+}
+
+#sendFeedback{
+	@include inline-block;
+	font-size: 1em;
+	padding: 10px 40px;
+	float: right;
+	border: none;
+	color:#FFF;
+	text-decoration:none;
+	background-color:#9CBB1A;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-bottom: 15px;
 }
 
 .sidebar{

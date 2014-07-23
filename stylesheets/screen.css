@@ -2139,40 +2139,152 @@ div.soporte:last-of-type {
 /* line 816, ../sass/screen.scss */
 .empresa p em,
 .empresa p strong {
-  font-size: 600;
+  font-weight: 600;
+  color: #5F5E5E;
 }
-/* line 820, ../sass/screen.scss */
+/* line 821, ../sass/screen.scss */
 .empresa p i {
   font-style: italic;
 }
-/* line 824, ../sass/screen.scss */
+/* line 825, ../sass/screen.scss */
 .empresa p a {
   color: #9dbc19;
   text-decoration: none;
 }
-/* line 828, ../sass/screen.scss */
+/* line 829, ../sass/screen.scss */
 .empresa p a:hover {
   text-decoration: underline;
 }
-/* line 834, ../sass/screen.scss */
+/* line 835, ../sass/screen.scss */
 .empresa h1 {
   font-size: 1.35em;
   font-weight: 600;
   text-align: left;
 }
 
-/* line 842, ../sass/screen.scss */
+/* line 843, ../sass/screen.scss */
 .maincontent {
   width: 650px;
   float: left;
   border-bottom: 1px solid #ccc;
+  text-align: left;
 }
-/* line 847, ../sass/screen.scss */
+/* line 849, ../sass/screen.scss */
 .maincontent img {
   border: 3px solid #D6D6D6;
 }
+/* line 853, ../sass/screen.scss */
+.maincontent .listMotivos {
+  text-align: left;
+}
+/* line 856, ../sass/screen.scss */
+.maincontent .listMotivos li {
+  margin: 30px 0;
+}
+/* line 860, ../sass/screen.scss */
+.maincontent .listMotivos span {
+  color: #9dbc19;
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-top: -7px;
+  float: left;
+  margin-right: 10px;
+}
+/* line 870, ../sass/screen.scss */
+.maincontent h2 {
+  font-size: 1.25em;
+  color: #9dbc19;
+  font-weight: 600;
+  margin: 45px 0;
+}
+/* line 878, ../sass/screen.scss */
+.maincontent h3 {
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+  color: #5F5E5E;
+}
+/* line 885, ../sass/screen.scss */
+.maincontent h4 {
+  margin-bottom: 10px;
+}
 
-/* line 852, ../sass/screen.scss */
+/* line 891, ../sass/screen.scss */
+.cv {
+  background-color: #9dbc19;
+  text-align: center;
+  padding: 10px;
+  margin-top: 35px;
+}
+/* line 897, ../sass/screen.scss */
+.cv h4 {
+  color: #FFF;
+  font-size: 1.5em;
+}
+/* line 902, ../sass/screen.scss */
+.cv p {
+  color: #FFF;
+  text-align: center;
+}
+/* line 906, ../sass/screen.scss */
+.cv p a {
+  color: #FFF;
+}
+
+/* line 915, ../sass/screen.scss */
+.listrrhh li {
+  margin: 15px 0;
+  line-height: 1.25em;
+  list-style-type: disc;
+  margin-left: 35px;
+  color: #E4744E;
+}
+
+/* line 926, ../sass/screen.scss */
+#feedbackForm input,
+#feedbackForm textarea {
+  background-color: #EAEAEA;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 0 none;
+  padding: 10px;
+  width: 100%;
+  font-size: 1em;
+  margin: 8px 0;
+}
+/* line 935, ../sass/screen.scss */
+#feedbackForm input:focus,
+#feedbackForm textarea:focus {
+  outline: none;
+}
+/* line 940, ../sass/screen.scss */
+#feedbackForm textarea {
+  resize: none;
+}
+
+/* line 945, ../sass/screen.scss */
+#sendFeedback {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  font-size: 1em;
+  padding: 10px 40px;
+  float: right;
+  border: none;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #9CBB1A;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 15px;
+}
+
+/* line 963, ../sass/screen.scss */
 .sidebar {
   float: right;
   width: 290px;
@@ -2181,27 +2293,27 @@ div.soporte:last-of-type {
   padding-left: 10px;
   overflow: hidden;
 }
-/* line 860, ../sass/screen.scss */
+/* line 971, ../sass/screen.scss */
 .sidebar h2 {
   color: #E4744E;
   font-size: 1em;
 }
-/* line 865, ../sass/screen.scss */
+/* line 976, ../sass/screen.scss */
 .sidebar ul {
   margin: 15px 0 0 25px;
 }
-/* line 869, ../sass/screen.scss */
+/* line 980, ../sass/screen.scss */
 .sidebar ul li {
   margin: 5px 0;
   list-style: disc;
   color: #9dbc19;
 }
-/* line 874, ../sass/screen.scss */
+/* line 985, ../sass/screen.scss */
 .sidebar ul li a {
   color: #9dbc19;
   text-decoration: none;
 }
-/* line 878, ../sass/screen.scss */
+/* line 989, ../sass/screen.scss */
 .sidebar ul li a:hover {
   text-decoration: underline;
 }
@@ -2209,35 +2321,35 @@ div.soporte:last-of-type {
 /* ==========================================================================
    Paises
    ========================================================================== */
-/* line 890, ../sass/screen.scss */
+/* line 1001, ../sass/screen.scss */
 #flags {
   background-color: #4C4C4C;
   height: 100%;
   width: 100%;
   padding-top: 100px;
 }
-/* line 896, ../sass/screen.scss */
+/* line 1007, ../sass/screen.scss */
 #flags ul {
   padding-top: 50px;
   text-align: center;
 }
-/* line 900, ../sass/screen.scss */
+/* line 1011, ../sass/screen.scss */
 #flags ul li {
   display: inline-block;
   margin: 15px 10px;
   vertical-align: top;
   line-height: 1.35em;
 }
-/* line 906, ../sass/screen.scss */
+/* line 1017, ../sass/screen.scss */
 #flags ul li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 910, ../sass/screen.scss */
+/* line 1021, ../sass/screen.scss */
 #flags ul li a:hover {
   text-decoration: underline;
 }
-/* line 915, ../sass/screen.scss */
+/* line 1026, ../sass/screen.scss */
 #flags ul li img {
   width: 45px;
   position: relative;

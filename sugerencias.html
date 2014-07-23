@@ -16,82 +16,50 @@
 <body>
 	<header id="mainHeader">
 		<div class="wrap">
-			<div class="country">
-				<a href="paises.html" class="currentCountry"><img src="img/arg.svg" alt=""></a>
-				<ul class="othersCountries">
-					<li><a href=""><img src="img/arg.svg" alt=""></a></li>
-					<li><a href=""><img src="img/arg.svg" alt=""></a></li>
-				</ul>
-			</div>
+			<a class="logoGuides" href="index.html"><img src="img/logo_footer.svg" alt=""></a>
 			<div class="rightHeader">
 				<ul>
 					<li><a href="consultas.html">Canal de consulta</a></li>
-					<li class="login"><a href="login.html">Ingresar</a></li>
+					<li class="login"><a href="">Ingresar</a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
-	<section id="hero">
+	<section id="heroGuides">
 		<div class="wrap">
-			<header class="cf">
-				<div class="logo">
-					<a href="index.html"><img src="img/logo.svg" alt=""></a>
-				</div>
-				<nav>
-					<ul>
-						<li><a href="web_hosting.html">Web Hosting</a></li>
-						<li><a href="revendedores.html">Revendedores</a></li>
-						<li><a href="housing.html">Housing</a></li>
-						<li><a href="vps.html">VPS</a></li>
-						<li><a href="dominios.html">Dominios</a></li>
-						
-					</ul>
-				</nav>
-			</header>
-			<div class="mainTitle">
-				<h1>Consultas</h1>
-				<h2>Si llegaste acá, es porque la Internet te ganó un round. <br>No te preocupes, nos pasa a todos. Antes que nada, fíjate si alguna de estas guías te ayuda</h2>
-				<a href="ayuda.html" class="action">Ver guias de ayuda</a>
+			<div>
+				<h1>Feedback</h1>
 			</div>
 		</div>
 	</section>
-	<section id="help">
+	<section class="empresa cf">
 		<div class="wrap">
-			<div id="stepOne">
-				<h1>1</h1>
-				<h2>Los sospechosos de siempre</h2>
-				<h3>Hay temas de consulta más comunes, y conflictivos, que otros. Empezá eligiendo el tuyo.</h3>
-				<ul class="cf">
-					<li><a href="">Web Hosting manager</a></li>
-					<li><a href="">Bases de datos</a></li>
-					<li><a href="">Dominios</a></li>
-					<li><a  class="helpActive" href="">Bases de datos</a></li>
-					<li><a href="">Webmail</a></li>
-					<li><a href="">Sitio</a></li>
-					<li><a href="">Temas comerciales</a></li>
-					<li><a href="">Sitios suspendidos</a></li>
-					<li><a href="">Ventas</a></li>
+			<div class="maincontent">
+				<h1>Feedback</h1>
+				<p>En <em>Neolo.com</em> entendemos que la comunicación es un factor fundamental.</p>
+				<p>Por eso, si tenés alguna queja o sugerencia nos interesa escucharla para poder mejorar en lo que hacemos y brindar cada vez un mejor servicio.</p>
+				<p>El mensaje que nos envíes le llegará directamente a los directores y a los dueños de Neolo.com que se encargarán de darte una respuesta.</p>
+
+				<form id="feedbackForm" class="cf"action="" >
+					<input id="name" type="text" placeholder="Nombre"><br>
+					<input id="lastName" type="text" placeholder="Apellido"><br>
+					<input id="mail" type="email" placeholder="Email"><br>
+					<input id="web" type="text" placeholder="Sitio Web"><br>
+					<textarea name="message" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea><br>
+				<button id="sendFeedback" name"sendFeedback"="" type="submit">Enviar</button>
+			</form>
+			</div>
+			
+			<aside class="sidebar">
+				<h2>Conocé más de Neolo</h2>
+				<ul>
+					<li><a href="historia.html">Historia</a></li>
+					<li><a href="10motivos.html">10 motivos</a></li>
+					<li><a href="rrhh.html">RRHH</a></li>
+					<li><a href="prensa.html">Prensa</a></li>
 				</ul>
-				<a href="" class="dontKnow">no lo sé</a>
-			</div>
-			<div id="stepTwo">
-				<h1>2</h1>
-				<h2>Contanos qué pasó</h2>
-				<h3>Tomate tu tiempo y escribinos con lujo de detalle sobre tu duda o inconveniente.  <br>Mientras más detallado y específico, mejor.</h3>
-				<form action="helpContact">
-					<input type="text" name="name" placeholder="Nombre" class="nameHelp">
-					<input type="email" name="mail" placeholder="Email" class="mailHelp"> <br>
-					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-			</div>
-			<div id="stepThree">
-				<h1>3</h1>
-				<h2>Ahora buscate ese café que querías</h2>
-				<h3>Que en minutos te atendemos.</h3>
-			</div>
-			<hr>
-					<button id="helpContact" name"helpContact"="" type="submit">Enviar consulta</button>
-				</form>
-		</div>	
+			</aside>
+		</div>
 	</section>
 	<footer id="footer" class="cf">
 		<div class="wrap cf">
@@ -150,6 +118,5 @@
 			</div>
 		</div>
 	</footer>
-	<script src="js/main.js"></script>
 </body>
 </html>
