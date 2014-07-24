@@ -352,6 +352,7 @@
 
 	p{
 		font-weight: 300;
+		color: #4C4C4C;
 
 		span{
 			font-size: 0.875em;
@@ -446,34 +447,161 @@
 		margin-top: 25px;
 	}
 
-
-
-
 }
 
 #optionHousing{
 	margin: 50px auto;
-
-	.column.one-fourth{
-		border: 1px dashed #686868;
-		width: 23.5%;
-	}
 
 	.row{
 		width: 600px;
 		margin: 10px auto;
 	}
 
-	a{
-		text-decoration: none;
-		color: #A2A2A2;
-		display: block;
-		padding: 24px;
+	.column.one-fourth{
+		border: 1px dashed #686868;
+		width: 23.5%;
+		padding: 0 5px;
+		height: 150px;
+
+		> a{
+			height: 150px;
+			display: table;
+			text-decoration: none;
+
+		}
+
+		h2{
+			color: #469956;
+			margin-bottom: 10px;
+		}
+
+		p{
+			color: #4C4C4C;
+		}
+
+		.trianguloizq,
+		.trianguloder{
+			height: 14px;
+		}
+
+		.adicionalip,
+		.licencias{
+			background-color: #469956;
+			padding: 3px 7px;
+			color: white;
+			display: inline-block;;
+			margin-bottom: 10px;
+		}
+		
+	}
+
+	.inner{
+		display: table-cell;
+		vertical-align: middle;
+		width: 23%;
+		height: 150px;
 	}
 }
-.innerHousing{
-	padding: 24px;	
+
+.trianguloizq{
+	float: left;
+	position: relative;
+	left: 38px;
+	top: 3px;
+	height: 14px!important;
 }
+
+.trianguloder{
+	float: right;
+	position: relative;
+	right: 38px;
+	top: 3px;
+	height: 14px!important;
+}
+
+
+// #optionHousing{
+// 	margin: 50px auto;
+
+	// .column.one-fourth{
+	// 	border: 1px dashed #686868;
+	// 	width: 23.5%;
+	// 	padding: 0 3px;
+	// 	display: table;
+	// 	height: 150px;
+		
+	// }
+
+// 	.row{
+// 		width: 600px;
+// 		margin: 10px auto;
+// 	}
+
+// 	a{
+// 		text-decoration: none;
+// 		color: #A2A2A2;
+// 		display: block;
+// 		height: 150px;
+// 	}
+
+// 	h2{
+// 		color: #469956;
+// 		font-size: 0.95em;
+// 		margin-bottom: 10px;
+// 	}
+
+// 	p{
+// 		color: #4C4C4C;
+// 	}
+
+	// .adicionalip,
+	// .licencias{
+	// 	background-color: #469956;
+	// 	padding: 3px 7px;
+	// 	color: white;
+	// 	display: inline-block;;
+	// 	margin-bottom: 10px;
+	// }
+
+// 	.housingActive{
+// 		background-color: #9dbc19;
+
+// 		h2,
+// 		p{
+// 			color: #FFF;
+// 		}
+
+// 	}
+// }
+
+// .trianguloizq{
+// 	float: left;
+// 	position: relative;
+// 	left: 38px;
+// 	top: 3px;
+// 	height: 14px!important;
+// }
+
+// .trianguloder{
+// 	float: right;
+// 	position: relative;
+// 	right: 38px;
+// 	top: 3px;
+// 	height: 14px!important;
+// }
+
+
+
+// .innerHousing{
+// 	display: table-cell;
+//     vertical-align: middle;
+//     height: 150px;
+// }
+
+// .h2first{
+// 	padding-top: 50px;
+// }
+
 
 #slider-horizontal{
     width: 60%;
@@ -997,7 +1125,6 @@
 .listTyc{
 	li{
 		list-style: disc;
-		
 		margin: 7px 0 7px 30px;
 	}
 }

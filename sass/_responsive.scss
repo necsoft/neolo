@@ -762,7 +762,25 @@
 			width: auto;
 		}
 	}
-	
+
+	#optionHousing{
+
+		.row{
+			width: auto;
+		}
+
+		.wrap{
+			max-width: 100%;
+		}
+
+		.column.one-fourth{
+
+			width: 42%;
+			display: inline-block;
+			margin:12px; 
+		}
+	}
+
 }
 
 /* ==========================================================================
