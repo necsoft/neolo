@@ -454,7 +454,7 @@
 
 	.row{
 		width: 600px;
-		margin: 10px auto;
+		margin: 10px auto 50px;
 	}
 
 	.column.one-fourth{
@@ -520,87 +520,15 @@
 }
 
 
-// #optionHousing{
-// 	margin: 50px auto;
+.housingActive{
+	background-color: #9dbc19;
 
-	// .column.one-fourth{
-	// 	border: 1px dashed #686868;
-	// 	width: 23.5%;
-	// 	padding: 0 3px;
-	// 	display: table;
-	// 	height: 150px;
-		
-	// }
+	h2,
+	p{
+		color: #FFF;
+	}
 
-// 	.row{
-// 		width: 600px;
-// 		margin: 10px auto;
-// 	}
-
-// 	a{
-// 		text-decoration: none;
-// 		color: #A2A2A2;
-// 		display: block;
-// 		height: 150px;
-// 	}
-
-// 	h2{
-// 		color: #469956;
-// 		font-size: 0.95em;
-// 		margin-bottom: 10px;
-// 	}
-
-// 	p{
-// 		color: #4C4C4C;
-// 	}
-
-	// .adicionalip,
-	// .licencias{
-	// 	background-color: #469956;
-	// 	padding: 3px 7px;
-	// 	color: white;
-	// 	display: inline-block;;
-	// 	margin-bottom: 10px;
-	// }
-
-// 	.housingActive{
-// 		background-color: #9dbc19;
-
-// 		h2,
-// 		p{
-// 			color: #FFF;
-// 		}
-
-// 	}
-// }
-
-// .trianguloizq{
-// 	float: left;
-// 	position: relative;
-// 	left: 38px;
-// 	top: 3px;
-// 	height: 14px!important;
-// }
-
-// .trianguloder{
-// 	float: right;
-// 	position: relative;
-// 	right: 38px;
-// 	top: 3px;
-// 	height: 14px!important;
-// }
-
-
-
-// .innerHousing{
-// 	display: table-cell;
-//     vertical-align: middle;
-//     height: 150px;
-// }
-
-// .h2first{
-// 	padding-top: 50px;
-// }
+}	
 
 
 #slider-horizontal{
