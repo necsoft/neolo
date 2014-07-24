@@ -140,6 +140,12 @@
 				width: 98%;
 			}
 		}
+		.plan1,
+		.planIlimitado{
+			ul{
+				margin-top: 42px;
+			}
+		}
 
 	}
 	
@@ -151,6 +157,8 @@
 	.planIlimitado{
 		height: 540px;
 	}
+
+
 
 
 	#more{
@@ -879,4 +887,40 @@
 		margin-top: 11px;
 	}
 
+}
+
+/* ==========================================================================
+   399PX 
+   ========================================================================== */
+
+@media screen and (max-width: 399px){
+	
+	.rightHeader{
+
+		li{
+			margin: 2px 0 0 15px;
+
+			&:first-of-type{
+				margin-left: 0;
+			}
+		}
+	}
+
+	.login a{
+		font-size: 0.75em;
+	}
+
+	#heroGuides h1{
+		line-height: 100%;
+	}
+}
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.rightHeader a{
+		font-size: 0.75em;
+	}
 }
