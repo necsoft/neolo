@@ -944,6 +944,31 @@
 
 }
 
+.maintyc,
+.maindns{
+	width: 100%;
+}
+
+.maindns{
+	>div{
+		margin-bottom: 15px;
+
+		li{
+			display: inline-block;
+			margin: 8px 15px 8px 0;
+			color: #818080;
+
+			input{
+				margin: 0 10px 0 0;
+			}
+
+			em{
+				font-weight: 600;
+			}
+		}
+	}
+}
+
 .cv{
 	background-color: #9dbc19;
 	text-align: center;
@@ -1095,6 +1120,22 @@
 	}
 }
 
+/* ==========================================================================
+   DNS
+   ========================================================================== */
+
+
+.dns01,
+.dns11,
+.dns12,
+.dns21,
+.dns22,
+.dns31,
+.dns32,
+.dns41,
+.dns42{
+	display: none;
+}
 
 /* ==========================================================================
    Responsive

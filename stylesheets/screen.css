@@ -2263,29 +2263,54 @@ div.soporte:last-of-type {
   margin-bottom: 10px;
 }
 
-/* line 947, ../sass/screen.scss */
+/* line 948, ../sass/screen.scss */
+.maintyc,
+.maindns {
+  width: 100%;
+}
+
+/* line 953, ../sass/screen.scss */
+.maindns > div {
+  margin-bottom: 15px;
+}
+/* line 956, ../sass/screen.scss */
+.maindns > div li {
+  display: inline-block;
+  margin: 8px 15px 8px 0;
+  color: #818080;
+}
+/* line 961, ../sass/screen.scss */
+.maindns > div li input {
+  margin: 0 10px 0 0;
+}
+/* line 965, ../sass/screen.scss */
+.maindns > div li em {
+  font-weight: 600;
+}
+
+/* line 972, ../sass/screen.scss */
 .cv {
   background-color: #9dbc19;
   text-align: center;
   padding: 10px;
   margin-top: 35px;
 }
-/* line 953, ../sass/screen.scss */
+/* line 978, ../sass/screen.scss */
 .cv h4 {
   color: #FFF;
   font-size: 1.5em;
 }
-/* line 958, ../sass/screen.scss */
+/* line 983, ../sass/screen.scss */
 .cv p {
   color: #FFF;
   text-align: center;
 }
-/* line 962, ../sass/screen.scss */
+/* line 987, ../sass/screen.scss */
 .cv p a {
   color: #FFF;
 }
 
-/* line 971, ../sass/screen.scss */
+/* line 996, ../sass/screen.scss */
 .listrrhh li {
   margin: 15px 0;
   line-height: 1.25em;
@@ -2294,7 +2319,7 @@ div.soporte:last-of-type {
   color: #E4744E;
 }
 
-/* line 982, ../sass/screen.scss */
+/* line 1007, ../sass/screen.scss */
 #feedbackForm input,
 #feedbackForm textarea {
   background-color: #EAEAEA;
@@ -2305,17 +2330,17 @@ div.soporte:last-of-type {
   font-size: 1em;
   margin: 8px 0;
 }
-/* line 991, ../sass/screen.scss */
+/* line 1016, ../sass/screen.scss */
 #feedbackForm input:focus,
 #feedbackForm textarea:focus {
   outline: none;
 }
-/* line 996, ../sass/screen.scss */
+/* line 1021, ../sass/screen.scss */
 #feedbackForm textarea {
   resize: none;
 }
 
-/* line 1001, ../sass/screen.scss */
+/* line 1026, ../sass/screen.scss */
 #sendFeedback {
   display: -moz-inline-stack;
   display: inline-block;
@@ -2339,7 +2364,7 @@ div.soporte:last-of-type {
   margin-bottom: 15px;
 }
 
-/* line 1019, ../sass/screen.scss */
+/* line 1044, ../sass/screen.scss */
 .sidebar {
   float: right;
   width: 290px;
@@ -2348,32 +2373,32 @@ div.soporte:last-of-type {
   padding-left: 10px;
   overflow: hidden;
 }
-/* line 1027, ../sass/screen.scss */
+/* line 1052, ../sass/screen.scss */
 .sidebar h2 {
   color: #E4744E;
   font-size: 1em;
 }
-/* line 1032, ../sass/screen.scss */
+/* line 1057, ../sass/screen.scss */
 .sidebar ul {
   margin: 15px 0 0 25px;
 }
-/* line 1036, ../sass/screen.scss */
+/* line 1061, ../sass/screen.scss */
 .sidebar ul li {
   margin: 5px 0;
   list-style: disc;
   color: #9dbc19;
 }
-/* line 1041, ../sass/screen.scss */
+/* line 1066, ../sass/screen.scss */
 .sidebar ul li a {
   color: #9dbc19;
   text-decoration: none;
 }
-/* line 1045, ../sass/screen.scss */
+/* line 1070, ../sass/screen.scss */
 .sidebar ul li a:hover {
   text-decoration: underline;
 }
 
-/* line 1054, ../sass/screen.scss */
+/* line 1079, ../sass/screen.scss */
 .listTyc li {
   list-style: disc;
   margin: 7px 0 7px 30px;
@@ -2382,40 +2407,56 @@ div.soporte:last-of-type {
 /* ==========================================================================
    Paises
    ========================================================================== */
-/* line 1063, ../sass/screen.scss */
+/* line 1088, ../sass/screen.scss */
 #flags {
   background-color: #4C4C4C;
   height: 100%;
   width: 100%;
   padding-top: 100px;
 }
-/* line 1069, ../sass/screen.scss */
+/* line 1094, ../sass/screen.scss */
 #flags ul {
   padding-top: 50px;
   text-align: center;
 }
-/* line 1073, ../sass/screen.scss */
+/* line 1098, ../sass/screen.scss */
 #flags ul li {
   display: inline-block;
   margin: 15px 10px;
   vertical-align: top;
   line-height: 1.35em;
 }
-/* line 1079, ../sass/screen.scss */
+/* line 1104, ../sass/screen.scss */
 #flags ul li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 1083, ../sass/screen.scss */
+/* line 1108, ../sass/screen.scss */
 #flags ul li a:hover {
   text-decoration: underline;
 }
-/* line 1088, ../sass/screen.scss */
+/* line 1113, ../sass/screen.scss */
 #flags ul li img {
   width: 45px;
   position: relative;
   top: 12px;
   padding-bottom: 20px;
+}
+
+/* ==========================================================================
+   DNS
+   ========================================================================== */
+/* line 1136, ../sass/screen.scss */
+.dns01,
+.dns11,
+.dns12,
+.dns21,
+.dns22,
+.dns31,
+.dns32,
+.dns41,
+.dns42 {
+  display: none;
 }
 
 /* ==========================================================================
