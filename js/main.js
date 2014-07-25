@@ -18,16 +18,26 @@ $(function() {
 });
 
 
-$(function() {
-    $("#slider-horizontal").slider({
-        orientation: "horizontal",
-        range: "min",
-        min: 1,
-        max: 50,
-        value: 1,
-        slide: function(event, ui) {
-            $("#amount").val(ui.value);
-        }
+/* ==========================================================================
+   DNS
+   ========================================================================== */
+
+$(document).ready(function() {
+    $("input[id$='domFin1']").click(function() {
+        $(".ar").show();
+        $(".com").hide();
     });
-    $("#amount").val($("#slider-horizontal").slider("value"));
+
+    $("input[id$='domFin2']").click(function() {
+        $(".com").show();
+
+    });
+
+    $("input[id$='domFin3']").click(function() {
+        $(".br").show();
+    });
+
+    $("input[id$='domFin4']").click(function() {
+        $(".cl").show();
+    });
 });

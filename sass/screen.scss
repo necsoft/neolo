@@ -1,7 +1,4 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
 
 @import "compass/reset";
 @import "compass/css3";
@@ -460,13 +457,21 @@
 	.column.one-fourth{
 		border: 1px dashed #686868;
 		width: 23.5%;
-		padding: 0 5px;
 		height: 150px;
 
 		> a{
 			height: 150px;
 			display: table;
 			text-decoration: none;
+
+			&:hover{
+				background-color: #9dbc19;
+
+				h2,
+				p{
+					color: #FFF;
+				}
+			}
 
 		}
 
@@ -502,8 +507,7 @@
 		height: 150px;
 	}
 
-	.nameHousing,
-	.mailHousing{
+	input{
 		background-color: #B2B2B2;
 		color: #FFF;
 		width: 340px;
@@ -1149,15 +1153,10 @@
 	}
 }
 
-.dns01,
-.dns11,
-.dns12,
-.dns21,
-.dns22,
-.dns31,
-.dns32,
-.dns41,
-.dns42{
+.ar,
+.com,
+.br,
+.cl{
 	display: none;
 }
 
