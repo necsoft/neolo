@@ -11,7 +11,7 @@
    ========================================================================== */
 
 .plan0{
-	border-right: none;
+	border-left: none;
 
 	a{
 		@include btn(#4FAAB2, #3C8F96);
@@ -40,7 +40,7 @@
 }
 
 .planIlimitado{
-	border-left: none;
+	border-right: none;
 
 	a{
 		@include btn(#B3DC20, #9DBC19);
@@ -230,7 +230,7 @@
 	}
 
 	.planD7{
-
+		border-right:1px solid #CCC;
 		a{
 			@include btn(#4FAAB2, #3C8F96);
 		}
@@ -249,7 +249,7 @@
 	}
 
 	.planD100{
-		border-right:1px solid #CCC;
+		
 
 		a{
 			@include btn(#B3DC20, #9DBC19);
@@ -269,8 +269,7 @@
 	}
 	
 	.vps_1{
-		border-right:none;
-
+		
 		a{
 			@include btn(#4FAAB2, #3C8F96);
 		}
@@ -289,6 +288,7 @@
 	}
 
 	.vps_3{
+		border-left: none;
 		border-right:none;
 		a{
 			@include btn(#81C369, #65A848);
@@ -303,7 +303,8 @@
 	}
 
 	.vps_5{
-		border-left: none;
+		border-right:none;
+		
 		a{
 			@include btn(#B3DC20, #9DBC19);
 		}
