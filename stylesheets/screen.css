@@ -809,9 +809,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #4faab2;
+  background-color: #b3dc20;
   border-bottom: 3px solid black;
-  border-color: #3c8f96;
+  border-color: #9dbc19;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -824,8 +824,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .plan0 a:hover {
-  background-color: #3c8f96;
-  border-color: #4faab2;
+  background-color: #9dbc19;
+  border-color: #b3dc20;
 }
 /* line 20, ../sass/screen.scss */
 .plan0 h5 {
@@ -898,9 +898,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #b3dc20;
+  background-color: #4faab2;
   border-bottom: 3px solid black;
-  border-color: #9dbc19;
+  border-color: #3c8f96;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -913,8 +913,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .planIlimitado a:hover {
-  background-color: #9dbc19;
-  border-color: #b3dc20;
+  background-color: #3c8f96;
+  border-color: #4faab2;
 }
 /* line 49, ../sass/screen.scss */
 .planIlimitado ul {
@@ -1152,9 +1152,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #4faab2;
+  background-color: #b3dc20;
   border-bottom: 3px solid black;
-  border-color: #3c8f96;
+  border-color: #9dbc19;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1167,47 +1167,12 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .planD7 a:hover {
-  background-color: #3c8f96;
-  border-color: #4faab2;
+  background-color: #9dbc19;
+  border-color: #b3dc20;
 }
 
 /* line 240, ../sass/screen.scss */
 .planD14 a {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  padding: 10px 30px;
-  color: #FFF;
-  text-decoration: none;
-  background-color: #70bb81;
-  border-bottom: 3px solid black;
-  border-color: #469956;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  cursor: pointer;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-/* line 20, ../sass/variables.scss */
-.planD14 a:hover {
-  background-color: #469956;
-  border-color: #70bb81;
-}
-
-/* line 246, ../sass/screen.scss */
-.planD25 a {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -1236,9 +1201,44 @@ div.soporte:last-of-type {
   transition: all 0.3s;
 }
 /* line 20, ../sass/variables.scss */
-.planD25 a:hover {
+.planD14 a:hover {
   background-color: #72aa29;
   border-color: #92cb51;
+}
+
+/* line 246, ../sass/screen.scss */
+.planD25 a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #70bb81;
+  border-bottom: 3px solid black;
+  border-color: #469956;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 20, ../sass/variables.scss */
+.planD25 a:hover {
+  background-color: #469956;
+  border-color: #70bb81;
 }
 
 /* line 254, ../sass/screen.scss */
@@ -1257,9 +1257,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #b3dc20;
+  background-color: #4faab2;
   border-bottom: 3px solid black;
-  border-color: #9dbc19;
+  border-color: #3c8f96;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1272,8 +1272,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .planD100 a:hover {
-  background-color: #9dbc19;
-  border-color: #b3dc20;
+  background-color: #3c8f96;
+  border-color: #4faab2;
 }
 
 /* ==========================================================================
@@ -1305,9 +1305,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #4faab2;
+  background-color: #b3dc20;
   border-bottom: 3px solid black;
-  border-color: #3c8f96;
+  border-color: #9dbc19;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1320,8 +1320,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .vps_1 a:hover {
-  background-color: #3c8f96;
-  border-color: #4faab2;
+  background-color: #9dbc19;
+  border-color: #b3dc20;
 }
 /* line 277, ../sass/screen.scss */
 .vps_1 .firstVPS {
@@ -1348,9 +1348,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #68b78e;
+  background-color: #9ad045;
   border-bottom: 3px solid black;
-  border-color: #489b6d;
+  border-color: #90c435;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1363,8 +1363,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .vps_2 a:hover {
-  background-color: #489b6d;
-  border-color: #68b78e;
+  background-color: #90c435;
+  border-color: #9ad045;
 }
 
 /* line 290, ../sass/screen.scss */
@@ -1423,9 +1423,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #9ad045;
+  background-color: #68b78e;
   border-bottom: 3px solid black;
-  border-color: #90c435;
+  border-color: #489b6d;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1438,8 +1438,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .vps_4 a:hover {
-  background-color: #90c435;
-  border-color: #9ad045;
+  background-color: #489b6d;
+  border-color: #68b78e;
 }
 
 /* line 305, ../sass/screen.scss */
@@ -1462,9 +1462,9 @@ div.soporte:last-of-type {
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
-  background-color: #b3dc20;
+  background-color: #4faab2;
   border-bottom: 3px solid black;
-  border-color: #9dbc19;
+  border-color: #3c8f96;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -1477,8 +1477,8 @@ div.soporte:last-of-type {
 }
 /* line 20, ../sass/variables.scss */
 .vps_5 a:hover {
-  background-color: #9dbc19;
-  border-color: #b3dc20;
+  background-color: #3c8f96;
+  border-color: #4faab2;
 }
 
 /* ==========================================================================

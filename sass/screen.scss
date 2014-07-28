@@ -14,7 +14,7 @@
 	border-left: none;
 
 	a{
-		@include btn(#4FAAB2, #3C8F96);
+		@include btn(#B3DC20, #9DBC19);
 	}
 
 	h5{
@@ -43,7 +43,7 @@
 	border-right: none;
 
 	a{
-		@include btn(#B3DC20, #9DBC19);
+		@include btn(#4FAAB2, #3C8F96);
 	}
 
 	ul{
@@ -232,19 +232,19 @@
 	.planD7{
 		border-right:1px solid #CCC;
 		a{
-			@include btn(#4FAAB2, #3C8F96);
+			@include btn(#B3DC20, #9DBC19);
 		}
 	}
 
 	.planD14{
 		a{
-			@include btn(#70BB81, #469956);
+			@include btn(#92CB51, #72AA29);
 		}
 	}
 
 	.planD25{
 		a{
-			@include btn(#92CB51, #72AA29);
+			@include btn(#70BB81, #469956);
 		}
 	}
 
@@ -252,7 +252,7 @@
 		
 
 		a{
-			@include btn(#B3DC20, #9DBC19);
+			@include btn(#4FAAB2, #3C8F96);
 		}
 	}
 
@@ -271,7 +271,7 @@
 	.vps_1{
 		
 		a{
-			@include btn(#4FAAB2, #3C8F96);
+			@include btn(#B3DC20, #9DBC19);
 		}
 
 		.firstVPS{
@@ -283,7 +283,7 @@
 		border-right:none;
 
 		a{
-			@include btn(#68B78E, #489B6D);
+			@include btn(#9AD045, #90C435);
 		}
 	}
 
@@ -298,7 +298,7 @@
 	.vps_4{
 		
 		a{
-			@include btn(#9AD045, #90C435);
+			@include btn(#68B78E, #489B6D);
 		}
 	}
 
@@ -306,7 +306,7 @@
 		border-right:none;
 		
 		a{
-			@include btn(#B3DC20, #9DBC19);
+			@include btn(#4FAAB2, #3C8F96);
 		}
 	}
 
