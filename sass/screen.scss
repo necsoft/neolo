@@ -936,7 +936,7 @@
 }
 
 .buscador{
-	background-color: #4C4C4C;
+	background-color: #b3dc20;
 	margin-top: 0;
 	padding: 20px;
 	text-align: center;
@@ -958,7 +958,7 @@
 		margin-top: 18px;
 
 		&:hover{
-			background-color: #b3dc20;
+			background-color: #4C4C4C;
 			color: #FFF;
 		}
 	}
@@ -966,6 +966,7 @@
 	input{
 		width: 100%;
 		padding: 5px;
+
 	}
 }
 
