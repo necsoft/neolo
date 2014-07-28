@@ -144,6 +144,8 @@ article{
 
 .follow{
 	display: block;
+	background-color: #4C4C4C;
+	padding: 25px;
 	
 	ul{
 		text-align: center;
@@ -156,6 +158,13 @@ article{
 				margin-right: 0;
 			}
 		}
+	}
+
+	h1{
+		color: #FFF;
+		text-align: center;
+		font-size: 1.2em;
+		margin-bottom: 4px;
 	}
 
 }
@@ -367,16 +376,6 @@ aside{
 
 }
 
-.follow{
-	background-color: #4C4C4C;
-	padding: 25px;
-
-	h1{
-		color: #FFF;
-		text-align: center;
-		font-size: 1.2em;
-	}
-}
 
 .recent{
 	ul{

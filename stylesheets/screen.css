@@ -2260,7 +2260,7 @@ div.soporte:last-of-type {
 
 /* line 938, ../sass/screen.scss */
 .buscador {
-  background-color: #4C4C4C;
+  background-color: #b3dc20;
   margin-top: 0;
   padding: 20px;
   text-align: center;
@@ -2289,7 +2289,7 @@ div.soporte:last-of-type {
 }
 /* line 960, ../sass/screen.scss */
 .buscador button:hover {
-  background-color: #b3dc20;
+  background-color: #4C4C4C;
   color: #FFF;
 }
 /* line 966, ../sass/screen.scss */
@@ -2298,7 +2298,7 @@ div.soporte:last-of-type {
   padding: 5px;
 }
 
-/* line 973, ../sass/screen.scss */
+/* line 974, ../sass/screen.scss */
 .recent li {
   line-height: 1.25;
 }
@@ -2306,63 +2306,63 @@ div.soporte:last-of-type {
 /* ==========================================================================
    La Empresa
    ========================================================================== */
-/* line 982, ../sass/screen.scss */
+/* line 983, ../sass/screen.scss */
 .empresa {
   padding: 50px 0;
 }
-/* line 985, ../sass/screen.scss */
+/* line 986, ../sass/screen.scss */
 .empresa p {
   text-align: left;
   margin: 20px 0;
   line-height: 1.35em;
   color: #818080;
 }
-/* line 992, ../sass/screen.scss */
+/* line 993, ../sass/screen.scss */
 .empresa p em,
 .empresa p strong {
   font-weight: 600;
   color: #5F5E5E;
 }
-/* line 997, ../sass/screen.scss */
+/* line 998, ../sass/screen.scss */
 .empresa p i {
   font-style: italic;
 }
-/* line 1001, ../sass/screen.scss */
+/* line 1002, ../sass/screen.scss */
 .empresa p a {
   color: #9dbc19;
   text-decoration: none;
 }
-/* line 1005, ../sass/screen.scss */
+/* line 1006, ../sass/screen.scss */
 .empresa p a:hover {
   text-decoration: underline;
 }
-/* line 1011, ../sass/screen.scss */
+/* line 1012, ../sass/screen.scss */
 .empresa h1 {
   font-size: 1.35em;
   font-weight: 600;
   text-align: left;
 }
 
-/* line 1019, ../sass/screen.scss */
+/* line 1020, ../sass/screen.scss */
 .maincontent {
   width: 650px;
   float: left;
   border-bottom: 1px solid #ccc;
   text-align: left;
 }
-/* line 1025, ../sass/screen.scss */
+/* line 1026, ../sass/screen.scss */
 .maincontent img {
   border: 3px solid #D6D6D6;
 }
-/* line 1029, ../sass/screen.scss */
+/* line 1030, ../sass/screen.scss */
 .maincontent .listNumber {
   text-align: left;
 }
-/* line 1032, ../sass/screen.scss */
+/* line 1033, ../sass/screen.scss */
 .maincontent .listNumber li {
   margin: 30px 0;
 }
-/* line 1036, ../sass/screen.scss */
+/* line 1037, ../sass/screen.scss */
 .maincontent .listNumber span {
   color: #9dbc19;
   font-size: 1.75em;
@@ -2371,52 +2371,52 @@ div.soporte:last-of-type {
   float: left;
   margin-right: 10px;
 }
-/* line 1046, ../sass/screen.scss */
+/* line 1047, ../sass/screen.scss */
 .maincontent h2 {
   font-size: 1.25em;
   color: #9dbc19;
   font-weight: 600;
   margin: 45px 0;
 }
-/* line 1054, ../sass/screen.scss */
+/* line 1055, ../sass/screen.scss */
 .maincontent h3 {
   font-weight: 600;
   margin: 40px 0 10px 0;
   color: #5F5E5E;
 }
-/* line 1061, ../sass/screen.scss */
+/* line 1062, ../sass/screen.scss */
 .maincontent h4 {
   margin-bottom: 10px;
 }
 
-/* line 1068, ../sass/screen.scss */
+/* line 1069, ../sass/screen.scss */
 .maintyc {
   width: 100%;
 }
 
-/* line 1073, ../sass/screen.scss */
+/* line 1074, ../sass/screen.scss */
 .cv {
   background-color: #9dbc19;
   text-align: center;
   padding: 10px;
   margin-top: 35px;
 }
-/* line 1079, ../sass/screen.scss */
+/* line 1080, ../sass/screen.scss */
 .cv h4 {
   color: #FFF;
   font-size: 1.5em;
 }
-/* line 1084, ../sass/screen.scss */
+/* line 1085, ../sass/screen.scss */
 .cv p {
   color: #FFF;
   text-align: center;
 }
-/* line 1088, ../sass/screen.scss */
+/* line 1089, ../sass/screen.scss */
 .cv p a {
   color: #FFF;
 }
 
-/* line 1097, ../sass/screen.scss */
+/* line 1098, ../sass/screen.scss */
 .listrrhh li {
   margin: 15px 0;
   line-height: 1.25em;
@@ -2425,7 +2425,7 @@ div.soporte:last-of-type {
   color: #E4744E;
 }
 
-/* line 1108, ../sass/screen.scss */
+/* line 1109, ../sass/screen.scss */
 #feedbackForm input,
 #feedbackForm textarea {
   background-color: #EAEAEA;
@@ -2436,17 +2436,17 @@ div.soporte:last-of-type {
   font-size: 1em;
   margin: 8px 0;
 }
-/* line 1117, ../sass/screen.scss */
+/* line 1118, ../sass/screen.scss */
 #feedbackForm input:focus,
 #feedbackForm textarea:focus {
   outline: none;
 }
-/* line 1122, ../sass/screen.scss */
+/* line 1123, ../sass/screen.scss */
 #feedbackForm textarea {
   resize: none;
 }
 
-/* line 1127, ../sass/screen.scss */
+/* line 1128, ../sass/screen.scss */
 #sendFeedback {
   display: -moz-inline-stack;
   display: inline-block;
@@ -2470,7 +2470,7 @@ div.soporte:last-of-type {
   margin-bottom: 15px;
 }
 
-/* line 1145, ../sass/screen.scss */
+/* line 1146, ../sass/screen.scss */
 .sidebar {
   float: right;
   width: 290px;
@@ -2479,32 +2479,32 @@ div.soporte:last-of-type {
   padding-left: 10px;
   overflow: hidden;
 }
-/* line 1153, ../sass/screen.scss */
+/* line 1154, ../sass/screen.scss */
 .sidebar h2 {
   color: #E4744E;
   font-size: 1em;
 }
-/* line 1158, ../sass/screen.scss */
+/* line 1159, ../sass/screen.scss */
 .sidebar ul {
   margin: 15px 0 0 25px;
 }
-/* line 1161, ../sass/screen.scss */
+/* line 1162, ../sass/screen.scss */
 .sidebar ul li {
   margin: 5px 0;
   list-style: disc;
   color: #9dbc19;
 }
-/* line 1166, ../sass/screen.scss */
+/* line 1167, ../sass/screen.scss */
 .sidebar ul li a {
   color: #595959;
   text-decoration: none;
 }
-/* line 1170, ../sass/screen.scss */
+/* line 1171, ../sass/screen.scss */
 .sidebar ul li a:hover {
   color: #9dbc19;
 }
 
-/* line 1179, ../sass/screen.scss */
+/* line 1180, ../sass/screen.scss */
 .listTyc li {
   list-style: disc;
   margin: 7px 0 7px 30px;
@@ -2513,35 +2513,35 @@ div.soporte:last-of-type {
 /* ==========================================================================
    Paises
    ========================================================================== */
-/* line 1188, ../sass/screen.scss */
+/* line 1189, ../sass/screen.scss */
 #flags {
   background-color: #4C4C4C;
   height: 100%;
   width: 100%;
   padding-top: 100px;
 }
-/* line 1194, ../sass/screen.scss */
+/* line 1195, ../sass/screen.scss */
 #flags ul {
   padding-top: 50px;
   text-align: center;
 }
-/* line 1198, ../sass/screen.scss */
+/* line 1199, ../sass/screen.scss */
 #flags ul li {
   display: inline-block;
   margin: 15px 10px;
   vertical-align: top;
   line-height: 1.35em;
 }
-/* line 1204, ../sass/screen.scss */
+/* line 1205, ../sass/screen.scss */
 #flags ul li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 1208, ../sass/screen.scss */
+/* line 1209, ../sass/screen.scss */
 #flags ul li a:hover {
   text-decoration: underline;
 }
-/* line 1213, ../sass/screen.scss */
+/* line 1214, ../sass/screen.scss */
 #flags ul li img {
   width: 45px;
   position: relative;
@@ -2552,30 +2552,30 @@ div.soporte:last-of-type {
 /* ==========================================================================
    DNS
    ========================================================================== */
-/* line 1229, ../sass/screen.scss */
+/* line 1230, ../sass/screen.scss */
 .maindns > div {
   margin-bottom: 15px;
 }
-/* line 1232, ../sass/screen.scss */
+/* line 1233, ../sass/screen.scss */
 .maindns > div li {
   display: inline-block;
   margin: 0 15px 8px 0;
   color: #818080;
 }
-/* line 1237, ../sass/screen.scss */
+/* line 1238, ../sass/screen.scss */
 .maindns > div li input {
   margin: 0 10px 0 0;
 }
-/* line 1241, ../sass/screen.scss */
+/* line 1242, ../sass/screen.scss */
 .maindns > div li em {
   font-weight: 600;
 }
-/* line 1247, ../sass/screen.scss */
+/* line 1248, ../sass/screen.scss */
 .maindns h2 {
   margin: 45px 0 30px 0;
 }
 
-/* line 1255, ../sass/screen.scss */
+/* line 1256, ../sass/screen.scss */
 .ar,
 .com,
 .br,
@@ -3592,26 +3592,31 @@ div.soporte:last-of-type {
   #trust {
     margin-bottom: 25px;
   }
+
+  /* line 863, ../sass/_responsive.scss */
+  #heroGuides h1 {
+    padding: 25px 0;
+  }
 }
 /* ==========================================================================
    520PX 
    ========================================================================== */
 @media screen and (max-width: 520px) {
-  /* line 871, ../sass/_responsive.scss */
+  /* line 875, ../sass/_responsive.scss */
   .infoFooter div {
     text-align: center;
     display: block;
     border: 0 none;
   }
 
-  /* line 877, ../sass/_responsive.scss */
+  /* line 881, ../sass/_responsive.scss */
   .infoFooter div {
     height: auto;
     padding: 15px;
     border-bottom: 1px solid #575757;
   }
 
-  /* line 883, ../sass/_responsive.scss */
+  /* line 887, ../sass/_responsive.scss */
   .contactFooter ul {
     margin: 0;
   }
@@ -3620,17 +3625,17 @@ div.soporte:last-of-type {
    480PX 
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  /* line 897, ../sass/_responsive.scss */
+  /* line 901, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 2.5em;
   }
-  /* line 901, ../sass/_responsive.scss */
+  /* line 905, ../sass/_responsive.scss */
   #hero h2 {
     margin-bottom: 35px;
     font-size: 0.875em;
   }
 
-  /* line 907, ../sass/_responsive.scss */
+  /* line 911, ../sass/_responsive.scss */
   .logoGuides {
     width: 125px;
     margin-top: 11px;
@@ -3640,27 +3645,27 @@ div.soporte:last-of-type {
    399PX 
    ========================================================================== */
 @media screen and (max-width: 399px) {
-  /* line 922, ../sass/_responsive.scss */
+  /* line 926, ../sass/_responsive.scss */
   .rightHeader li {
     margin: 2px 0 0 15px;
   }
-  /* line 925, ../sass/_responsive.scss */
+  /* line 929, ../sass/_responsive.scss */
   .rightHeader li:first-of-type {
     margin-left: 0;
   }
 
-  /* line 931, ../sass/_responsive.scss */
+  /* line 935, ../sass/_responsive.scss */
   .login a {
     font-size: 0.75em;
   }
 
-  /* line 935, ../sass/_responsive.scss */
+  /* line 939, ../sass/_responsive.scss */
   #heroGuides h1 {
     line-height: 100%;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 945, ../sass/_responsive.scss */
+  /* line 949, ../sass/_responsive.scss */
   .rightHeader a {
     font-size: 0.75em;
   }
