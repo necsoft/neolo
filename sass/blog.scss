@@ -225,6 +225,18 @@ article{
 
 	}
 
+	h2{
+		font-size: 2em;
+		color: #b3dc20;
+		margin: 5px 0;
+	}
+
+	h3{
+		font-size: 1.5em;
+		color: #b3dc20;
+		margin: 5px 0;
+	}
+
 	img{
 		width: 100%;
 		vertical-align: middle;
@@ -240,7 +252,6 @@ article{
 
 	p{
 		margin: 15px 0;
-		font-family: Georgia, "Times New Roman", Times, serif;
 		line-height: 1.35em;
 
 		em,
@@ -256,6 +267,11 @@ article{
 				text-decoration: underline;
 			}
 		}
+	}
+
+	iframe{
+		margin: 10px auto;
+		display: block;
 	}
 }
 
@@ -301,7 +317,49 @@ aside{
 			float: left;
 			margin-top: 4px;
 		}
+	}
+
+	.backToSite{
+		border:1px solid #b3dc20;
+		text-align: center;
+
+		a{
+			padding: 25px;
+			display: block;
+			text-decoration: none;
+			font-size: 1.25em;
+			color: #E4744E;
+
+			&:hover{
+				background-color: #b3dc20;
+				color: #FFF;
+			}
+		}
+
 	}	
+}
+
+.older,
+.newest{
+	a{
+		border:1px solid #b3dc20;
+		display: inline-block;
+		text-decoration: none;
+		color: #E4744E;
+		padding: 5px;
+
+		&:hover{
+			background-color: #b3dc20;
+			color: #FFF;
+		}
+	}
+}
+
+.older{
+	float: left;
+}
+.newest{
+	float: right;
 }
 
 .recentComment{
@@ -524,5 +582,25 @@ aside{
 	}
 	.post h1{
 		font-size: 2em;
+	}
+
+	iframe{
+		width: 98%;
+	}
+
+
+}
+
+@media screen and (max-width: 520px){
+	.older,
+	.newest{
+		font-size: 0.85em;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.older,
+	.newest{
+		font-size: 0.75em;
 	}
 }

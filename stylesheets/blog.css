@@ -302,11 +302,23 @@ article footer .social a {
   color: #595959;
 }
 /* line 228, ../sass/blog.scss */
+.post h2 {
+  font-size: 2em;
+  color: #b3dc20;
+  margin: 5px 0;
+}
+/* line 234, ../sass/blog.scss */
+.post h3 {
+  font-size: 1.5em;
+  color: #b3dc20;
+  margin: 5px 0;
+}
+/* line 240, ../sass/blog.scss */
 .post img {
   width: 100%;
   vertical-align: middle;
 }
-/* line 233, ../sass/blog.scss */
+/* line 245, ../sass/blog.scss */
 .post figcaption {
   background-color: #4C4C4C;
   color: #FFF;
@@ -314,103 +326,151 @@ article footer .social a {
   font-size: 0.875em;
   font-weight: 300;
 }
-/* line 241, ../sass/blog.scss */
+/* line 253, ../sass/blog.scss */
 .post p {
   margin: 15px 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.35em;
 }
-/* line 247, ../sass/blog.scss */
+/* line 258, ../sass/blog.scss */
 .post p em,
 .post p strong {
   font-weight: 600;
 }
-/* line 251, ../sass/blog.scss */
+/* line 262, ../sass/blog.scss */
 .post p a {
   color: #9dbc19;
   text-decoration: none;
 }
-/* line 255, ../sass/blog.scss */
+/* line 266, ../sass/blog.scss */
 .post p a:hover {
   text-decoration: underline;
 }
+/* line 272, ../sass/blog.scss */
+.post iframe {
+  margin: 10px auto;
+  display: block;
+}
 
-/* line 263, ../sass/blog.scss */
+/* line 279, ../sass/blog.scss */
 aside {
   overflow: hidden;
   float: right;
   width: 290px;
 }
-/* line 268, ../sass/blog.scss */
+/* line 284, ../sass/blog.scss */
 aside h2 {
   font-size: 1.25em;
 }
-/* line 272, ../sass/blog.scss */
+/* line 288, ../sass/blog.scss */
 aside li {
   margin: 20px 0;
   font-size: 0.875em;
 }
-/* line 276, ../sass/blog.scss */
+/* line 292, ../sass/blog.scss */
 aside li a {
   color: #4C4C4C;
   line-height: 1.25em;
 }
-/* line 281, ../sass/blog.scss */
+/* line 297, ../sass/blog.scss */
 aside li span {
   color: #9CBB1A;
 }
-/* line 285, ../sass/blog.scss */
+/* line 301, ../sass/blog.scss */
 aside li img {
   vertical-align: middle;
 }
-/* line 292, ../sass/blog.scss */
+/* line 308, ../sass/blog.scss */
 aside .categories li {
   margin: 10px 0;
 }
-/* line 300, ../sass/blog.scss */
+/* line 316, ../sass/blog.scss */
 aside .recentComments img {
   float: left;
   margin-top: 4px;
 }
+/* line 322, ../sass/blog.scss */
+aside .backToSite {
+  border: 1px solid #b3dc20;
+  text-align: center;
+}
+/* line 326, ../sass/blog.scss */
+aside .backToSite a {
+  padding: 25px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #E4744E;
+}
+/* line 333, ../sass/blog.scss */
+aside .backToSite a:hover {
+  background-color: #b3dc20;
+  color: #FFF;
+}
 
-/* line 307, ../sass/blog.scss */
+/* line 344, ../sass/blog.scss */
+.older a,
+.newest a {
+  border: 1px solid #b3dc20;
+  display: inline-block;
+  text-decoration: none;
+  color: #E4744E;
+  padding: 5px;
+}
+/* line 351, ../sass/blog.scss */
+.older a:hover,
+.newest a:hover {
+  background-color: #b3dc20;
+  color: #FFF;
+}
+
+/* line 358, ../sass/blog.scss */
+.older {
+  float: left;
+}
+
+/* line 361, ../sass/blog.scss */
+.newest {
+  float: right;
+}
+
+/* line 365, ../sass/blog.scss */
 .recentComment {
   margin-left: 20px;
 }
 
-/* line 312, ../sass/blog.scss */
+/* line 370, ../sass/blog.scss */
 .follow {
   background-color: #4C4C4C;
   padding: 25px;
 }
-/* line 316, ../sass/blog.scss */
+/* line 374, ../sass/blog.scss */
 .follow h1 {
   color: #FFF;
   text-align: center;
   font-size: 1.2em;
 }
 
-/* line 324, ../sass/blog.scss */
+/* line 382, ../sass/blog.scss */
 .recent ul {
   overflow: auto;
 }
-/* line 327, ../sass/blog.scss */
+/* line 385, ../sass/blog.scss */
 .recent ul img {
   float: left;
   padding-top: 7px;
 }
-/* line 332, ../sass/blog.scss */
+/* line 390, ../sass/blog.scss */
 .recent ul a {
   margin-left: 23px;
   display: block;
   line-height: 1.5em;
 }
-/* line 338, ../sass/blog.scss */
+/* line 396, ../sass/blog.scss */
 .recent ul li {
   margin: 12px 0;
 }
 
-/* line 348, ../sass/blog.scss */
+/* line 406, ../sass/blog.scss */
 .follow,
 .recentComments,
 .recent,
@@ -418,7 +478,7 @@ aside .recentComments img {
 .flags {
   margin: 50px 0;
 }
-/* line 351, ../sass/blog.scss */
+/* line 409, ../sass/blog.scss */
 .follow a,
 .recentComments a,
 .recent a,
@@ -426,7 +486,7 @@ aside .recentComments img {
 .flags a {
   text-decoration: none;
 }
-/* line 354, ../sass/blog.scss */
+/* line 412, ../sass/blog.scss */
 .follow a:hover,
 .recentComments a:hover,
 .recent a:hover,
@@ -435,17 +495,17 @@ aside .recentComments img {
   text-decoration: underline;
 }
 
-/* line 360, ../sass/blog.scss */
+/* line 418, ../sass/blog.scss */
 .follow {
   margin-bottom: 30px;
 }
 
-/* line 365, ../sass/blog.scss */
+/* line 423, ../sass/blog.scss */
 .flags li {
   display: inline-block;
   margin: 15px 8px;
 }
-/* line 370, ../sass/blog.scss */
+/* line 428, ../sass/blog.scss */
 .flags img {
   width: 50px;
 }
@@ -453,7 +513,7 @@ aside .recentComments img {
 /* ==========================================================================
    Post
    ========================================================================== */
-/* line 379, ../sass/blog.scss */
+/* line 437, ../sass/blog.scss */
 .code {
   color: #FFF;
   padding: 10px 15px;
@@ -463,56 +523,56 @@ aside .recentComments img {
   display: inline-block;
   width: 100%;
 }
-/* line 388, ../sass/blog.scss */
+/* line 446, ../sass/blog.scss */
 .code:hover {
   background-color: #b3dc20;
 }
 
-/* line 395, ../sass/blog.scss */
+/* line 453, ../sass/blog.scss */
 #comments h1 {
   font-size: 1.5em;
 }
-/* line 401, ../sass/blog.scss */
+/* line 459, ../sass/blog.scss */
 #comments header img {
   width: 20px;
   margin-right: 15px;
   vertical-align: middle;
 }
-/* line 408, ../sass/blog.scss */
+/* line 466, ../sass/blog.scss */
 #comments article {
   margin-bottom: 50px;
 }
-/* line 411, ../sass/blog.scss */
+/* line 469, ../sass/blog.scss */
 #comments article:last-of-type {
   margin-bottom: 75px;
 }
-/* line 415, ../sass/blog.scss */
+/* line 473, ../sass/blog.scss */
 #comments article img {
   float: left;
   margin-right: 25px;
 }
-/* line 420, ../sass/blog.scss */
+/* line 478, ../sass/blog.scss */
 #comments article h2 {
   font-size: 1.125em;
   margin-bottom: 15px;
   padding-top: 4px;
 }
-/* line 425, ../sass/blog.scss */
+/* line 483, ../sass/blog.scss */
 #comments article h2 span {
   color: #9CBB1A;
   font-size: 1em;
 }
-/* line 433, ../sass/blog.scss */
+/* line 491, ../sass/blog.scss */
 #comments article p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 0.975em;
 }
 
-/* line 442, ../sass/blog.scss */
+/* line 500, ../sass/blog.scss */
 #commentForm {
   margin-top: 25px;
 }
-/* line 446, ../sass/blog.scss */
+/* line 504, ../sass/blog.scss */
 #commentForm input,
 #commentForm textarea {
   background-color: #EAEAEA;
@@ -523,16 +583,16 @@ aside .recentComments img {
   font-size: 1em;
   margin: 8px 0;
 }
-/* line 455, ../sass/blog.scss */
+/* line 513, ../sass/blog.scss */
 #commentForm input:focus,
 #commentForm textarea:focus {
   outline: none;
 }
-/* line 460, ../sass/blog.scss */
+/* line 518, ../sass/blog.scss */
 #commentForm input {
   height: 40px;
 }
-/* line 464, ../sass/blog.scss */
+/* line 522, ../sass/blog.scss */
 #commentForm p {
   font-size: 0.750em;
   color: #A3A3A3;
@@ -540,7 +600,7 @@ aside .recentComments img {
   padding: 0 0 5px 0;
 }
 
-/* line 473, ../sass/blog.scss */
+/* line 531, ../sass/blog.scss */
 #sendComment {
   display: -moz-inline-stack;
   display: inline-block;
@@ -567,23 +627,23 @@ aside .recentComments img {
    Responsive
    ========================================================================== */
 @media screen and (max-width: 1150px) {
-  /* line 496, ../sass/blog.scss */
+  /* line 554, ../sass/blog.scss */
   #wrapper {
     width: 96%;
   }
 
-  /* line 500, ../sass/blog.scss */
+  /* line 558, ../sass/blog.scss */
   #main {
     width: 66%;
   }
 
-  /* line 504, ../sass/blog.scss */
+  /* line 562, ../sass/blog.scss */
   #sidebar {
     width: 29%;
   }
 }
 @media screen and (max-width: 900px) {
-  /* line 513, ../sass/blog.scss */
+  /* line 571, ../sass/blog.scss */
   #main,
   #sidebar {
     width: 99%;
@@ -592,13 +652,32 @@ aside .recentComments img {
   }
 }
 @media screen and (max-width: 720px) {
-  /* line 522, ../sass/blog.scss */
+  /* line 580, ../sass/blog.scss */
   #wrapper {
     width: 94%;
   }
 
-  /* line 525, ../sass/blog.scss */
+  /* line 583, ../sass/blog.scss */
   .post h1 {
     font-size: 2em;
+  }
+
+  /* line 587, ../sass/blog.scss */
+  iframe {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 520px) {
+  /* line 596, ../sass/blog.scss */
+  .older,
+  .newest {
+    font-size: 0.85em;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 603, ../sass/blog.scss */
+  .older,
+  .newest {
+    font-size: 0.75em;
   }
 }
