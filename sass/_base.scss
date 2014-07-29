@@ -395,7 +395,6 @@ input{
 
 
 .price,
-.priceAnual,
 .priceMonthly{
 	font-size: 3.5em;
 	font-weight: 200;
@@ -405,14 +404,6 @@ input{
 	}
 }
 
-
-.priceAnual{
-	margin: 10px 0 50px 0;
-
-	h6{
-		font-size: 1em;
-	}
-}
 
 .priceMonthly{
 	font-size: 3em;

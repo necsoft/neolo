@@ -149,10 +149,6 @@
 
 	}
 	
-	.priceAnual{
-		font-size: 3em;
-	}
-
 	.plan0,
 	.planIlimitado{
 		height: 540px;
@@ -380,9 +376,6 @@
 			li{
 				font-size: 1em;
 			}
-			.priceAnual{
-				margin-bottom: 30px;
-			}
 		}
 
 
@@ -501,7 +494,6 @@
 		}
 
 		.price,
-		.priceAnual,
 		.priceMonthly{
 			font-size: 2.5em;
 		}
@@ -844,7 +836,6 @@
 			}
 
 			.priceVPS,
-			.priceAnual,
 			.priceMonthly{
 				font-size: 3.5em;
 			}
