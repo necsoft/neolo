@@ -4,23 +4,23 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="180px" height="180px" viewBox="0 0 180 180" enable-background="new 0 0 180 180" xml:space="preserve">
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="109.208" y1="96.8359" x2="168.869" y2="131.2812">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="109.8477" y1="97.5518" x2="170.0719" y2="132.3223">
 		<stop  offset="0" style="stop-color:#B2B2B2;stop-opacity:0.6"/>
 		<stop  offset="1" style="stop-color:#E5E5E5;stop-opacity:0.1"/>
 	</linearGradient>
-	<path fill="url(#SVGID_1_)" d="M179.047,87.233l-48.175-27.919l-39.465,68.613l-1.575,7.585l49.326,28.646
-		c24.057-16.047,39.917-43.492,39.917-74.658C179.075,88.741,179.065,87.987,179.047,87.233z"/>
+	<path fill="url(#SVGID_1_)" d="M180.404,87.882l-48.73-28.134L91.755,128.89l-1.593,7.644l49.893,28.865
+		c24.334-16.17,40.377-43.825,40.377-75.232C180.432,89.402,180.421,88.641,180.404,87.882z"/>
 	<g>
-		<path fill="#EB8182" d="M131.946,59.952c-9.794-9.027-25.681-9.027-35.47,0l-6.645,6.125l-6.649-6.125
-			c-9.795-9.027-25.67-9.027-35.465,0c-11.021,10.149-11.021,26.602,0,36.761l42.114,38.799l42.114-38.799
-			C142.966,86.556,142.966,70.101,131.946,59.952z"/>
-		<path fill="#DC7878" d="M89.831,135.512l42.115-38.799c11.021-10.157,11.021-26.612,0-36.761c-9.794-9.027-25.681-9.027-35.471,0
-			l-6.644,6.125"/>
+		<path fill="#EB8182" d="M132.761,60.39c-9.907-9.097-25.978-9.097-35.879,0l-6.72,6.172l-6.727-6.172
+			c-9.907-9.097-25.966-9.097-35.873,0c-11.148,10.228-11.148,26.806,0,37.044l42.6,39.099l42.599-39.099
+			C143.906,87.2,143.906,70.618,132.761,60.39z"/>
+		<path fill="#DC7878" d="M90.16,136.533l42.6-39.099c11.146-10.234,11.146-26.816,0-37.044c-9.907-9.097-25.978-9.097-35.88,0
+			l-6.72,6.172"/>
 	</g>
-	<path fill="none" stroke="#FFFFFF" stroke-width="0.5248" stroke-miterlimit="10" d="M45.444,89.747"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="0.5248" stroke-miterlimit="10" d="M45.262,90.416"/>
 	
-		<line fill="none" stroke="#FFFFFF" stroke-width="6.8227" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="10" x1="69.334" y1="79.622" x2="89.836" y2="97.98"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="6.8227" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="10" x1="111.289" y1="80.211" x2="90.55" y2="98.713"/>
 	
-		<line fill="none" stroke="#FFFFFF" stroke-width="6.8227" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="10" x1="100.353" y1="86.149" x2="89.836" y2="97.98"/>
+		<line fill="none" stroke="#FFFFFF" stroke-width="6.8227" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="10" x1="79.603" y1="86.789" x2="90.241" y2="98.713"/>
 </g>
 </svg>

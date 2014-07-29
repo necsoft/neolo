@@ -387,9 +387,27 @@
 		margin-left: 3%;
 	}
 
+	.column.one-fourth.bigDomain{
+		padding: 24px 5px;
+
+		h2{
+			font-size: 1em;
+		}
+	}
+
 	.iva{
 		margin-top: 25px;
+		font-size: 0.875em;
+
+		p{
+			margin: 15px 0;
+		}
 	}
+}
+
+.offAnual{
+	color: #E4744E;
+	font-size: 1.05em;
 }
 
 .domainActive{
@@ -529,13 +547,20 @@
 		user-select: none;
 	}
 
-	input{
+	input,
+	textarea{
 		background-color: #B2B2B2;
 		color: #FFF;
 		width: 340px;
 		display: inline-block;
 		padding: 5px;
 		margin-top: 15px;
+	}
+	textarea{
+		border: 0 none;
+		outline: none;
+		font-size: 1em;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	::-webkit-input-placeholder { color:#fff; }
