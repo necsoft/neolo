@@ -750,10 +750,51 @@ div.soporte:last-of-type {
 /* line 588, ../sass/_base.scss */
 .socialIconsFooter li {
   float: left;
-  margin: -8px 7px;
+  margin: -12px 7px;
 }
 
 /* line 594, ../sass/_base.scss */
+.count {
+  margin-top: 10px;
+  color: #525b67;
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  width: 36px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #b2c6cc;
+  background: #fbfbfb;
+  background: -moz-linear-gradient(top, #fbfbfb 0%, #f6f6f6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #f6f6f6));
+}
+/* line 613, ../sass/_base.scss */
+.count:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 49%;
+  width: 0;
+  height: 0;
+  border: solid 6px transparent;
+  border-bottom-color: #b2c6cc;
+  margin-left: -7px;
+  bottom: 29px;
+}
+/* line 626, ../sass/_base.scss */
+.count:after {
+  border: solid 6px transparent;
+  margin-left: -6px;
+  bottom: -12px;
+  border-top-color: #fbfbfb;
+}
+
+/* line 634, ../sass/_base.scss */
 .terms {
   float: none;
   text-align: center;
@@ -761,16 +802,16 @@ div.soporte:last-of-type {
   margin-top: 75px;
   font-size: 0.875em;
 }
-/* line 601, ../sass/_base.scss */
+/* line 641, ../sass/_base.scss */
 .terms p {
   margin-top: 6px;
 }
-/* line 605, ../sass/_base.scss */
+/* line 645, ../sass/_base.scss */
 .terms a {
   color: #A2A2A2;
   text-decoration: none;
 }
-/* line 609, ../sass/_base.scss */
+/* line 649, ../sass/_base.scss */
 .terms a:hover {
   text-decoration: underline;
 }
@@ -2884,7 +2925,7 @@ div.soporte:last-of-type {
     margin: 0 auto;
     overflow: hidden;
     padding-top: 38px;
-    height: 100px;
+    height: 104px;
   }
   /* line 223, ../sass/_responsive.scss */
   .socialIconsFooter li {
@@ -2892,15 +2933,20 @@ div.soporte:last-of-type {
     display: inline-block;
   }
 
-  /* line 231, ../sass/_responsive.scss */
+  /* line 228, ../sass/_responsive.scss */
+  .count {
+    display: none;
+  }
+
+  /* line 234, ../sass/_responsive.scss */
   .empresa .wrap {
     width: 96%;
   }
-  /* line 235, ../sass/_responsive.scss */
+  /* line 238, ../sass/_responsive.scss */
   .empresa .maincontent {
     width: 66%;
   }
-  /* line 238, ../sass/_responsive.scss */
+  /* line 241, ../sass/_responsive.scss */
   .empresa .sidebar {
     width: 29%;
   }
@@ -2909,26 +2955,26 @@ div.soporte:last-of-type {
    900px 
    ========================================================================== */
 @media screen and (max-width: 900px) {
-  /* line 258, ../sass/_responsive.scss */
+  /* line 261, ../sass/_responsive.scss */
   #more .column.one-third p,
   #more .column.one-third h1 {
     width: 200px;
     margin: 0 auto;
     padding: 0;
   }
-  /* line 264, ../sass/_responsive.scss */
+  /* line 267, ../sass/_responsive.scss */
   #more .column.one-third h1 {
     margin: 5px auto 10px;
     line-height: 1.4em;
   }
 
-  /* line 271, ../sass/_responsive.scss */
+  /* line 274, ../sass/_responsive.scss */
   #login .column.one-third {
     width: 31%;
     float: none;
   }
 
-  /* line 282, ../sass/_responsive.scss */
+  /* line 285, ../sass/_responsive.scss */
   #plans .vps_1,
   #plans .vps_2,
   #plans .vps_3,
@@ -2941,16 +2987,16 @@ div.soporte:last-of-type {
     border: 1px solid #CCC;
   }
 
-  /* line 294, ../sass/_responsive.scss */
+  /* line 297, ../sass/_responsive.scss */
   .empresa .maincontent {
     width: 99%;
     margin-bottom: 25px;
   }
-  /* line 298, ../sass/_responsive.scss */
+  /* line 301, ../sass/_responsive.scss */
   .empresa .maincontent img {
     width: 100%;
   }
-  /* line 303, ../sass/_responsive.scss */
+  /* line 306, ../sass/_responsive.scss */
   .empresa .sidebar {
     width: 99%;
   }
@@ -2959,35 +3005,35 @@ div.soporte:last-of-type {
    800px 
    ========================================================================== */
 @media screen and (max-width: 800px) {
-  /* line 315, ../sass/_responsive.scss */
+  /* line 318, ../sass/_responsive.scss */
   #hero {
     height: auto;
     padding-bottom: 10%;
   }
-  /* line 319, ../sass/_responsive.scss */
+  /* line 322, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 4em;
   }
-  /* line 323, ../sass/_responsive.scss */
+  /* line 326, ../sass/_responsive.scss */
   #hero h2 {
     font-size: 0.9em;
     width: 90%;
   }
-  /* line 328, ../sass/_responsive.scss */
+  /* line 331, ../sass/_responsive.scss */
   #hero .logo {
     float: none;
     text-align: center;
   }
-  /* line 332, ../sass/_responsive.scss */
+  /* line 335, ../sass/_responsive.scss */
   #hero .logo img {
     width: 200px;
   }
-  /* line 337, ../sass/_responsive.scss */
+  /* line 340, ../sass/_responsive.scss */
   #hero nav {
     float: none;
     margin-top: 15px;
   }
-  /* line 341, ../sass/_responsive.scss */
+  /* line 344, ../sass/_responsive.scss */
   #hero nav li {
     float: none;
     display: inline-block;
@@ -2995,21 +3041,21 @@ div.soporte:last-of-type {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  /* line 350, ../sass/_responsive.scss */
+  /* line 353, ../sass/_responsive.scss */
   #hero .mainTitle {
     margin-top: 50px;
   }
-  /* line 354, ../sass/_responsive.scss */
+  /* line 357, ../sass/_responsive.scss */
   #hero header {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 360, ../sass/_responsive.scss */
+  /* line 363, ../sass/_responsive.scss */
   #plans {
     padding-top: 25px;
   }
-  /* line 366, ../sass/_responsive.scss */
+  /* line 369, ../sass/_responsive.scss */
   #plans .planD7,
   #plans .planD14,
   #plans .planD25,
@@ -3019,14 +3065,14 @@ div.soporte:last-of-type {
     margin: 10px 0;
     border-right: 1px solid #CCC;
   }
-  /* line 372, ../sass/_responsive.scss */
+  /* line 375, ../sass/_responsive.scss */
   #plans .planD7 h1,
   #plans .planD14 h1,
   #plans .planD25 h1,
   #plans .planD100 h1 {
     font-size: 1.375em;
   }
-  /* line 376, ../sass/_responsive.scss */
+  /* line 379, ../sass/_responsive.scss */
   #plans .planD7 li,
   #plans .planD14 li,
   #plans .planD25 li,
@@ -3034,66 +3080,66 @@ div.soporte:last-of-type {
     font-size: 1em;
   }
 
-  /* line 384, ../sass/_responsive.scss */
+  /* line 387, ../sass/_responsive.scss */
   .mainTitle {
     margin-top: 75px;
   }
 
-  /* line 389, ../sass/_responsive.scss */
+  /* line 392, ../sass/_responsive.scss */
   #trust h1,
   #plans header h1 {
     font-size: 3em;
   }
 
-  /* line 394, ../sass/_responsive.scss */
+  /* line 397, ../sass/_responsive.scss */
   #plans header h2,
   #trust h2 {
     width: 95%;
     font-size: 0.875em;
   }
 
-  /* line 399, ../sass/_responsive.scss */
+  /* line 402, ../sass/_responsive.scss */
   #contact {
     font-size: 1.5em;
   }
 
-  /* line 403, ../sass/_responsive.scss */
+  /* line 406, ../sass/_responsive.scss */
   #more header h1 {
     font-size: 2em;
   }
 
-  /* line 407, ../sass/_responsive.scss */
+  /* line 410, ../sass/_responsive.scss */
   .guidesList > li {
     width: 49%;
   }
 
-  /* line 410, ../sass/_responsive.scss */
+  /* line 413, ../sass/_responsive.scss */
   #heroGuides h1 {
     font-size: 2em;
     padding: 50px 0;
   }
 
-  /* line 415, ../sass/_responsive.scss */
+  /* line 418, ../sass/_responsive.scss */
   .plan0, .planIlimitado {
     height: 510px;
   }
 
-  /* line 419, ../sass/_responsive.scss */
+  /* line 422, ../sass/_responsive.scss */
   .plan1 {
     height: 570px;
   }
 
-  /* line 425, ../sass/_responsive.scss */
+  /* line 428, ../sass/_responsive.scss */
   #calculateHousing h1 {
     font-size: 3em;
   }
-  /* line 429, ../sass/_responsive.scss */
+  /* line 432, ../sass/_responsive.scss */
   #calculateHousing h2 {
     font-weight: 400;
     font-size: 0.875em;
   }
 
-  /* line 435, ../sass/_responsive.scss */
+  /* line 438, ../sass/_responsive.scss */
   #slider-horizontal {
     width: 80%;
   }
@@ -3102,26 +3148,26 @@ div.soporte:last-of-type {
    720px 
    ========================================================================== */
 @media screen and (max-width: 720px) {
-  /* line 449, ../sass/_responsive.scss */
+  /* line 452, ../sass/_responsive.scss */
   #features p {
     font-size: 0.75em;
   }
 
-  /* line 454, ../sass/_responsive.scss */
+  /* line 457, ../sass/_responsive.scss */
   #contact {
     font-size: 1.35em;
   }
 
-  /* line 459, ../sass/_responsive.scss */
+  /* line 462, ../sass/_responsive.scss */
   #trust {
     height: auto;
   }
-  /* line 462, ../sass/_responsive.scss */
+  /* line 465, ../sass/_responsive.scss */
   #trust ul li {
     width: 49%;
   }
 
-  /* line 482, ../sass/_responsive.scss */
+  /* line 485, ../sass/_responsive.scss */
   .plan0 h1,
   .plan1 h1,
   .planIlimitado h1,
@@ -3137,7 +3183,7 @@ div.soporte:last-of-type {
     font-size: 1.250em;
     margin-top: 12px;
   }
-  /* line 487, ../sass/_responsive.scss */
+  /* line 490, ../sass/_responsive.scss */
   .plan0 h4,
   .plan1 h4,
   .planIlimitado h4,
@@ -3153,7 +3199,7 @@ div.soporte:last-of-type {
     line-height: 1.275em;
     width: 95%;
   }
-  /* line 492, ../sass/_responsive.scss */
+  /* line 495, ../sass/_responsive.scss */
   .plan0 ul,
   .plan1 ul,
   .planIlimitado ul,
@@ -3168,7 +3214,7 @@ div.soporte:last-of-type {
   .vps_5 ul {
     margin: 24px 0;
   }
-  /* line 497, ../sass/_responsive.scss */
+  /* line 500, ../sass/_responsive.scss */
   .plan0 .price,
   .plan0 .priceMonthly,
   .plan1 .price,
@@ -3195,7 +3241,7 @@ div.soporte:last-of-type {
   .vps_5 .priceMonthly {
     font-size: 2.5em;
   }
-  /* line 501, ../sass/_responsive.scss */
+  /* line 504, ../sass/_responsive.scss */
   .plan0 li,
   .plan1 li,
   .planIlimitado li,
@@ -3211,73 +3257,73 @@ div.soporte:last-of-type {
     font-size: 0.875em;
   }
 
-  /* line 506, ../sass/_responsive.scss */
+  /* line 509, ../sass/_responsive.scss */
   #pay {
     margin: 50px 0 75px 0;
   }
-  /* line 509, ../sass/_responsive.scss */
+  /* line 512, ../sass/_responsive.scss */
   #pay h1 {
     font-size: 2em;
   }
 
-  /* line 516, ../sass/_responsive.scss */
+  /* line 519, ../sass/_responsive.scss */
   #login .column.one-third {
     width: 50%;
     float: none;
     margin: 25px 0;
   }
 
-  /* line 522, ../sass/_responsive.scss */
+  /* line 525, ../sass/_responsive.scss */
   #login {
     height: auto;
     background-attachment: fixed;
     background-size: cover;
   }
-  /* line 527, ../sass/_responsive.scss */
+  /* line 530, ../sass/_responsive.scss */
   #login .row {
     margin: 0;
   }
 
-  /* line 532, ../sass/_responsive.scss */
+  /* line 535, ../sass/_responsive.scss */
   .nameGuides {
     display: none;
   }
 
-  /* line 536, ../sass/_responsive.scss */
+  /* line 539, ../sass/_responsive.scss */
   .logoGuides {
     width: 200px;
     margin-top: 5px;
   }
 
-  /* line 541, ../sass/_responsive.scss */
+  /* line 544, ../sass/_responsive.scss */
   #registerDomain h1 {
     font-size: 2em;
   }
 
-  /* line 546, ../sass/_responsive.scss */
+  /* line 549, ../sass/_responsive.scss */
   #help h1 {
     font-size: 3em;
   }
-  /* line 549, ../sass/_responsive.scss */
+  /* line 552, ../sass/_responsive.scss */
   #help h2 {
     font-size: 2em;
   }
-  /* line 552, ../sass/_responsive.scss */
+  /* line 555, ../sass/_responsive.scss */
   #help h3 {
     font-size: 0.875em;
   }
 
-  /* line 557, ../sass/_responsive.scss */
+  /* line 560, ../sass/_responsive.scss */
   #stepOne ul {
     width: 96%;
   }
 
-  /* line 562, ../sass/_responsive.scss */
+  /* line 565, ../sass/_responsive.scss */
   #plans .wrap {
     width: 100%;
     margin: 0;
   }
-  /* line 569, ../sass/_responsive.scss */
+  /* line 572, ../sass/_responsive.scss */
   #plans .plan0,
   #plans .plan1,
   #plans .planIlimitado {
@@ -3287,32 +3333,32 @@ div.soporte:last-of-type {
     margin: 5px 0;
     border: 1px solid #CCC;
   }
-  /* line 576, ../sass/_responsive.scss */
+  /* line 579, ../sass/_responsive.scss */
   #plans .plan0 h1,
   #plans .plan1 h1,
   #plans .planIlimitado h1 {
     font-size: 2.125em;
   }
-  /* line 580, ../sass/_responsive.scss */
+  /* line 583, ../sass/_responsive.scss */
   #plans .plan0 img,
   #plans .plan1 img,
   #plans .planIlimitado img {
     width: 125px;
   }
-  /* line 584, ../sass/_responsive.scss */
+  /* line 587, ../sass/_responsive.scss */
   #plans .plan0 li,
   #plans .plan1 li,
   #plans .planIlimitado li {
     font-size: 1.125em;
   }
-  /* line 588, ../sass/_responsive.scss */
+  /* line 591, ../sass/_responsive.scss */
   #plans .plan0 h4,
   #plans .plan1 h4,
   #plans .planIlimitado h4 {
     width: 75%;
     font-size: 0.938em;
   }
-  /* line 593, ../sass/_responsive.scss */
+  /* line 596, ../sass/_responsive.scss */
   #plans .plan0 .price,
   #plans .plan1 .price,
   #plans .planIlimitado .price {
@@ -3323,7 +3369,7 @@ div.soporte:last-of-type {
    640PX 
    ========================================================================== */
 @media screen and (max-width: 640px) {
-  /* line 611, ../sass/_responsive.scss */
+  /* line 614, ../sass/_responsive.scss */
   .column.full,
   .column.two-thirds,
   .column.half,
@@ -3335,37 +3381,37 @@ div.soporte:last-of-type {
     width: 100%;
   }
 
-  /* line 619, ../sass/_responsive.scss */
+  /* line 622, ../sass/_responsive.scss */
   .btnsucces,
   .btnwarning,
   .btnerror {
     display: block;
   }
 
-  /* line 624, ../sass/_responsive.scss */
+  /* line 627, ../sass/_responsive.scss */
   #features {
     padding: 20px  0;
   }
-  /* line 627, ../sass/_responsive.scss */
+  /* line 630, ../sass/_responsive.scss */
   #features .row {
     margin: 10px 5%;
   }
-  /* line 632, ../sass/_responsive.scss */
+  /* line 635, ../sass/_responsive.scss */
   #features .column.one-third {
     overflow: hidden;
     margin: 30px 0;
   }
-  /* line 637, ../sass/_responsive.scss */
+  /* line 640, ../sass/_responsive.scss */
   #features h1 {
     text-align: left;
   }
-  /* line 640, ../sass/_responsive.scss */
+  /* line 643, ../sass/_responsive.scss */
   #features p {
     text-align: left;
     width: auto;
   }
 
-  /* line 647, ../sass/_responsive.scss */
+  /* line 650, ../sass/_responsive.scss */
   .imgFeature,
   .imgOtherFeatures {
     float: left;
@@ -3375,119 +3421,119 @@ div.soporte:last-of-type {
     margin-bottom: 10px;
   }
 
-  /* line 656, ../sass/_responsive.scss */
+  /* line 659, ../sass/_responsive.scss */
   #info p {
     width: 96%;
     margin: 0 auto;
   }
 
-  /* line 665, ../sass/_responsive.scss */
+  /* line 668, ../sass/_responsive.scss */
   #more .row {
     margin: 0 5%;
     overflow: inherit;
   }
-  /* line 669, ../sass/_responsive.scss */
+  /* line 672, ../sass/_responsive.scss */
   #more .row .column.one-third {
     overflow: hidden;
     margin: 30px 0;
     width: auto;
   }
-  /* line 674, ../sass/_responsive.scss */
+  /* line 677, ../sass/_responsive.scss */
   #more .row .column.one-third header {
     float: left;
     margin-right: 15px;
   }
-  /* line 680, ../sass/_responsive.scss */
+  /* line 683, ../sass/_responsive.scss */
   #more .row .column.one-third h1,
   #more .row .column.one-third p {
     text-align: left;
     width: auto;
   }
-  /* line 687, ../sass/_responsive.scss */
+  /* line 690, ../sass/_responsive.scss */
   #more header {
     margin: 50px 0;
   }
-  /* line 690, ../sass/_responsive.scss */
+  /* line 693, ../sass/_responsive.scss */
   #more header h1 {
     font-size: 1.5em;
   }
 
-  /* line 696, ../sass/_responsive.scss */
+  /* line 699, ../sass/_responsive.scss */
   #contact {
     font-size: 1em;
     padding: 40px 0;
   }
 
-  /* line 701, ../sass/_responsive.scss */
+  /* line 704, ../sass/_responsive.scss */
   #pay h1 {
     font-size: 1.75em;
   }
 
-  /* line 705, ../sass/_responsive.scss */
+  /* line 708, ../sass/_responsive.scss */
   .guidesList > li {
     width: 100%;
   }
 
-  /* line 709, ../sass/_responsive.scss */
+  /* line 712, ../sass/_responsive.scss */
   #heroGuides h1 {
     font-size: 1.5em;
   }
 
-  /* line 715, ../sass/_responsive.scss */
+  /* line 718, ../sass/_responsive.scss */
   #help form, #help input {
     width: 100%;
   }
-  /* line 719, ../sass/_responsive.scss */
+  /* line 722, ../sass/_responsive.scss */
   #help textarea {
     margin-top: 18px;
   }
 
-  /* line 725, ../sass/_responsive.scss */
+  /* line 728, ../sass/_responsive.scss */
   #domains h1 {
     font-size: 2em;
   }
-  /* line 728, ../sass/_responsive.scss */
+  /* line 731, ../sass/_responsive.scss */
   #domains h2 {
     width: 96%;
     font-size: 0.875em;
   }
-  /* line 733, ../sass/_responsive.scss */
+  /* line 736, ../sass/_responsive.scss */
   #domains input {
     width: 100%;
   }
 
-  /* line 738, ../sass/_responsive.scss */
+  /* line 741, ../sass/_responsive.scss */
   #flags {
     height: auto;
   }
 
-  /* line 744, ../sass/_responsive.scss */
+  /* line 747, ../sass/_responsive.scss */
   #registerDomain input {
     width: 100%;
   }
-  /* line 748, ../sass/_responsive.scss */
+  /* line 751, ../sass/_responsive.scss */
   #registerDomain .wrap {
     max-width: 100%;
   }
-  /* line 752, ../sass/_responsive.scss */
+  /* line 755, ../sass/_responsive.scss */
   #registerDomain .column.one-fourth {
     float: left;
     width: 45%;
   }
-  /* line 757, ../sass/_responsive.scss */
+  /* line 760, ../sass/_responsive.scss */
   #registerDomain .row {
     width: auto;
   }
 
-  /* line 764, ../sass/_responsive.scss */
+  /* line 767, ../sass/_responsive.scss */
   #optionHousing .row {
     width: auto;
   }
-  /* line 768, ../sass/_responsive.scss */
+  /* line 771, ../sass/_responsive.scss */
   #optionHousing .wrap {
     max-width: 100%;
   }
-  /* line 772, ../sass/_responsive.scss */
+  /* line 775, ../sass/_responsive.scss */
   #optionHousing .column.one-fourth {
     width: 42%;
     display: inline-block;
@@ -3498,25 +3544,25 @@ div.soporte:last-of-type {
    600PX 
    ========================================================================== */
 @media screen and (max-width: 600px) {
-  /* line 790, ../sass/_responsive.scss */
+  /* line 793, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 3em;
   }
-  /* line 794, ../sass/_responsive.scss */
+  /* line 797, ../sass/_responsive.scss */
   #hero .action {
     font-size: 0.875em;
   }
-  /* line 799, ../sass/_responsive.scss */
+  /* line 802, ../sass/_responsive.scss */
   #hero .titleBig h1 {
     font-size: 2.5em;
   }
 
-  /* line 806, ../sass/_responsive.scss */
+  /* line 809, ../sass/_responsive.scss */
   #trust h1, #plans header h1 {
     font-size: 2em;
   }
 
-  /* line 819, ../sass/_responsive.scss */
+  /* line 822, ../sass/_responsive.scss */
   #plans .vps_1,
   #plans .vps_2,
   #plans .vps_3,
@@ -3532,7 +3578,7 @@ div.soporte:last-of-type {
     margin: 5px 0;
     border: 1px solid #CCC;
   }
-  /* line 826, ../sass/_responsive.scss */
+  /* line 829, ../sass/_responsive.scss */
   #plans .vps_1 h1,
   #plans .vps_2 h1,
   #plans .vps_3 h1,
@@ -3544,7 +3590,7 @@ div.soporte:last-of-type {
   #plans .planD100 h1 {
     font-size: 2em;
   }
-  /* line 830, ../sass/_responsive.scss */
+  /* line 833, ../sass/_responsive.scss */
   #plans .vps_1 img,
   #plans .vps_2 img,
   #plans .vps_3 img,
@@ -3556,7 +3602,7 @@ div.soporte:last-of-type {
   #plans .planD100 img {
     width: 120px;
   }
-  /* line 834, ../sass/_responsive.scss */
+  /* line 837, ../sass/_responsive.scss */
   #plans .vps_1 li,
   #plans .vps_2 li,
   #plans .vps_3 li,
@@ -3568,7 +3614,7 @@ div.soporte:last-of-type {
   #plans .planD100 li {
     font-size: 1em;
   }
-  /* line 839, ../sass/_responsive.scss */
+  /* line 842, ../sass/_responsive.scss */
   #plans .vps_1 .priceVPS,
   #plans .vps_1 .priceMonthly,
   #plans .vps_2 .priceVPS,
@@ -3589,17 +3635,17 @@ div.soporte:last-of-type {
   #plans .planD100 .priceMonthly {
     font-size: 3.5em;
   }
-  /* line 844, ../sass/_responsive.scss */
+  /* line 847, ../sass/_responsive.scss */
   #plans header {
     margin-bottom: 50px;
   }
 
-  /* line 850, ../sass/_responsive.scss */
+  /* line 853, ../sass/_responsive.scss */
   #trust {
     margin-bottom: 25px;
   }
 
-  /* line 854, ../sass/_responsive.scss */
+  /* line 857, ../sass/_responsive.scss */
   #heroGuides h1 {
     padding: 25px 0;
   }
@@ -3608,21 +3654,21 @@ div.soporte:last-of-type {
    520PX 
    ========================================================================== */
 @media screen and (max-width: 520px) {
-  /* line 866, ../sass/_responsive.scss */
+  /* line 869, ../sass/_responsive.scss */
   .infoFooter div {
     text-align: center;
     display: block;
     border: 0 none;
   }
 
-  /* line 872, ../sass/_responsive.scss */
+  /* line 875, ../sass/_responsive.scss */
   .infoFooter div {
     height: auto;
     padding: 15px;
     border-bottom: 1px solid #575757;
   }
 
-  /* line 878, ../sass/_responsive.scss */
+  /* line 881, ../sass/_responsive.scss */
   .contactFooter ul {
     margin: 0;
   }
@@ -3631,17 +3677,17 @@ div.soporte:last-of-type {
    480PX 
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  /* line 892, ../sass/_responsive.scss */
+  /* line 895, ../sass/_responsive.scss */
   #hero h1 {
     font-size: 2.5em;
   }
-  /* line 896, ../sass/_responsive.scss */
+  /* line 899, ../sass/_responsive.scss */
   #hero h2 {
     margin-bottom: 35px;
     font-size: 0.875em;
   }
 
-  /* line 902, ../sass/_responsive.scss */
+  /* line 905, ../sass/_responsive.scss */
   .logoGuides {
     width: 125px;
     margin-top: 11px;
@@ -3651,27 +3697,27 @@ div.soporte:last-of-type {
    399PX 
    ========================================================================== */
 @media screen and (max-width: 399px) {
-  /* line 917, ../sass/_responsive.scss */
+  /* line 920, ../sass/_responsive.scss */
   .rightHeader li {
     margin: 2px 0 0 15px;
   }
-  /* line 920, ../sass/_responsive.scss */
+  /* line 923, ../sass/_responsive.scss */
   .rightHeader li:first-of-type {
     margin-left: 0;
   }
 
-  /* line 926, ../sass/_responsive.scss */
+  /* line 929, ../sass/_responsive.scss */
   .login a {
     font-size: 0.75em;
   }
 
-  /* line 930, ../sass/_responsive.scss */
+  /* line 933, ../sass/_responsive.scss */
   #heroGuides h1 {
     line-height: 100%;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 940, ../sass/_responsive.scss */
+  /* line 943, ../sass/_responsive.scss */
   .rightHeader a {
     font-size: 0.75em;
   }

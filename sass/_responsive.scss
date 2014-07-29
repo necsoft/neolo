@@ -218,13 +218,16 @@
 		margin: 0 auto;
 		overflow: hidden;
 		padding-top: 38px;
-		height: 100px;
+		height: 104px;
 
 		li{
 			float: none;
 			display: inline-block;
 		}
 	}
+.count{
+	display: none;
+}
 
 .empresa{
 
