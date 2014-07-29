@@ -100,7 +100,6 @@ input{
 } 
 
 
-
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -295,7 +294,6 @@ input{
 	}
 }
 
-
 /* ==========================================================================
    Features
    ========================================================================== */
@@ -303,13 +301,11 @@ input{
 #features{
 	padding:80px 0 60px 0;
 
-
 	h1{
 		color: #6F6F6F;
 		font-size: 1.125em;
 		font-weight: 600;
 		margin:15px;
-
 	}
 
 	p{
@@ -325,7 +321,6 @@ input{
 
 }
 
-
 .imgFeature{
 	background-color: #E4E4E4;
 	@include border-radius(50%);
@@ -334,7 +329,6 @@ input{
 	border: 1px solid #BBBBBB;
 	margin: 0 auto;
 }
-
 
 .imgOtherFeatures{
 	background-color: #E4744E;
@@ -380,11 +374,7 @@ input{
 		line-height: 1.563em;
 		font-weight: 200;
 		font-size: 0.935em;
-
-
 	}
-
-
 
 	h3{
 		font-size: 0.688em;
@@ -404,11 +394,9 @@ input{
 	}
 }
 
-
 .priceMonthly{
 	font-size: 3em;
 	margin-top: 7px;
-	
 }
 
 .priceVPS{
@@ -498,7 +486,6 @@ input{
 	}
 }
 
-
 /* ==========================================================================
    Contact
    ========================================================================== */
@@ -540,7 +527,6 @@ input{
 }
 
 .contentFooter{
-
 
 	a{
 		color: #FFF;
