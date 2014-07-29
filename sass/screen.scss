@@ -1210,6 +1210,22 @@
 					color: #9dbc19
 				}
 			}
+
+			&:last-of-type{
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.flags{
+
+		li{
+			display: inline-block;
+			margin: 15px 5px;
+		}
+
+		img{
+			width: 50px;
 		}
 	}
 }

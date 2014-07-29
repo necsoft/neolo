@@ -2540,8 +2540,21 @@ div.soporte:last-of-type {
 .sidebar ul li a:hover {
   color: #9dbc19;
 }
+/* line 1214, ../sass/screen.scss */
+.sidebar ul li:last-of-type {
+  margin-bottom: 30px;
+}
+/* line 1222, ../sass/screen.scss */
+.sidebar .flags li {
+  display: inline-block;
+  margin: 15px 5px;
+}
+/* line 1227, ../sass/screen.scss */
+.sidebar .flags img {
+  width: 50px;
+}
 
-/* line 1218, ../sass/screen.scss */
+/* line 1234, ../sass/screen.scss */
 .listTyc li {
   list-style: disc;
   margin: 7px 0 7px 30px;
@@ -2550,35 +2563,35 @@ div.soporte:last-of-type {
 /* ==========================================================================
    Paises
    ========================================================================== */
-/* line 1227, ../sass/screen.scss */
+/* line 1243, ../sass/screen.scss */
 #flags {
   background-color: #4C4C4C;
   height: 100%;
   width: 100%;
   padding-top: 100px;
 }
-/* line 1233, ../sass/screen.scss */
+/* line 1249, ../sass/screen.scss */
 #flags ul {
   padding-top: 50px;
   text-align: center;
 }
-/* line 1237, ../sass/screen.scss */
+/* line 1253, ../sass/screen.scss */
 #flags ul li {
   display: inline-block;
   margin: 15px 10px;
   vertical-align: top;
   line-height: 1.35em;
 }
-/* line 1243, ../sass/screen.scss */
+/* line 1259, ../sass/screen.scss */
 #flags ul li a {
   color: #FFF;
   text-decoration: none;
 }
-/* line 1247, ../sass/screen.scss */
+/* line 1263, ../sass/screen.scss */
 #flags ul li a:hover {
   text-decoration: underline;
 }
-/* line 1252, ../sass/screen.scss */
+/* line 1268, ../sass/screen.scss */
 #flags ul li img {
   width: 45px;
   position: relative;
@@ -2589,30 +2602,30 @@ div.soporte:last-of-type {
 /* ==========================================================================
    DNS
    ========================================================================== */
-/* line 1268, ../sass/screen.scss */
+/* line 1284, ../sass/screen.scss */
 .maindns > div {
   margin-bottom: 15px;
 }
-/* line 1271, ../sass/screen.scss */
+/* line 1287, ../sass/screen.scss */
 .maindns > div li {
   display: inline-block;
   margin: 0 15px 8px 0;
   color: #818080;
 }
-/* line 1276, ../sass/screen.scss */
+/* line 1292, ../sass/screen.scss */
 .maindns > div li input {
   margin: 0 10px 0 0;
 }
-/* line 1280, ../sass/screen.scss */
+/* line 1296, ../sass/screen.scss */
 .maindns > div li em {
   font-weight: 600;
 }
-/* line 1286, ../sass/screen.scss */
+/* line 1302, ../sass/screen.scss */
 .maindns h2 {
   margin: 45px 0 30px 0;
 }
 
-/* line 1294, ../sass/screen.scss */
+/* line 1310, ../sass/screen.scss */
 .ar,
 .com,
 .br,
