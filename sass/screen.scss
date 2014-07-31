@@ -1048,6 +1048,10 @@
 
 	img{
 		border: 3px solid #D6D6D6;
+		text-align: center;
+		margin: 0 auto 15px;
+		display: block;
+		max-width: 100%;
 	}
 
 	.listNumber{
@@ -1219,6 +1223,21 @@
 	li{
 		list-style: disc;
 		margin: 7px 0 7px 30px;
+	}
+}
+
+.goToPrensa{
+	color: #FFF;
+	padding: 10px 15px;
+	background-color: #9CBB1A;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+
+	&:hover{
+		background-color: #b3dc20;
 	}
 }
 
