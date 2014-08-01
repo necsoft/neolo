@@ -93,7 +93,6 @@
 }
 
 #trust{
-	height: 600px;
 	margin: 100px 0;
 
 	h1{
@@ -113,14 +112,14 @@
 
 		h1{
 			color:#6F6F6F;
-			font-size: 0.938em;
-			line-height: 1.250em;
+			font-size: 0.9em;
+			line-height: 1.2em;
 			font-weight: 600;
 			margin: 10px 0;
 		}
 
 		p{
-			font-size: 0.75em;
+			font-size: 0.8em;
 			margin: 5px;
 		}
 
@@ -129,6 +128,7 @@
 			width: 32%;
 			margin:0 0 25px 0;
 			vertical-align: top;
+			padding: 0 30px;
 		}
 	}
 }
