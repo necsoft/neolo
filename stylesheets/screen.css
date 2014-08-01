@@ -919,16 +919,16 @@ div.soporte:last-of-type {
   font-size: 0.9em;
   line-height: 1.2em;
   font-weight: 600;
-  margin: 10px 0;
+  margin: 10px 0 13px 0;
 }
 #trust ul p {
   font-size: 0.8em;
-  margin: 5px;
+  margin: 6px 0;
 }
 #trust ul li {
   display: inline-block;
   width: 32%;
-  margin: 0 0 25px 0;
+  margin: 0 0 30px 0;
   vertical-align: top;
   padding: 0 30px;
 }
